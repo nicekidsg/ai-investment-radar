@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-17T17:03:18+08:00",
+  "updated_at": "2026-06-18T00:10:31+08:00",
   "window": "2026 年 3 月 – 6 月（近一季度）",
   "companies": [
     {
@@ -12,7 +12,7 @@ window.FUNDING_DATA = {
       "stage": "战略投资",
       "amount_usd_m": 7400,
       "amount_display": "约 74 亿美元（约 500 亿元）",
-      "valuation": "超 500 亿美元",
+      "valuation": "约 450–560 亿美元（报道不一：海外约 450–500 亿美元，境内媒体约 3500–4000 亿元）",
       "date": "2026-06",
       "location": "中国·杭州",
       "business": "开发 DeepSeek 系列开源大模型，以高性价比训练与推理著称，是中国最具影响力的基础大模型公司之一。",
@@ -33,17 +33,17 @@ window.FUNDING_DATA = {
       "stage": "D轮及以后",
       "amount_usd_m": 2000,
       "amount_display": "约 20 亿美元（约 140 亿元）",
-      "valuation": "未官方披露（媒体估算数百亿元人民币）",
-      "date": "2026-05-19",
+      "valuation": "约 200 亿美元（投后，多家外媒一致报道）",
+      "date": "2026-05-07",
       "location": "中国·北京",
-      "business": "开发 Kimi 大模型与智能助手，主打超长上下文与 C 端 AI 助手体验。",
+      "business": "开发 Kimi 大模型与智能助手，主打超长上下文、开源模型与 C 端 AI 助手体验。",
       "team": "创始人杨植麟（清华、卡内基梅隆背景的青年科学家）领衔的研究团队。",
-      "investors": "中国移动等国资及产业资本参投。",
-      "advantage": "Kimi 在 C 端长文本与 Agent 场景有较强用户认知；获国资战略资金支持，利于算力与合规；在“大模型五小龙”中品牌与流量靠前。",
+      "investors": "美团旗下龙珠/Long-Z 领投，清华系资本、中国移动、中信产业基金（CPE 源峰）等参投。",
+      "advantage": "估值半年内从约 43 亿美元跃升至约 200 亿美元，跻身中国融资额最高的大模型创业公司；Kimi 开源模型对标 OpenAI、Anthropic，付费订阅与 API 推动 ARR 快速放量。",
       "sources": [
-        {"label": "羊城晚报", "url": "https://edu.ycwb.com/2026-05/08/content_54106903.htm"},
-        {"label": "财联社", "url": "https://www.cls.cn/detail/2227664"},
-        {"label": "新闻交叉检索", "url": "https://news.google.com/search?q=月之暗面%20融资%202026"}
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/"},
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-07/kimi-chatbot-maker-moonshot-ai-valued-at-20-billion-in-meituan-led-round"},
+        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/05/07/open-source-ai-developer-moonshot-ai-raises-2b-20b-valuation/"}
       ]
     },
     {
@@ -54,7 +54,7 @@ window.FUNDING_DATA = {
       "stage": "D轮及以后",
       "amount_usd_m": 350,
       "amount_display": "约 20–30 亿元（Pre-IPO，报道值）",
-      "valuation": "投前约 50–60 亿美元（媒体报道）",
+      "valuation": "投前约 40–60 亿美元（媒体报道不一）",
       "date": "2026-05",
       "location": "中国·上海",
       "business": "开发多模态基础大模型，覆盖语言、图像、语音、视频等模态，面向企业与开发者。",
@@ -63,8 +63,71 @@ window.FUNDING_DATA = {
       "advantage": "多模态技术布局完整、差异化明显；推进 Pre-IPO 与赴港上市，资本化路径清晰，有望成为“大模型第一股”候选。",
       "sources": [
         {"label": "搜狐财经", "url": "https://www.sohu.com/a/992198620_655634"},
-        {"label": "21 世纪经济报道", "url": "https://www.21jingji.com/article/20260515/herald/bfb1326c9953ae8753673669240016f3.html"},
+        {"label": "观点网", "url": "https://www.guandian.cn/article/20260303/546061.html"},
         {"label": "新闻交叉检索", "url": "https://news.google.com/search?q=阶跃星辰%20融资%202026"}
+      ]
+    },
+    {
+      "name": "它石智航（TARS）",
+      "name_en": "TARS",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 455,
+      "amount_display": "4.55 亿美元（约 30 亿元，Pre-A 轮）",
+      "valuation": "约 130 亿元人民币（投后）",
+      "date": "2026-04-16",
+      "location": "中国·北京",
+      "business": "聚焦具身“大脑”，自研端到端具身基础大模型，并在苏黎世、硅谷设立海外研发中心。",
+      "team": "创始人陈亦伦（自动驾驶与 AI 资深背景），核心团队具备大模型与机器人研究经验。",
+      "investors": "高瓴、红杉中国联合领投，美团龙珠战略基石入股，中金、凯联、东方财富、君山投资等跟投。",
+      "advantage": "刷新中国具身智能单轮及 Pre-A 融资纪录，顶级美元/产业资本同台押注“机器人大脑”这一高壁垒环节；全球化研发布局有助于吸纳顶尖人才。",
+      "sources": [
+        {"label": "投资界(pedaily)", "url": "https://news.pedaily.cn/202604/563311.shtml"},
+        {"label": "NE 时代", "url": "https://ne-time.cn/web/article/38448"},
+        {"label": "网易科技", "url": "https://www.163.com/dy/article/KQL8JBQN0556LVOG.html"}
+      ]
+    },
+    {
+      "name": "千寻智能（Qianxun / Spirit AI）",
+      "name_en": "Qianxun (Spirit AI)",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 140,
+      "amount_display": "约 10 亿元（4 月 A 轮；3 个月累计约 50 亿元）",
+      "valuation": "投后突破 200 亿元人民币",
+      "date": "2026-04-07",
+      "location": "中国·杭州",
+      "business": "研发通用具身智能模型与人形机器人本体，主打可泛化的机器人“大脑+小脑”能力。",
+      "team": "成立两年的具身智能创业团队，技术骨干具备大模型与机器人控制背景。",
+      "investors": "顺为资本、云锋基金联合领投；此前由云锋、混沌投资、红杉中国、TCL 创投等参投。",
+      "advantage": "三个月内密集融资约 50 亿元、估值两年破 200 亿元，资本认可度高；聚焦通用具身模型，泛化能力被视为核心竞争壁垒。",
+      "sources": [
+        {"label": "新浪财经", "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacxkk4007887.shtml"},
+        {"label": "量子位", "url": "https://www.qbitai.com/2026/02/381766.html"},
+        {"label": "国家科技网", "url": "https://www.ncsti.gov.cn/kjdt/scyq/zgckxc/zgcdt/202602/t20260226_239037.html"}
+      ]
+    },
+    {
+      "name": "自变量机器人（X Square）",
+      "name_en": "X Square Robot",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 140,
+      "amount_display": "约 10 亿元级（新一轮）",
+      "valuation": "跻身百亿估值独角兽",
+      "date": "2026-04",
+      "location": "中国·深圳",
+      "business": "研发端到端统一具身大模型，面向通用机器人操作与多任务泛化。",
+      "team": "团队具备大模型与机器人学习研究背景。",
+      "investors": "本轮多家机构参投（具体名单未完全披露）。",
+      "advantage": "在 2026 上半年具身智能融资热潮中跻身七家新晋百亿估值独角兽之一；坚持端到端统一模型路线，技术差异化明显。",
+      "sources": [
+        {"label": "36 氪", "url": "https://eu.36kr.com/zh/p/3716564621489796"},
+        {"label": "网易科技", "url": "https://www.163.com/dy/article/KSF10S9S05568W0A.html"},
+        {"label": "新闻交叉检索", "url": "https://news.google.com/search?q=自变量机器人%20融资%202026"}
       ]
     },
     {
@@ -75,12 +138,12 @@ window.FUNDING_DATA = {
       "stage": "战略投资",
       "amount_usd_m": 350,
       "amount_display": "25 亿元（约 3.5 亿美元）",
-      "valuation": "未上市机器人公司中最高（业内领先）",
+      "valuation": "超 200 亿元人民币（一级市场机器人公司中领先）",
       "date": "2026-03-02",
       "location": "中国·北京",
       "business": "研发具身智能人形/重载机器人，Galbot S1 已在宁德时代产线实现全自主作业，并落地“银河空间舱”无人便利店。",
       "team": "依托北大具身智能实验室等学术力量，技术团队科研背景深厚。",
-      "investors": "国家人工智能产业投资基金（国家大基金首次布局具身）、中石油、中信投资、中银资产、北京亦庄国投等。",
+      "investors": "国家人工智能产业投资基金（国家大基金首次布局具身）、中石化、中信投资、中银资产、北京亦庄国投等。",
       "advantage": "刷新具身智能单轮融资纪录，国家大基金首次出手即押注；已有宁德时代等真实工业落地场景，交付能力成为估值锚点。",
       "sources": [
         {"label": "财新", "url": "https://m.caixin.com/m/2026-03-02/102418619.html"},
@@ -107,6 +170,27 @@ window.FUNDING_DATA = {
         {"label": "证券时报", "url": "https://www.stcn.com/article/detail/3722811.html"},
         {"label": "量子位", "url": "https://www.qbitai.com/2026/04/394626.html"},
         {"label": "新闻交叉检索", "url": "https://news.google.com/search?q=星海图%20融资%202026"}
+      ]
+    },
+    {
+      "name": "群核科技（Manycore / 酷家乐）",
+      "name_en": "Manycore Tech",
+      "region": "中国",
+      "industry": "AI内容生成",
+      "stage": "战略投资",
+      "amount_usd_m": 155,
+      "amount_display": "港股 IPO 募资约 12 亿港元（约 1.5 亿美元）",
+      "valuation": "上市后市值约百亿港元级（按招股价）",
+      "date": "2026-04-17",
+      "location": "中国·杭州",
+      "business": "空间智能与设计软件公司，主力产品为酷家乐及国际版 Coohom；2023 年起转型空间智能，推出 SpatialLM、SpatialGen 等空间大模型。",
+      "team": "“杭州六小龙”之一，团队具备计算机图形学与云计算背景。",
+      "investors": "港交所公开发行（基石及公开投资者认购），代码 02434。",
+      "advantage": "以 4.8 亿+ 3D 模型与空间设计数据构筑壁垒，成为“空间智能第一股”；4.5 万+ 企业客户提供稳定商业化基础，差异化卡位 3D/空间生成赛道。",
+      "sources": [
+        {"label": "经济通(HKET)", "url": "https://inews.hket.com/article/4116087/"},
+        {"label": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E7%BE%A4%E6%A0%B8%E7%A7%91%E6%8A%80"},
+        {"label": "finet 财华社", "url": "https://www.finet.hk/newscenter/news_content/69ca604b230829bc29847b62"}
       ]
     },
     {
@@ -166,7 +250,7 @@ window.FUNDING_DATA = {
       "advantage": "Claude 在企业级与编码场景口碑领先，安全可控的品牌定位契合监管趋势；与亚马逊、谷歌的算力深度绑定，收入快速放量，是少数能与 OpenAI 正面竞争的前沿实验室。",
       "sources": [
         {"label": "Crunchbase News", "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"},
-        {"label": "新闻交叉检索", "url": "https://news.google.com/search?q=Anthropic%20funding%202026"}
+        {"label": "Crunchbase（估值专题）", "url": "https://news.crunchbase.com/ai/anthropic-nears-1t-valuation-65b-seriesh/"}
       ]
     },
     {
@@ -330,6 +414,26 @@ window.FUNDING_DATA = {
       ]
     },
     {
+      "name": "NinjaOne",
+      "name_en": "NinjaOne",
+      "region": "美国",
+      "industry": "智能体/企业应用",
+      "stage": "C轮",
+      "amount_usd_m": 400,
+      "amount_display": "超 4 亿美元（C 轮扩展）",
+      "valuation": "约 123 亿美元",
+      "date": "2026-06-12",
+      "location": "美国·得州奥斯汀",
+      "business": "AI 增强的 IT 端点管理与自动化平台，帮助企业统一管理、监控与保护海量终端设备。",
+      "team": "由 IT 运维与 SaaS 背景团队创立。",
+      "investors": "C 轮扩展由多家成长期机构参投（具体名单未完全披露）。",
+      "advantage": "把 AI 自动化嵌入企业 IT 运维刚需场景，订阅模式与客户留存稳健；估值持续抬升，是企业软件中受益于 AI 提效的代表性标的。",
+      "sources": [
+        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-biotech-healthcare-ninjaone-leads/"},
+        {"label": "新闻交叉检索", "url": "https://news.google.com/search?q=NinjaOne%20funding%202026"}
+      ]
+    },
+    {
       "name": "Genspark（MainFunc）",
       "name_en": "MainFunc / Genspark",
       "region": "美国",
@@ -476,7 +580,7 @@ window.FUNDING_DATA = {
       "industry": "机器人/具身智能",
       "stage": "C轮",
       "amount_usd_m": 1400,
-      "amount_display": "14 亿美元",
+      "amount_display": "最高达 14 亿美元",
       "valuation": "未披露",
       "date": "2026-06-09",
       "location": "德国",
@@ -547,6 +651,26 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "Crunchbase News", "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"},
         {"label": "新闻交叉检索", "url": "https://news.google.com/search?q=Garner%20Health%20funding%202026"}
+      ]
+    },
+    {
+      "name": "Abridge",
+      "name_en": "Abridge",
+      "region": "美国",
+      "industry": "AI医疗健康",
+      "stage": "D轮及以后",
+      "amount_usd_m": 316,
+      "amount_display": "约 3.16 亿美元（E 轮扩展，报道值）",
+      "valuation": "约 53 亿美元（2025 年 6 月 E 轮时；本轮估值未官方披露）",
+      "date": "2026-04",
+      "location": "美国·匹兹堡",
+      "business": "AI 临床记录平台，实时将医患对话转写并结构化为规范病历，减轻医生文书负担。",
+      "team": "由医生与 AI 研究者联合创立。",
+      "investors": "E 轮及扩展由多家成长期与战略机构参投（具体名单以官方为准）。",
+      "advantage": "医疗 AI 文书是落地最快、ROI 最明确的场景之一，Abridge 客户与营收增长强劲；AI 医疗占数字健康融资比例已升至约六成，赛道高景气。",
+      "sources": [
+        {"label": "Qubit Capital", "url": "https://qubit.capital/blog/ai-healthcare-investment-trends"},
+        {"label": "AI Funding Tracker", "url": "https://aifundingtracker.com/top-ai-healthcare-startups/"}
       ]
     },
     {
