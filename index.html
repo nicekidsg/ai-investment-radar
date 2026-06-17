@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 融资雷达 · 近 90 天 AI 企业融资追踪</title>
+<style>
+  :root{
+    --bg:#0a0e1a; --panel:#121829; --panel2:#1a2238; --line:#27304b;
+    --text:#e8edf7; --muted:#94a3c4; --accent:#5b8cff; --accent2:#8b5cf6;
+    --green:#34d399; --chip:#1e2740;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,Roboto,sans-serif;
+    background:radial-gradient(1200px 600px at 80% -10%,rgba(91,140,255,.12),transparent),
+               radial-gradient(900px 500px at 0% 0%,rgba(139,92,246,.10),transparent),var(--bg);
+    color:var(--text);line-height:1.6;min-height:100vh}
+  .wrap{max-width:1180px;margin:0 auto;padding:32px 20px 80px}
+  header{margin-bottom:24px}
+  .title{font-size:30px;font-weight:800;letter-spacing:-.5px;display:flex;align-items:center;gap:12px}
+  .title .dot{width:12px;height:12px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .sub{color:var(--muted);margin-top:8px;font-size:14px}
+  .sub b{color:var(--text)}
+  /* stats */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:24px 0}
+  .stat{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+    border-radius:16px;padding:18px}
+  .stat .n{font-size:26px;font-weight:800}
+  .stat .l{color:var(--muted);font-size:13px;margin-top:2px}
+  /* controls */
+  .controls{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:22px}
+  .row{margin-bottom:14px}
+  .row:last-child{margin-bottom:0}
+  .row .lbl{font-size:12px;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:var(--chip);border:1px solid var(--line);color:var(--muted);padding:7px 14px;
+    border-radius:999px;font-size:13px;cursor:pointer;transition:.15s;user-select:none}
+  .chip:hover{border-color:var(--accent);color:var(--text)}
+  .chip.active{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
+  .toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+  .search{flex:1;min-width:200px}
+  input,select{background:var(--bg);border:1px solid var(--line);color:var(--text);
+    padding:10px 14px;border-radius:10px;font-size:14px;width:100%;outline:none}
+  input:focus,select:focus{border-color:var(--accent)}
+  select{cursor:pointer}
+  .selwrap{min-width:160px}
+  /* cards */
+  .count{color:var(--muted);font-size:13px;margin:6px 2px 16px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:16px}
+  .card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+    border-radius:16px;padding:20px;display:flex;flex-direction:column;transition:.18s;position:relative;overflow:hidden}
+  .card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 12px 30px rgba(0,0,0,.35)}
+  .card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:6px}
+  .cname{font-size:19px;font-weight:800}
+  .cen{font-size:12px;color:var(--muted)}
+  .amt{text-align:right;flex-shrink:0}
+  .amt .big{font-size:18px;font-weight:800;color:var(--green)}
+  .amt .val{font-size:11px;color:var(--muted)}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 14px}
+  .tag{font-size:11px;padding:3px 9px;border-radius:6px;background:var(--chip);border:1px solid var(--line);color:var(--muted)}
+  .tag.ind{color:#bcd0ff;border-color:#33457a}
+  .tag.stg{color:#d9c4ff;border-color:#4a3a72}
+  .tag.reg{color:#7ef0c0;border-color:#2e6b52}
+  .field{margin-bottom:10px;font-size:13.5px}
+  .field .k{color:var(--accent);font-weight:700;font-size:12px;display:block;margin-bottom:1px}
+  .field .v{color:var(--text)}
+  .field.adv .k{color:var(--green)}
+  .meta{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:12px;
+    border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+  .meta .srcs{text-align:right;max-width:65%}
+  .meta a{color:var(--accent);text-decoration:none}
+  .meta a:hover{text-decoration:underline}
+  .empty{text-align:center;color:var(--muted);padding:60px 20px}
+  footer{margin-top:40px;color:var(--muted);font-size:12px;text-align:center;line-height:1.8}
+  @media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.title{font-size:24px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="title"><span class="dot"></span>AI 融资雷达</div>
+    <div class="sub">追踪近 90 天获得融资的 AI 相关企业 · 主营业务 / 核心团队 / 融资金额 / 投资机构 / 投资逻辑 ·
+      数据每 12 小时自动更新 · 最近更新：<b id="updated">—</b></div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <div class="row">
+      <div class="lbl">按地区筛选</div>
+      <div class="chips" id="regChips"></div>
+    </div>
+    <div class="row">
+      <div class="lbl">按行业筛选</div>
+      <div class="chips" id="indChips"></div>
+    </div>
+    <div class="row">
+      <div class="lbl">按融资阶段筛选</div>
+      <div class="chips" id="stgChips"></div>
+    </div>
+    <div class="row">
+      <div class="toolbar">
+        <div class="search"><input id="search" type="text" placeholder="🔍 搜索企业名称、业务关键词、投资机构…"></div>
+        <div class="selwrap">
+          <select id="sort">
+            <option value="amount">按融资金额排序（高→低）</option>
+            <option value="date">按融资时间排序（新→旧）</option>
+            <option value="name">按企业名称排序</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    数据来源：Crunchbase News 等公开融资报道，金额与估值以公开披露为准，可能存在滞后或调整。<br>
+    本页用于行业观察，不构成任何投资建议。
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var DATA = (window.FUNDING_DATA||{companies:[]});
+  var companies = DATA.companies||[];
+  var state = {reg:"全部", ind:"全部", stg:"全部", q:"", sort:"amount"};
+
+  document.getElementById("updated").textContent =
+    (DATA.updated_at||"").replace("T"," ").slice(0,16) + "（窗口：" + (DATA.window||"近 90 天") + "）";
+
+  // build filter values
+  var regs = ["全部"].concat(unique(companies.map(function(c){return c.region})));
+  var inds = ["全部"].concat(unique(companies.map(function(c){return c.industry})));
+  var stgs = ["全部"].concat(orderStages(unique(companies.map(function(c){return c.stage}))));
+
+  renderChips("regChips", regs, "reg");
+  renderChips("indChips", inds, "ind");
+  renderChips("stgChips", stgs, "stg");
+
+  document.getElementById("search").addEventListener("input", function(e){state.q=e.target.value.trim().toLowerCase();render()});
+  document.getElementById("sort").addEventListener("change", function(e){state.sort=e.target.value;render()});
+
+  render();
+
+  function render(){
+    var list = companies.filter(function(c){
+      if(state.reg!=="全部" && c.region!==state.reg) return false;
+      if(state.ind!=="全部" && c.industry!==state.ind) return false;
+      if(state.stg!=="全部" && c.stage!==state.stg) return false;
+      if(state.q){
+        var hay=(c.name+" "+(c.name_en||"")+" "+c.business+" "+c.investors+" "+c.team+" "+c.industry+" "+(c.region||"")).toLowerCase();
+        if(hay.indexOf(state.q)===-1) return false;
+      }
+      return true;
+    });
+    list.sort(function(a,b){
+      if(state.sort==="amount") return (b.amount_usd_m||0)-(a.amount_usd_m||0);
+      if(state.sort==="date") return (b.date||"").localeCompare(a.date||"");
+      return (a.name||"").localeCompare(b.name||"");
+    });
+    renderStats(list);
+    document.getElementById("count").textContent = "共 "+list.length+" 家企业" +
+      (state.reg!=="全部"||state.ind!=="全部"||state.stg!=="全部"||state.q ? "（已筛选 / 全部 "+companies.length+" 家）" : "");
+    var grid=document.getElementById("grid");
+    if(!list.length){grid.innerHTML='<div class="empty">没有匹配的企业，试试调整筛选条件。</div>';return;}
+    grid.innerHTML = list.map(card).join("");
+  }
+
+  function renderStats(list){
+    var total=list.reduce(function(s,c){return s+(c.amount_usd_m||0)},0);
+    var indCount=unique(list.map(function(c){return c.industry})).length;
+    var top=list.slice().sort(function(a,b){return (b.amount_usd_m||0)-(a.amount_usd_m||0)})[0];
+    document.getElementById("stats").innerHTML =
+      stat(list.length,"家企业（当前视图）")+
+      stat(fmtBn(total),"披露融资总额")+
+      stat(indCount,"个细分行业")+
+      stat(top?top.name:"—","本视图最大单笔");
+  }
+  function stat(n,l){return '<div class="stat"><div class="n">'+n+'</div><div class="l">'+l+'</div></div>'}
+
+  function card(c){
+    return '<div class="card">'+
+      '<div class="top"><div><div class="cname">'+esc(c.name)+'</div><div class="cen">'+esc(c.name_en||"")+' · '+esc(c.location||"")+'</div></div>'+
+        '<div class="amt"><div class="big">'+esc(c.amount_display||"")+'</div>'+(c.valuation?'<div class="val">估值 '+esc(c.valuation)+'</div>':'')+'</div></div>'+
+      '<div class="tags"><span class="tag reg">'+esc(c.region||"")+'</span><span class="tag ind">'+esc(c.industry)+'</span><span class="tag stg">'+esc(c.stage)+'</span></div>'+
+      field("主营业务",c.business)+
+      field("核心团队",c.team)+
+      field("投资机构",c.investors)+
+      '<div class="field adv"><span class="k">获投优势与原因</span><span class="v">'+esc(c.advantage)+'</span></div>'+
+      '<div class="meta"><span>'+esc(c.date||"")+'</span><span class="srcs">'+sources(c)+'</span></div>'+
+    '</div>';
+  }
+  function field(k,v){return '<div class="field"><span class="k">'+k+'</span><span class="v">'+esc(v||"—")+'</span></div>'}
+  function sources(c){
+    var arr=c.sources||(c.source?[{label:"来源",url:c.source}]:[]);
+    if(!arr.length) return "";
+    return "来源："+arr.map(function(s){return '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.label)+' ↗</a>'}).join(" · ");
+  }
+
+  function renderChips(id,arr,type){
+    var el=document.getElementById(id);
+    el.innerHTML=arr.map(function(v){
+      var active=(type==="ind"?state.ind:state.stg)===v?" active":"";
+      return '<span class="chip'+active+'" data-v="'+esc(v)+'">'+esc(v)+'</span>';
+    }).join("");
+    el.querySelectorAll(".chip").forEach(function(ch){
+      ch.addEventListener("click",function(){
+        if(type==="reg")state.reg=ch.dataset.v; else if(type==="ind")state.ind=ch.dataset.v; else state.stg=ch.dataset.v;
+        el.querySelectorAll(".chip").forEach(function(x){x.classList.remove("active")});
+        ch.classList.add("active");
+        render();
+      });
+    });
+  }
+
+  function unique(a){var s=[];a.forEach(function(x){if(x&&s.indexOf(x)===-1)s.push(x)});return s}
+  function orderStages(a){var o=["种子/天使","A轮","B轮","C轮","D轮及以后","战略投资"];
+    return a.slice().sort(function(x,y){var i=o.indexOf(x),j=o.indexOf(y);return (i<0?99:i)-(j<0?99:j)})}
+  function fmtBn(m){return m>=1000?("$"+(m/1000).toFixed(1)+"B"):("$"+m.toFixed(0)+"M")}
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+})();
+</script>
+</body>
+</html>
