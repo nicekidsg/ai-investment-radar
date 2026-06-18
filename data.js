@@ -1,8 +1,8 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-18T12:11:22+08:00",
-  "window": "2026 年 3 月 – 6 月（近一季度）",
+  "updated_at": "2026-06-18T14:15:24+08:00",
+  "window": "2025 年 12 月 – 2026 年 6 月（近半年）",
   "companies": [
     {
       "name": "深度求索 DeepSeek",
@@ -50,19 +50,20 @@ window.FUNDING_DATA = {
       "name_en": "StepFun",
       "region": "中国",
       "industry": "基础大模型",
-      "stage": "战略投资",
-      "amount_usd_m": 2500,
-      "amount_display": "Pre-IPO 累计近 25 亿美元（进行中，未官方披露最终金额）",
-      "valuation": "未披露",
-      "date": "2026-Q2",
+      "stage": "B轮",
+      "amount_usd_m": 700,
+      "amount_display": "50 亿元人民币（B+ 轮，约 7 亿美元）",
+      "valuation": "未披露（其后另有 Pre-IPO 融资推进中）",
+      "date": "2026-01",
       "location": "中国·上海",
       "business": "多模态基础大模型研发，对标头部大模型公司，筹备港股上市。",
       "team": "未披露",
-      "investors": "未官方披露",
-      "advantage": "已完成股份制改造、拆除红筹架构，融资与上市进程并行。金额为媒体报道口径、尚未正式官宣，取保守表述。",
+      "investors": "上海国投、国寿股权、浦东创投、徐汇资本、博华资本、厦门国贸、华勤技术、腾讯投资、启明创投、五源资本等",
+      "advantage": "2026 年 1 月单笔规模居当月国内 AI 融资之首，国资与产业资本密集加持；其后融资与港股上市进程并行推进。",
       "sources": [
-        {"label": "新浪财经·深网", "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacnus0942558.shtml"},
-        {"label": "观点网", "url": "https://www.guandian.cn/article/20260303/546061.html"}
+        {"label": "极新月报（知乎）", "url": "https://zhuanlan.zhihu.com/p/2001758790966595845"},
+        {"label": "钛媒体", "url": "https://www.tmtpost.com/7864513.html"},
+        {"label": "新浪财经·深网", "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacnus0942558.shtml"}
       ]
     },
     {
@@ -548,6 +549,87 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "TechCrunch", "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/"},
         {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-12/france-s-mistral-in-funding-talks-at-about-20-billion-valuation"}
+      ]
+    },
+    {
+      "name": "xAI",
+      "name_en": "xAI",
+      "region": "美国",
+      "industry": "基础大模型",
+      "stage": "D轮及以后",
+      "amount_usd_m": 20000,
+      "amount_display": "200 亿美元（Series E）",
+      "valuation": "投后约 2300 亿美元",
+      "date": "2026-01-06",
+      "location": "美国",
+      "business": "Grok 系列基础大模型，与 X 平台深度整合。",
+      "team": "未披露",
+      "investors": "Valor Equity Partners、Stepstone Group、Fidelity、卡塔尔投资局、MGX、Baron Capital 等",
+      "advantage": "原定 150 亿美元的 Series E 超额扩募至 200 亿美元，跻身全球估值最高的私营 AI 公司之一。",
+      "sources": [
+        {"label": "Intellizence（Q1 2026）", "url": "https://intellizence.com/insights/startup-funding/top-startup-funding-deals-of-q1-2026-record-297-billion-raised-with-ai-dominating/"},
+        {"label": "TechCrunch（17 家美国 AI 公司）", "url": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/"}
+      ]
+    },
+    {
+      "name": "ElevenLabs",
+      "name_en": "ElevenLabs",
+      "region": "美国",
+      "industry": "AI内容生成",
+      "stage": "D轮及以后",
+      "amount_usd_m": 500,
+      "amount_display": "5 亿美元（Series D）",
+      "valuation": "投后 110 亿美元",
+      "date": "2026-02-04",
+      "location": "美国/英国",
+      "business": "AI 语音合成与音频生成平台，面向企业与开发者。",
+      "team": "未披露",
+      "investors": "Sequoia 领投，a16z、ICONIQ、Lightspeed、Evantic Capital、BOND 等参与",
+      "advantage": "估值一年内增长逾三倍，2025 年底 ARR 超 3.3 亿美元，企业客户包括德国电信、Square、Revolut 等。",
+      "sources": [
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/"},
+        {"label": "ElevenLabs 官方博客", "url": "https://elevenlabs.io/blog/series-d"}
+      ]
+    },
+    {
+      "name": "Chai Discovery",
+      "name_en": "Chai Discovery",
+      "region": "美国",
+      "industry": "AI医疗健康",
+      "stage": "B轮",
+      "amount_usd_m": 130,
+      "amount_display": "1.3 亿美元（Series B）",
+      "valuation": "投后 13 亿美元",
+      "date": "2025-12-15",
+      "location": "美国·旧金山",
+      "business": "AI 驱动的分子与抗体设计平台，打造‘分子计算机辅助设计套件’。",
+      "team": "未披露",
+      "investors": "Oak HC/FT、General Catalyst 领投，Thrive Capital、OpenAI、Menlo Ventures、Emerson Collective、Glade Brook 等参与",
+      "advantage": "距 8 月 7000 万美元 A 轮不到半年即完成 B 轮，OpenAI 背书；模型可设计针对‘难成药’靶点的分子。",
+      "sources": [
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2025/12/15/openai-backed-biotech-firm-chai-discovery-raises-130m-series-b-at-1-3b-valuation/"},
+        {"label": "FierceBiotech", "url": "https://www.fiercebiotech.com/biotech/chai-infuses-ai-drug-discovery-efforts-130m-series-b"},
+        {"label": "Business Wire", "url": "https://www.businesswire.com/news/home/20251214931432/en/"}
+      ]
+    },
+    {
+      "name": "Corgi Insurance",
+      "name_en": "Corgi",
+      "region": "美国",
+      "industry": "AI金融/保险",
+      "stage": "战略投资",
+      "amount_usd_m": 108,
+      "amount_display": "约 1.08 亿美元",
+      "valuation": "未披露",
+      "date": "2026-01",
+      "location": "美国·纽约",
+      "business": "AI 原生全栈保险承保平台，专注为初创公司提供保险。",
+      "team": "未披露",
+      "investors": "未官方披露完整名单",
+      "advantage": "作为 AI 原生全栈保险公司，1 月以超 1 亿美元融资成为当月美国保险科技大额交易之一。金额为媒体报道口径。",
+      "sources": [
+        {"label": "FinTech Global", "url": "https://fintech.global/2026/01/30/insurtech-funding-reaches-420m-in-january-as-us-firms-secure-mega-deals/"},
+        {"label": "Crescendo AI", "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"}
       ]
     }
   ]
