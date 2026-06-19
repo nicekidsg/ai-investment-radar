@@ -1,8 +1,8 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-18T14:15:24+08:00",
-  "window": "2025 年 12 月 – 2026 年 6 月（近半年）",
+  "updated_at": "2026-06-19T06:04:48+00:00",
+  "window": "2026 年 3 月 – 6 月（近一季度）",
   "companies": [
     {
       "name": "深度求索 DeepSeek",
@@ -10,39 +10,28 @@ window.FUNDING_DATA = {
       "region": "中国",
       "industry": "基础大模型",
       "stage": "战略投资",
-      "amount_usd_m": 7200,
-      "amount_display": "约 510 亿元人民币（约 72 亿美元）",
-      "valuation": "约 4000 亿元人民币（市场预估或达约 500 亿美元）",
+      "amount_usd_m": 7400,
+      "amount_display": "约74亿美元（约合人民币500亿元，报道不一）",
+      "valuation": "约3500亿–4000亿元人民币（约500–590亿美元，报道不一）",
       "date": "2026-06-16",
-      "location": "中国·杭州",
-      "business": "开源基础大模型研发，旗下 DeepSeek 系列模型以高性价比著称，坚持开源路线。",
-      "team": "创始人梁文锋（本轮最大单一出资方，约 200 亿元）",
-      "investors": "梁文锋、腾讯、宁德时代体系、网易、京东、Monolith 砺思资本、IDG 资本、国家人工智能产业投资基金等",
-      "advantage": "成立以来首轮外部融资即创下全球 AI 单轮规模纪录。多数外部投资者经梁文锋管理的有限合伙企业入资、设五年锁定期且不享投票权，控制权高度集中。",
+      "location": "中国·杭州/北京",
+      "business": "开源高性能基础大模型与推理模型研发商，旗下 DeepSeek 系列模型以低成本高性能著称。",
+      "team": "创始人梁文锋（据多方报道为本轮最大单一出资方）；幻方量化背景团队。",
+      "investors": "腾讯、宁德时代体系、网易、京东、IDG资本、砺思资本（Monolith）、正心谷、拾象科技等",
+      "advantage": "公司成立以来首轮外部融资即创全球 AI 单轮纪录，估值跃居中国最高的 AI 初创企业。融资结构特殊（部分报道称投资方持有创始人控制的实体而非公司直接股权），金额与估值各家报道不一、未完全官方披露。",
       "sources": [
-        {"label": "新浪科技", "url": "https://finance.sina.com.cn/tech/digi/2026-06-18/doc-inicttam3715605.shtml"},
-        {"label": "量子位", "url": "https://www.qbitai.com/2026/05/414432.html"},
-        {"label": "证券时报网", "url": "https://www.stcn.com/article/detail/3897512.html"}
-      ]
-    },
-    {
-      "name": "月之暗面 Moonshot AI",
-      "name_en": "Moonshot AI (Kimi)",
-      "region": "中国",
-      "industry": "基础大模型",
-      "stage": "D轮及以后",
-      "amount_usd_m": 2000,
-      "amount_display": "约 20 亿美元（报道不一，未官方披露）",
-      "valuation": "投后或突破 200 亿美元",
-      "date": "2026-05",
-      "location": "中国·北京",
-      "business": "Kimi 系列大模型及智能助手，主打长上下文与 Agent 能力。",
-      "team": "未披露",
-      "investors": "据报道有大厂战略投资方参与（未官方披露完整名单）",
-      "advantage": "在‘AI 五虎’中累计融资规模居前，C 端产品声量大。金额与估值各家报道不一，取保守表述。",
-      "sources": [
-        {"label": "澎湃新闻·湃客", "url": "https://www.thepaper.cn/newsDetail_forward_28369190"},
-        {"label": "新浪财经·深网", "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacnus0942558.shtml"}
+        {
+          "label": "Crunchbase News（非美大额交易）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        },
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-06-19/doc-inicxcvc9780822.shtml"
+        },
+        {
+          "label": "量子位",
+          "url": "https://www.qbitai.com/2026/05/414432.html"
+        }
       ]
     },
     {
@@ -50,104 +39,137 @@ window.FUNDING_DATA = {
       "name_en": "StepFun",
       "region": "中国",
       "industry": "基础大模型",
-      "stage": "B轮",
-      "amount_usd_m": 700,
-      "amount_display": "50 亿元人民币（B+ 轮，约 7 亿美元）",
-      "valuation": "未披露（其后另有 Pre-IPO 融资推进中）",
-      "date": "2026-01",
+      "stage": "战略投资",
+      "amount_usd_m": 2500,
+      "amount_display": "近25亿美元（报道不一/未官方披露）",
+      "valuation": "未披露",
+      "date": "2026-05-08",
       "location": "中国·上海",
-      "business": "多模态基础大模型研发，对标头部大模型公司，筹备港股上市。",
-      "team": "未披露",
-      "investors": "上海国投、国寿股权、浦东创投、徐汇资本、博华资本、厦门国贸、华勤技术、腾讯投资、启明创投、五源资本等",
-      "advantage": "2026 年 1 月单笔规模居当月国内 AI 融资之首，国资与产业资本密集加持；其后融资与港股上市进程并行推进。",
+      "business": "多模态基础大模型研发商，覆盖语言、视觉与多模态生成，并加快推进港股上市进程。",
+      "team": "创始团队具备头部互联网与计算机视觉研究背景（不披露具体人名）。",
+      "investors": "多家产业及财务投资方（具体未完全披露）",
+      "advantage": "作为国产大模型『五小龙』之一，在智谱、MiniMax 相继登陆港交所后加速融资与上市。本轮金额为媒体『传出』口径，尚未官方披露，数字存在不一。",
       "sources": [
-        {"label": "极新月报（知乎）", "url": "https://zhuanlan.zhihu.com/p/2001758790966595845"},
-        {"label": "钛媒体", "url": "https://www.tmtpost.com/7864513.html"},
-        {"label": "新浪财经·深网", "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacnus0942558.shtml"}
+        {
+          "label": "钛媒体",
+          "url": "https://www.tmtpost.com/7864513.html"
+        },
+        {
+          "label": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20260515/herald/bfb1326c9953ae8753673669240016f3.html"
+        },
+        {
+          "label": "搜狐/观点网",
+          "url": "https://www.sohu.com/a/992198620_655634"
+        }
       ]
     },
     {
-      "name": "银河通用 Galbot",
-      "name_en": "Galbot",
+      "name": "它石智航 TARS",
+      "name_en": "TARS (Tashi Zhihang)",
       "region": "中国",
       "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 350,
-      "amount_display": "25 亿元人民币（约 3.5 亿美元）",
-      "valuation": "累计融资居中国具身智能首位（估值约 200 亿元人民币）",
-      "date": "2026-03-02",
-      "location": "中国·北京",
-      "business": "通用具身智能机器人，聚焦泛化抓取与商用场景落地。",
-      "team": "未披露",
-      "investors": "国家人工智能产业投资基金、中国石化、中信投资控股、中银资产、上汽金控等",
-      "advantage": "刷新当时具身智能单轮融资金额纪录，累计融资额位居赛道第一，被称为估值最高的未上市人形机器人公司。",
-      "sources": [
-        {"label": "财新", "url": "https://m.caixin.com/m/2026-03-02/102418619.html"},
-        {"label": "投资界", "url": "https://news.pedaily.cn/202603/561274.shtml"},
-        {"label": "人民网", "url": "http://finance.people.com.cn/n1/2026/0303/c1004-40673745.html"}
-      ]
-    },
-    {
-      "name": "它石智航",
-      "name_en": "Tarsus (Tashi)",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "A轮",
+      "stage": "种子/天使",
       "amount_usd_m": 455,
-      "amount_display": "4.55 亿美元（Pre-A 轮）",
+      "amount_display": "4.55亿美元（约合人民币超30亿元）Pre-A 轮",
       "valuation": "未披露",
-      "date": "2026-Q1",
-      "location": "中国",
-      "business": "具身智能与通用机器人技术研发。",
-      "team": "未披露",
-      "investors": "红杉资本等（综合报道）",
-      "advantage": "单轮金额创中国具身智能历史最高纪录；成立约一年内累计融资近 7 亿美元，融资节奏极快。",
+      "date": "2026-04-16",
+      "location": "中国·上海",
+      "business": "以 AI 为核心的具身智能企业，主攻 AI 与通用机器人，走『数据·模型·硬件』全栈路线。",
+      "team": "创始团队具自动驾驶与机器视觉研发背景（不披露具体人名）。",
+      "investors": "国调基金、襄禾资本、TCL创投、君联资本、五源资本、临港新片区基金等",
+      "advantage": "号称创下中国具身智能有史以来最高单轮、最大 Pre-A 融资纪录，成立仅约一年即获超额资金，主打全栈自研与产业落地。",
       "sources": [
-        {"label": "网易（引自行业报道）", "url": "https://www.163.com/dy/article/KQL8JBQN0556LVOG.html"},
-        {"label": "新浪新闻", "url": "https://k.sina.com.cn/article_7857201856_1d45362c001904jdyi.html"},
-        {"label": "搜狐", "url": "https://m.sohu.com/a/1010854280_116132"}
+        {
+          "label": "OFweek 机器人网（4月融资汇总）",
+          "url": "https://robot.ofweek.com/2026-05/ART-898890-8420-30687018.html"
+        },
+        {
+          "label": "中华网投资",
+          "url": "https://mtz.china.com/touzi/2026/0525/236245.html"
+        },
+        {
+          "label": "机器人大讲堂",
+          "url": "https://leaderobot.com/news/5483"
+        }
       ]
     },
     {
-      "name": "星动纪元 RobotEra",
-      "name_en": "RobotEra",
+      "name": "星海图 Galaxea",
+      "name_en": "Galaxea AI",
       "region": "中国",
       "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 200,
-      "amount_display": "超 2 亿美元（3 月另完成 10 亿元战略融资）",
-      "valuation": "未披露",
-      "date": "2026-04-27",
+      "stage": "B轮",
+      "amount_usd_m": 280,
+      "amount_display": "近20亿元人民币（约2.8亿美元）B+ 轮",
+      "valuation": "突破200亿元人民币（约28亿美元）",
+      "date": "2026-04-02",
       "location": "中国·北京",
-      "business": "软硬件全栈自研的具身智能与人形机器人公司，源自清华。",
-      "team": "未披露",
-      "investors": "未官方披露完整名单",
-      "advantage": "一个月内连续完成两轮大额融资，强调软硬件全栈自研能力，量产交付推进中。",
+      "business": "具身智能机器人公司，主打『本体+大脑』软硬一体，推出末端到全身的『真强具身』通用机器人系统。",
+      "team": "创始团队具自动驾驶与具身智能研发背景（不披露具体人名）。",
+      "investors": "产业及财务投资方多家（具体见公开报道）",
+      "advantage": "与同年 2 月的 B 轮接续完成 B+，估值实现翻倍，是目前国内一级市场估值最高的具身智能企业之一。",
       "sources": [
-        {"label": "新浪财经", "url": "https://finance.sina.com.cn/wm/2026-04-27/doc-inhvyefa7769933.shtml"},
-        {"label": "证券时报网", "url": "https://www.stcn.com/article/detail/2520968.html"},
-        {"label": "北京日报", "url": "https://news.bjd.com.cn/2026/04/30/11719062.shtml"}
+        {
+          "label": "OFweek 机器人网（4月融资汇总）",
+          "url": "https://robot.ofweek.com/2026-05/ART-898890-8420-30687018.html"
+        },
+        {
+          "label": "新华网",
+          "url": "https://www.news.cn/tech/20260513/358cfbcbd83f440a8a4eec65d9e75528/c.html"
+        }
       ]
     },
     {
-      "name": "千寻智能 Spirit AI",
-      "name_en": "Spirit AI",
+      "name": "自变量机器人 X Square",
+      "name_en": "X Square Robot",
       "region": "中国",
       "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 140,
-      "amount_display": "10 亿元人民币（4 月轮；2 月另完成近 20 亿元，累计约 30 亿元）",
-      "valuation": "估值突破百亿元人民币（部分报道称超 200 亿元）",
-      "date": "2026-04-07",
-      "location": "中国",
-      "business": "通用具身智能机器人研发。",
-      "team": "未披露",
-      "investors": "顶级机构联合投资（综合报道，未逐一官方披露）",
-      "advantage": "30 天内连续完成两轮融资，两年内估值破百亿元，资本高度集中押注。估值口径各家报道不一，取保守表述。",
+      "stage": "B轮",
+      "amount_usd_m": 280,
+      "amount_display": "约20亿元人民币（约2.8亿美元）B 轮",
+      "valuation": "未披露",
+      "date": "2026-04-20",
+      "location": "中国·深圳",
+      "business": "通用具身智能大模型研发商，坚持软硬全栈一体，推出 WALL 系列具身智能机器人大模型与本体。",
+      "team": "创始团队具备扩散模型与大模型算法研究背景（不披露具体人名）。",
+      "investors": "小米战投（领投）、京东、字节跳动、美团等",
+      "advantage": "据报道为国内唯一同时获得字节、京东、阿里巴巴、小米等多家大厂共同投资的具身智能企业；同步发布 World Unified Model 架构的 WALL-B 模型。",
       "sources": [
-        {"label": "量子位", "url": "https://www.qbitai.com/2026/02/381766.html"},
-        {"label": "澎湃新闻", "url": "https://m.thepaper.cn/newsDetail_forward_32646766"},
-        {"label": "国家科技传播中心", "url": "https://www.ncsti.gov.cn/kjdt/scyq/zgckxc/zgcdt/202602/t20260226_239037.html"}
+        {
+          "label": "OFweek 机器人网（4月融资汇总）",
+          "url": "https://robot.ofweek.com/2026-05/ART-898890-8420-30687018.html"
+        },
+        {
+          "label": "机器人大讲堂",
+          "url": "https://leaderobot.com/news/5483"
+        }
+      ]
+    },
+    {
+      "name": "众擎机器人 EngineAI",
+      "name_en": "EngineAI",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 200,
+      "amount_display": "2亿美元 B 轮",
+      "valuation": "突破100亿元人民币（约14亿美元）",
+      "date": "2026-04-09",
+      "location": "中国·深圳",
+      "business": "通用人形机器人研发企业，专注全栈自研人形机器人本体、运动控制算法与具身智能系统。",
+      "team": "创始团队具人形机器人本体与运动控制研发背景（不披露具体人名）。",
+      "investors": "河南投资集团汇融基金、立讯精密（联合领投），中创智领、基石资本、龙岗金控等跟投",
+      "advantage": "B 轮完成后估值突破百亿元，跻身深圳具身智能『百亿俱乐部』，后续又完成 B+ 轮，处于国内人形机器人赛道估值第一梯队。",
+      "sources": [
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/roll/2026-04-10/doc-inhtywee0264619.shtml"
+        },
+        {
+          "label": "OFweek 机器人网（4月融资汇总）",
+          "url": "https://robot.ofweek.com/2026-05/ART-898890-8420-30687018.html"
+        }
       ]
     },
     {
@@ -155,59 +177,51 @@ window.FUNDING_DATA = {
       "name_en": "Booster Robotics",
       "region": "中国",
       "industry": "机器人/具身智能",
-      "stage": "A轮",
+      "stage": "战略投资",
       "amount_usd_m": 140,
-      "amount_display": "近 10 亿元人民币（约 1.4 亿美元）",
+      "amount_display": "约10亿元人民币（约1.4亿美元）战略融资",
       "valuation": "未披露",
-      "date": "2026-Q2",
+      "date": "2026-04-17",
       "location": "中国·北京",
-      "business": "人形机器人本体与具身智能，面向科研与规模化量产交付。",
-      "team": "未披露",
-      "investors": "北京高精尖产业基金、京国盛基金、华控基金联合领投（此前 A 轮系列含 IDG 资本、亦庄国投）",
-      "advantage": "2026 年一季度出货量同比增长约 500%，强调规模化交付能力。",
+      "business": "小型双足人形机器人及通用人形开发平台研发商，主打稳定可控、面向科研与教育场景的机器人。",
+      "team": "创始团队具清华自动化与人形机器人研发背景（不披露具体人名）。",
+      "investors": "经纬创投、IDG资本、英诺天使、立讯精密等",
+      "advantage": "主打『软件+系统+开发者工具』软硬件平台，旗下 Booster T1/K1 在教育科研双足人形赛道形成口碑与渠道优势。",
       "sources": [
-        {"label": "证券时报网", "url": "https://stcn.com/article/detail/3758600.html"},
-        {"label": "凤凰网财经", "url": "https://i.ifeng.com/c/8sOZcKzlA5v"}
+        {
+          "label": "OFweek 机器人网（4月融资汇总）",
+          "url": "https://robot.ofweek.com/2026-05/ART-898890-8420-30687018.html"
+        },
+        {
+          "label": "机器人大讲堂",
+          "url": "https://leaderobot.com/news/5483"
+        }
       ]
     },
     {
-      "name": "维他动力 Vbot",
-      "name_en": "Vbot",
+      "name": "地瓜机器人 D-Robotics",
+      "name_en": "D-Robotics",
       "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "A轮",
-      "amount_usd_m": 70,
-      "amount_display": "近 5 亿元人民币（Pre-A 轮，约 0.7 亿美元）",
-      "valuation": "未披露",
-      "date": "2026-05-11",
-      "location": "中国",
-      "business": "具身智能机器人研发。",
-      "team": "未披露",
-      "investors": "未官方披露完整名单",
-      "advantage": "处于具身智能融资井喷期，Pre-A 轮即获近 5 亿元，资本对早期标的押注积极。",
-      "sources": [
-        {"label": "新华网", "url": "https://www.news.cn/tech/20260513/358cfbcbd83f440a8a4eec65d9e75528/c.html"},
-        {"label": "新浪财经", "url": "https://finance.sina.com.cn/roll/2026-05-01/doc-inhwkyic0482742.shtml"}
-      ]
-    },
-    {
-      "name": "生数科技 Shengshu",
-      "name_en": "Shengshu Technology (Vidu)",
-      "region": "中国",
-      "industry": "AI内容生成",
+      "industry": "AI开发工具/基础设施",
       "stage": "B轮",
-      "amount_usd_m": 280,
-      "amount_display": "近 20 亿元人民币（约 2.8 亿美元）",
-      "valuation": "超 20 亿美元（超 120 亿元人民币）",
-      "date": "2026-Q2",
+      "amount_usd_m": 150,
+      "amount_display": "1.5亿美元 B2 轮（B 轮累计约2.7亿美元）",
+      "valuation": "未披露",
+      "date": "2026-04-08",
       "location": "中国·北京",
-      "business": "AI 视频生成与通用世界模型，核心产品 Vidu，拟最快上半年启动 IPO。",
-      "team": "清华大学朱军团队创立（2023 年成立）",
-      "investors": "阿里云领投，中国互联网投资基金、九安海棠、好未来、光合创投等参与战略投资",
-      "advantage": "国内视频生成第一梯队，两个月内连融约 26 亿元，绑定阿里云生态。",
+      "business": "机器人智能计算软硬件通用底座提供商，聚焦『芯片+算法+工具+开发者社区』全链路，提供旭日/RDK 系列智能计算芯片与开发平台。",
+      "team": "团队具 AIoT 与边缘计算芯片研发背景（不披露具体人名）。",
+      "investors": "Prosperity7（沙特阿美旗下）、尚珹资本、五源资本等",
+      "advantage": "对标机器人时代的『Wintel』底座，RDK 系列开发者突破 10 万，服务扫地机、无人机影像等头部客户，卡位具身智能算力基础设施。",
       "sources": [
-        {"label": "新浪财经", "url": "https://finance.sina.com.cn/jjxw/2026-04-12/doc-inhuetnq0886266.shtml"},
-        {"label": "极新月报（知乎）", "url": "https://zhuanlan.zhihu.com/p/2001758790966595845"}
+        {
+          "label": "OFweek 机器人网（4月融资汇总）",
+          "url": "https://robot.ofweek.com/2026-05/ART-898890-8420-30687018.html"
+        },
+        {
+          "label": "机器人大讲堂",
+          "url": "https://leaderobot.com/news/5483"
+        }
       ]
     },
     {
@@ -216,39 +230,76 @@ window.FUNDING_DATA = {
       "region": "中国",
       "industry": "AI内容生成",
       "stage": "C轮",
-      "amount_usd_m": 280,
-      "amount_display": "约 20 亿元人民币（约 2.8 亿美元）",
+      "amount_usd_m": 300,
+      "amount_display": "3亿美元（约合人民币20.6亿元）C 轮",
       "valuation": "未披露",
-      "date": "2026-03",
-      "location": "中国",
-      "business": "AI 视频生成，旗下 PixVerse 面向全球创作者市场。",
-      "team": "未披露",
-      "investors": "鼎晖投资、亦庄国投等",
-      "advantage": "视频生成三条技术路径代表之一，海外用户规模可观。",
+      "date": "2026-03-12",
+      "location": "中国·上海",
+      "business": "AI 视频生成企业，旗下 PixVerse 支持文生视频/图生视频并向实时交互演进。",
+      "team": "创始团队具计算机视觉与生成式 AI 研发背景（不披露具体人名）。",
+      "investors": "鼎晖香港基金、鼎晖 VGC、鼎晖百孚（联合领投）等",
+      "advantage": "刷新亚洲 AI 视频生成领域最大单次融资纪录，海外用户与商业化进展靠前，开启实时交互视频生成新阶段。",
       "sources": [
-        {"label": "新浪财经", "url": "https://finance.sina.com.cn/jjxw/2026-04-12/doc-inhuetnq0886266.shtml"},
-        {"label": "极新月报（知乎）", "url": "https://zhuanlan.zhihu.com/p/2001758790966595845"}
+        {
+          "label": "量子位",
+          "url": "https://www.qbitai.com/2026/03/386664.html"
+        },
+        {
+          "label": "南方都市报",
+          "url": "https://m.mp.oeeee.com/a/BAAFRD0000202603121537839.html"
+        }
       ]
     },
     {
-      "name": "OpenAI",
-      "name_en": "OpenAI",
+      "name": "Sierra",
+      "name_en": "Sierra",
       "region": "美国",
-      "industry": "基础大模型",
-      "stage": "战略投资",
-      "amount_usd_m": 122000,
-      "amount_display": "1220 亿美元",
-      "valuation": "投后 8520 亿美元",
-      "date": "2026-03-31",
-      "location": "美国·旧金山",
-      "business": "ChatGPT 及 GPT 系列基础大模型，覆盖消费与企业市场，筹备 IPO。",
-      "team": "未披露",
-      "investors": "亚马逊（500 亿美元）、英伟达与软银（各 300 亿美元）、a16z、D.E. Shaw、MGX、TPG、T. Rowe Price、Sequoia、BlackRock、Blackstone、Fidelity 等，并首次向个人投资者开放约 30 亿美元",
-      "advantage": "史上最大规模私募融资。月营收约 20 亿美元、周活超 9 亿，企业业务占比超 40%，上市预期强。",
+      "industry": "智能体与企业应用",
+      "stage": "D轮及以后",
+      "amount_usd_m": 950,
+      "amount_display": "9.5亿美元",
+      "valuation": "超150亿美元",
+      "date": "2026-05-04",
+      "location": "美国·旧金山湾区",
+      "business": "面向企业的对话式 AI 智能体平台，帮助企业部署客服与业务自动化 agent。",
+      "team": "由前 Salesforce 高管联合创立（公开披露）。",
+      "investors": "Tiger Global、GV（联合领投）等",
+      "advantage": "在企业级 AI 竞赛中以近 10 亿美元巨额融资将估值推高至 150 亿美元以上，企业客户与营收增长强劲。",
       "sources": [
-        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round"},
-        {"label": "CNBC", "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"},
-        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/"}
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "Cognition",
+      "name_en": "Cognition AI",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "D轮及以后",
+      "amount_usd_m": 1000,
+      "amount_display": "超10亿美元 D 轮",
+      "valuation": "未披露",
+      "date": "2026-05",
+      "location": "美国",
+      "business": "AI 软件工程智能体 Devin 的开发商，面向自动化编程与软件开发。",
+      "team": "创始团队具竞赛编程与 AI 研究背景（不披露具体人名）。",
+      "investors": "Lux Capital、General Catalyst、8VC（联合领投），Founders Fund、Ribbit、Atreides 等",
+      "advantage": "AI 编程赛道头部玩家之一，D 轮超 10 亿美元彰显市场对自动化软件工程 agent 的强烈预期。",
+      "sources": [
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        },
+        {
+          "label": "AI Funding Tracker",
+          "url": "https://aifundingtracker.com/"
+        }
       ]
     },
     {
@@ -256,19 +307,25 @@ window.FUNDING_DATA = {
       "name_en": "Anthropic",
       "region": "美国",
       "industry": "基础大模型",
-      "stage": "D轮及以后",
-      "amount_usd_m": 65000,
-      "amount_display": "650 亿美元（Series H）",
-      "valuation": "投后 9650 亿美元",
+      "stage": "战略投资",
+      "amount_usd_m": 30000,
+      "amount_display": "约300亿美元（部分报道称达650亿美元，数字不一）",
+      "valuation": "约9000亿美元（报道不一）",
       "date": "2026-05",
       "location": "美国·旧金山",
-      "business": "Claude 系列基础大模型，主打安全与企业级 AI。",
-      "team": "未披露",
-      "investors": "Altimeter、Dragoneer、Greenoaks、Sequoia、Capital Group、Coatue、D1 Capital 等联合领投",
-      "advantage": "估值首次超越 OpenAI 上一轮私募估值，成为当时全球最具价值的私营 AI 公司。",
+      "business": "Claude 系列基础大模型与 AI 安全研究公司。",
+      "team": "由前 OpenAI 研究人员创立（公开披露，不列具体人名）。",
+      "investors": "Altimeter、Dragoneer、Greenoaks、Sequoia、Coatue、GIC、ICONIQ 等（按各报道）",
+      "advantage": "新一轮融资规模与估值均居全球前列，但不同来源金额（约300亿/650亿美元）与估值口径存在差异、未完全官方披露，此处取保守表述。",
       "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"},
-        {"label": "Crunchbase News（周榜）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"}
+        {
+          "label": "Crunchbase News",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"
+        },
+        {
+          "label": "证券时报网",
+          "url": "https://www.stcn.com/article/detail/3911868.html"
+        }
       ]
     },
     {
@@ -278,17 +335,23 @@ window.FUNDING_DATA = {
       "industry": "基础大模型",
       "stage": "种子/天使",
       "amount_usd_m": 500,
-      "amount_display": "5 亿美元（初始融资）",
+      "amount_display": "5亿美元（初始融资）",
       "valuation": "未披露",
-      "date": "2026-06",
+      "date": "2026-06-05",
       "location": "美国·纽约",
-      "business": "研发受人脑启发的人工智能模型（类脑 AI 方向）。",
-      "team": "未披露",
+      "business": "研发受人脑启发的新型 AI 模型的基础模型公司。",
+      "team": "创始团队具神经科学与机器学习背景（不披露具体人名）。",
       "investors": "Jeff Bezos、Lux Capital、Google Ventures 等",
-      "advantage": "初始轮即获 5 亿美元，吸引贝佐斯等顶级投资者，押注类脑路线的前沿研究。",
+      "advantage": "以 5 亿美元初始融资起步，由贝佐斯等明星资本背书，押注类脑 AI 这一前沿方向。",
       "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"},
-        {"label": "Crunchbase News（AI 板块）", "url": "https://news.crunchbase.com/sections/ai/"}
+        {
+          "label": "Crunchbase News（10大融资·6月5日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
       ]
     },
     {
@@ -298,157 +361,23 @@ window.FUNDING_DATA = {
       "industry": "AI开发工具/基础设施",
       "stage": "D轮及以后",
       "amount_usd_m": 500,
-      "amount_display": "5 亿美元",
-      "valuation": "投后 105 亿美元",
-      "date": "2026-06",
+      "amount_display": "5亿美元",
+      "valuation": "105亿美元",
+      "date": "2026-06-05",
       "location": "美国·旧金山",
-      "business": "面向开发者与 AI 应用构建者的开源后端平台（Postgres 数据库等）。",
-      "team": "未披露",
-      "investors": "GIC 领投",
-      "advantage": "开源生态深受 AI 应用开发者欢迎，成为 AI 时代后端基础设施的重要一环。",
+      "business": "面向开发者与 AI 应用构建者的开源后端平台（数据库、认证、存储等）。",
+      "team": "开源社区背景创始团队（不披露具体人名）。",
+      "investors": "GIC（领投）等",
+      "advantage": "AI 应用开发热潮下成为热门基础设施，估值升至 105 亿美元，开源生态与开发者规模优势突出。",
       "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"},
-        {"label": "Crunchbase News（AI 板块）", "url": "https://news.crunchbase.com/sections/ai/"}
-      ]
-    },
-    {
-      "name": "Cognition",
-      "name_en": "Cognition AI",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "战略投资",
-      "amount_usd_m": 1000,
-      "amount_display": "10 亿美元",
-      "valuation": "投后 260 亿美元",
-      "date": "2026-05",
-      "location": "美国",
-      "business": "AI 编程智能体 Devin 及相关 AI 编码工具。",
-      "team": "未披露",
-      "investors": "未官方披露完整名单",
-      "advantage": "AI 编码赛道热门标的，估值快速攀升。金额与估值以媒体报道口径为准。",
-      "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"},
-        {"label": "AI Funding Tracker", "url": "https://aifundingtracker.com/top-50-ai-startups/"}
-      ]
-    },
-    {
-      "name": "Modal Labs",
-      "name_en": "Modal Labs",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "C轮",
-      "amount_usd_m": 355,
-      "amount_display": "3.55 亿美元（Series C）",
-      "valuation": "未披露",
-      "date": "2026-04",
-      "location": "美国",
-      "business": "无服务器云计算与 GPU 算力平台，支持运行 AI 模型与测试 AI 生成代码。",
-      "team": "CEO Erik Bernhardsson",
-      "investors": "General Catalyst、Redpoint 领投",
-      "advantage": "ARR 据称从约 6000 万美元飙升至 3 亿美元，受益于企业级 AI 编码普及。",
-      "sources": [
-        {"label": "Intellizence", "url": "https://intellizence.com/insights/startup-funding/startup-funding-trends-may-2026-ai-infrastructure-and-robotics/"},
-        {"label": "AI Funding Tracker", "url": "https://aifundingtracker.com/ai-startup-funding-news-today/"}
-      ]
-    },
-    {
-      "name": "NinjaOne",
-      "name_en": "NinjaOne",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "C轮",
-      "amount_usd_m": 400,
-      "amount_display": "超 4 亿美元（Series C 扩展轮）",
-      "valuation": "投后 123 亿美元",
-      "date": "2026-06",
-      "location": "美国",
-      "business": "IT 运维与终端管理平台，融合 AI 自动化能力。",
-      "team": "未披露",
-      "investors": "未官方披露完整名单",
-      "advantage": "在 AI 加持的 IT 运维与终端管理赛道领跑，估值显著提升。",
-      "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-biotech-healthcare-ninjaone-leads/"},
-        {"label": "AI Funding Tracker", "url": "https://aifundingtracker.com/ai-startup-funding-news-today/"}
-      ]
-    },
-    {
-      "name": "Eridu",
-      "name_en": "Eridu",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "A轮",
-      "amount_usd_m": 200,
-      "amount_display": "超 2 亿美元（Series A）",
-      "valuation": "未披露",
-      "date": "2026-04",
-      "location": "美国",
-      "business": "AI 网络基础设施，聚焦数据中心内部及之间的互连层。",
-      "team": "未披露",
-      "investors": "Socratic Partners、John Doerr、Hudson River Trading、Capricorn Investment Group、Matter Venture Partners",
-      "advantage": "以超 2 亿美元 Series A 走出隐身期，切入 AI 数据中心互连这一高需求基础设施环节。",
-      "sources": [
-        {"label": "Crescendo AI", "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"},
-        {"label": "AI Funding Tracker", "url": "https://aifundingtracker.com/ai-startup-funding-news-today/"}
-      ]
-    },
-    {
-      "name": "AlphaSense",
-      "name_en": "AlphaSense",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "战略投资",
-      "amount_usd_m": 350,
-      "amount_display": "3.5 亿美元",
-      "valuation": "投后 75 亿美元",
-      "date": "2026-06",
-      "location": "美国·纽约",
-      "business": "AI 市场情报与工作流编排平台，面向金融与企业研究场景。",
-      "team": "未披露",
-      "investors": "Vitruvian Partners、Accenture Ventures、J.P. Morgan Asset Management、D.E. Shaw Ventures、Pinegrove Opportunity Partners",
-      "advantage": "企业级 AI 市场情报头部平台，机构投资者阵容强，估值稳步提升。",
-      "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"},
-        {"label": "Crunchbase News（AI 板块）", "url": "https://news.crunchbase.com/sections/ai/"}
-      ]
-    },
-    {
-      "name": "Genspark",
-      "name_en": "Genspark (MainFunc)",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "B轮",
-      "amount_usd_m": 100,
-      "amount_display": "约 1 亿美元（Series B 扩展轮，报道口径）",
-      "valuation": "未披露",
-      "date": "2026-06",
-      "location": "美国",
-      "business": "面向职场的智能体（agentic AI）工具开发商。",
-      "team": "未披露",
-      "investors": "未官方披露完整名单",
-      "advantage": "切入企业职场智能体场景，扩展轮融资支撑产品迭代。金额为媒体报道口径，未官方披露。",
-      "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"},
-        {"label": "AI Funding Tracker（Agent 榜）", "url": "https://aifundingtracker.com/top-ai-agent-startups/"}
-      ]
-    },
-    {
-      "name": "Mercury",
-      "name_en": "Mercury",
-      "region": "美国",
-      "industry": "AI金融/保险",
-      "stage": "D轮及以后",
-      "amount_usd_m": 200,
-      "amount_display": "2 亿美元（Series D）",
-      "valuation": "投后 52 亿美元",
-      "date": "2026-04",
-      "location": "美国",
-      "business": "面向初创企业的数字银行与财务平台，融合 AI 财务自动化。",
-      "team": "未披露",
-      "investors": "TCV 领投",
-      "advantage": "初创企业金融服务领先平台，AI 驱动的财务工作流提升运营效率。",
-      "sources": [
-        {"label": "Intellizence", "url": "https://intellizence.com/insights/startup-funding/startup-funding-trends-may-2026-ai-infrastructure-and-robotics/"},
-        {"label": "Crescendo AI", "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"}
+        {
+          "label": "Crunchbase News（10大融资·6月5日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
       ]
     },
     {
@@ -458,17 +387,23 @@ window.FUNDING_DATA = {
       "industry": "AI内容生成",
       "stage": "D轮及以后",
       "amount_usd_m": 400,
-      "amount_display": "4 亿美元（Series D）",
-      "valuation": "投后 54 亿美元",
-      "date": "2026-06",
+      "amount_display": "4亿美元 D 轮",
+      "valuation": "54亿美元",
+      "date": "2026-06-05",
       "location": "美国",
-      "business": "AI 音乐生成工具。",
-      "team": "未披露",
-      "investors": "Bond 领投",
-      "advantage": "AI 音乐生成头部公司，估值快速增长；同时面临多家唱片公司就版权训练数据提起的诉讼，存在法律风险。",
+      "business": "AI 音乐生成工具提供商，支持文本生成音乐。",
+      "team": "创始团队具音频与机器学习背景（不披露具体人名）。",
+      "investors": "Bond（领投）等",
+      "advantage": "AI 音乐生成头部产品，D 轮将估值推至 54 亿美元；同时面临多家唱片公司就版权训练数据提起的诉讼。",
       "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"},
-        {"label": "Crunchbase News（AI 板块）", "url": "https://news.crunchbase.com/sections/ai/"}
+        {
+          "label": "Crunchbase News（10大融资·6月5日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
       ]
     },
     {
@@ -478,158 +413,257 @@ window.FUNDING_DATA = {
       "industry": "机器人/具身智能",
       "stage": "战略投资",
       "amount_usd_m": 400,
-      "amount_display": "4 亿美元",
-      "valuation": "约 20 亿美元（报道口径）",
-      "date": "2026-06",
+      "amount_display": "4亿美元",
+      "valuation": "约20亿美元",
+      "date": "2026-06-05",
       "location": "美国·圣马特奥",
       "business": "用 AI 让机器人完成复杂任务的具身智能公司。",
-      "team": "未披露",
-      "investors": "Radical Ventures 领投",
-      "advantage": "成立约两年即获 4 亿美元融资，押注通用机器人智能。估值为报道口径。",
+      "team": "创始团队具机器人学习与 AI 研究背景（不披露具体人名）。",
+      "investors": "Radical Ventures（领投）等",
+      "advantage": "成立约两年即获 4 亿美元、约 20 亿美元估值，聚焦通用机器人操作能力。",
       "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"},
-        {"label": "Crunchbase News（机器人板块）", "url": "https://news.crunchbase.com/sections/robotics/"}
+        {
+          "label": "Crunchbase News（10大融资·6月5日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
       ]
     },
     {
-      "name": "Standard Bots",
-      "name_en": "Standard Bots",
-      "region": "美国",
-      "industry": "机器人/具身智能",
-      "stage": "C轮",
-      "amount_usd_m": 200,
-      "amount_display": "2 亿美元（Series C）",
-      "valuation": "投后 10 亿美元",
-      "date": "2026-06",
-      "location": "美国",
-      "business": "AI 原生工业机器人制造商。",
-      "team": "未披露",
-      "investors": "未官方披露完整名单",
-      "advantage": "AI 原生工业机器人，Series C 即跨入独角兽行列。",
-      "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"},
-        {"label": "AI Funding Tracker", "url": "https://aifundingtracker.com/top-50-ai-startups/"}
-      ]
-    },
-    {
-      "name": "Isomorphic Labs",
-      "name_en": "Isomorphic Labs",
-      "region": "欧洲",
-      "industry": "AI医疗健康",
-      "stage": "B轮",
-      "amount_usd_m": 2100,
-      "amount_display": "21 亿美元（Series B）",
-      "valuation": "未披露",
-      "date": "2026-05",
-      "location": "英国·伦敦",
-      "business": "AI 驱动的药物研发公司，源自 Google DeepMind。",
-      "team": "源自 Google DeepMind（CEO Demis Hassabis 公开任职）",
-      "investors": "未官方披露完整名单",
-      "advantage": "依托 AlphaFold 等技术积累，AI 制药领域标杆，单轮融资规模在 AI 医疗中居前。",
-      "sources": [
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"},
-        {"label": "AI Funding Tracker", "url": "https://aifundingtracker.com/top-50-ai-startups/"}
-      ]
-    },
-    {
-      "name": "Mistral AI",
-      "name_en": "Mistral AI",
-      "region": "欧洲",
-      "industry": "基础大模型",
-      "stage": "战略投资",
-      "amount_usd_m": 3500,
-      "amount_display": "约 30 亿欧元（约 35 亿美元，洽谈中，未正式官宣）",
-      "valuation": "约 200 亿欧元（约 230 亿美元，洽谈中）",
-      "date": "2026-06",
-      "location": "法国·巴黎",
-      "business": "欧洲主权 AI 代表，开源与商用基础大模型，扩建巴黎附近数据中心。",
-      "team": "未披露",
-      "investors": "未官方披露",
-      "advantage": "欧洲主权 AI 领头羊，估值较上一轮近乎翻倍。注意：本轮为媒体报道的洽谈中融资，尚未正式官宣，金额/估值取保守表述。",
-      "sources": [
-        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/"},
-        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-12/france-s-mistral-in-funding-talks-at-about-20-billion-valuation"}
-      ]
-    },
-    {
-      "name": "xAI",
-      "name_en": "xAI",
-      "region": "美国",
-      "industry": "基础大模型",
-      "stage": "D轮及以后",
-      "amount_usd_m": 20000,
-      "amount_display": "200 亿美元（Series E）",
-      "valuation": "投后约 2300 亿美元",
-      "date": "2026-01-06",
-      "location": "美国",
-      "business": "Grok 系列基础大模型，与 X 平台深度整合。",
-      "team": "未披露",
-      "investors": "Valor Equity Partners、Stepstone Group、Fidelity、卡塔尔投资局、MGX、Baron Capital 等",
-      "advantage": "原定 150 亿美元的 Series E 超额扩募至 200 亿美元，跻身全球估值最高的私营 AI 公司之一。",
-      "sources": [
-        {"label": "Intellizence（Q1 2026）", "url": "https://intellizence.com/insights/startup-funding/top-startup-funding-deals-of-q1-2026-record-297-billion-raised-with-ai-dominating/"},
-        {"label": "TechCrunch（17 家美国 AI 公司）", "url": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/"}
-      ]
-    },
-    {
-      "name": "ElevenLabs",
-      "name_en": "ElevenLabs",
-      "region": "美国",
-      "industry": "AI内容生成",
-      "stage": "D轮及以后",
-      "amount_usd_m": 500,
-      "amount_display": "5 亿美元（Series D）",
-      "valuation": "投后 110 亿美元",
-      "date": "2026-02-04",
-      "location": "美国/英国",
-      "business": "AI 语音合成与音频生成平台，面向企业与开发者。",
-      "team": "未披露",
-      "investors": "Sequoia 领投，a16z、ICONIQ、Lightspeed、Evantic Capital、BOND 等参与",
-      "advantage": "估值一年内增长逾三倍，2025 年底 ARR 超 3.3 亿美元，企业客户包括德国电信、Square、Revolut 等。",
-      "sources": [
-        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/"},
-        {"label": "ElevenLabs 官方博客", "url": "https://elevenlabs.io/blog/series-d"}
-      ]
-    },
-    {
-      "name": "Chai Discovery",
-      "name_en": "Chai Discovery",
-      "region": "美国",
-      "industry": "AI医疗健康",
-      "stage": "B轮",
-      "amount_usd_m": 130,
-      "amount_display": "1.3 亿美元（Series B）",
-      "valuation": "投后 13 亿美元",
-      "date": "2025-12-15",
-      "location": "美国·旧金山",
-      "business": "AI 驱动的分子与抗体设计平台，打造‘分子计算机辅助设计套件’。",
-      "team": "未披露",
-      "investors": "Oak HC/FT、General Catalyst 领投，Thrive Capital、OpenAI、Menlo Ventures、Emerson Collective、Glade Brook 等参与",
-      "advantage": "距 8 月 7000 万美元 A 轮不到半年即完成 B 轮，OpenAI 背书；模型可设计针对‘难成药’靶点的分子。",
-      "sources": [
-        {"label": "TechCrunch", "url": "https://techcrunch.com/2025/12/15/openai-backed-biotech-firm-chai-discovery-raises-130m-series-b-at-1-3b-valuation/"},
-        {"label": "FierceBiotech", "url": "https://www.fiercebiotech.com/biotech/chai-infuses-ai-drug-discovery-efforts-130m-series-b"},
-        {"label": "Business Wire", "url": "https://www.businesswire.com/news/home/20251214931432/en/"}
-      ]
-    },
-    {
-      "name": "Corgi Insurance",
-      "name_en": "Corgi",
+      "name": "AlphaSense",
+      "name_en": "AlphaSense",
       "region": "美国",
       "industry": "AI金融/保险",
-      "stage": "战略投资",
-      "amount_usd_m": 108,
-      "amount_display": "约 1.08 亿美元",
-      "valuation": "未披露",
-      "date": "2026-01",
+      "stage": "D轮及以后",
+      "amount_usd_m": 350,
+      "amount_display": "3.5亿美元",
+      "valuation": "75亿美元",
+      "date": "2026-06-05",
       "location": "美国·纽约",
-      "business": "AI 原生全栈保险承保平台，专注为初创公司提供保险。",
-      "team": "未披露",
-      "investors": "未官方披露完整名单",
-      "advantage": "作为 AI 原生全栈保险公司，1 月以超 1 亿美元融资成为当月美国保险科技大额交易之一。金额为媒体报道口径。",
+      "business": "面向投研与金融专业人士的 AI 市场情报与工作流编排平台。",
+      "team": "企业级 AI 与金融数据背景团队（不披露具体人名）。",
+      "investors": "Vitruvian Partners（领投）、Accenture Ventures、摩根大通资管、D.E. Shaw Ventures 等",
+      "advantage": "以 AI 重塑市场情报与投研工作流，估值升至 75 亿美元，金融机构客户基础深厚。",
       "sources": [
-        {"label": "FinTech Global", "url": "https://fintech.global/2026/01/30/insurtech-funding-reaches-420m-in-january-as-us-firms-secure-mega-deals/"},
-        {"label": "Crescendo AI", "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"}
+        {
+          "label": "Crunchbase News（10大融资·6月5日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "Odyssey",
+      "name_en": "Odyssey",
+      "region": "美国",
+      "industry": "基础大模型",
+      "stage": "B轮",
+      "amount_usd_m": 310,
+      "amount_display": "3.1亿美元 B 轮",
+      "valuation": "14.5亿美元",
+      "date": "2026-06-18",
+      "location": "美国·门洛帕克",
+      "business": "AI 世界模型开发商，生成真实世界环境的多模态仿真。",
+      "team": "创始团队具世界模型与图形/仿真研究背景（不披露具体人名）。",
+      "investors": "Natural Capital（领投），Amazon、AMD Ventures、EQT、Google Ventures、IQT、SignalRank",
+      "advantage": "当周全球最大融资，以 14.5 亿美元估值领跑世界模型赛道，获亚马逊、AMD、谷歌等产业资本背书。",
+      "sources": [
+        {
+          "label": "Crunchbase News（10大融资·6月18日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "Hydra Host",
+      "name_en": "Hydra Host",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "A轮",
+      "amount_usd_m": 100,
+      "amount_display": "1亿美元 A 轮",
+      "valuation": "未披露",
+      "date": "2026-06-18",
+      "location": "美国·博尔德",
+      "business": "裸金属 GPU 平台，连接客户与分布式 AI 算力基础设施。",
+      "team": "基础设施与云计算背景团队（不披露具体人名）。",
+      "investors": "Kindred Ventures（领投），Founders Fund、Nvidia、ARK、Comcast Ventures 等",
+      "advantage": "罕见的 1 亿美元 A 轮，获英伟达等背书，卡位 AI 算力分发这一高景气基础设施环节。",
+      "sources": [
+        {
+          "label": "Crunchbase News（10大融资·6月18日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "Ent.AI",
+      "name_en": "Ent.AI",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "种子/天使",
+      "amount_usd_m": 100,
+      "amount_display": "1亿美元种子轮",
+      "valuation": "未披露",
+      "date": "2026-06-18",
+      "location": "美国·圣克拉拉",
+      "business": "AI 驱动的工作区安全平台，实时分析用户与 AI 智能体行为以预防威胁。",
+      "team": "由前 RiskIQ 高管与微软 Security Copilot 团队成员创立（公开披露）。",
+      "investors": "Decibel Partners（领投），Craft Ventures、Sequoia、IQT、Felicis 等",
+      "advantage": "出道即获 1 亿美元种子轮，面向 AI 时代的智能体安全这一新兴刚需，创始团队安全背景深厚。",
+      "sources": [
+        {
+          "label": "Crunchbase News（10大融资·6月18日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "Twenty Technologies",
+      "name_en": "Twenty Technologies",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "B轮",
+      "amount_usd_m": 100,
+      "amount_display": "1亿美元 B 轮",
+      "valuation": "10亿美元",
+      "date": "2026-06-18",
+      "location": "美国·阿灵顿",
+      "business": "为美国军方与情报机构开发 AI 驱动的网络作战系统，自动化并加速攻防操作。",
+      "team": "由前网络作战人员与国防技术专家创立（公开披露）。",
+      "investors": "Accel（领投），Caffeinated Capital、Friends & Family Capital、Point72 Ventures",
+      "advantage": "以 10 亿美元估值跻身独角兽，受益于国防科技 AI 化与创纪录的国安领域风投浪潮。",
+      "sources": [
+        {
+          "label": "Crunchbase News（10大融资·6月18日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "Radical Numerics",
+      "name_en": "Radical Numerics",
+      "region": "美国",
+      "industry": "AI医疗健康",
+      "stage": "种子/天使",
+      "amount_usd_m": 50,
+      "amount_display": "5000万美元种子轮",
+      "valuation": "未披露",
+      "date": "2026-06-18",
+      "location": "美国·门洛帕克",
+      "business": "开发用于模拟与预测生物系统的 AI 模型，加速药物发现与精准医疗。",
+      "team": "AI 与计算生物学背景团队（不披露具体人名）。",
+      "investors": "Emergence Capital（领投），First Spark Ventures、Obvious Ventures、Factory 等",
+      "advantage": "以 AI for science 切入药物发现，出道即获 5000 万美元种子轮，瞄准生物系统建模这一高壁垒方向。",
+      "sources": [
+        {
+          "label": "Crunchbase News（10大融资·6月18日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "Bland AI",
+      "name_en": "Bland AI",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "C轮",
+      "amount_usd_m": 50,
+      "amount_display": "5000万美元 C 轮",
+      "valuation": "未披露",
+      "date": "2026-06-18",
+      "location": "美国·旧金山",
+      "business": "AI 语音智能体平台，为企业自动化呼入/呼出电话沟通。",
+      "team": "语音 AI 与企业自动化背景团队（不披露具体人名）。",
+      "investors": "Dell Technologies Capital（领投），Y Combinator、Scale Venture Partners 等",
+      "advantage": "企业以 AI 语音 agent 替代传统呼叫中心的趋势下快速增长，获戴尔资本等领投。",
+      "sources": [
+        {
+          "label": "Crunchbase News（10大融资·6月18日）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "CopilotKit",
+      "name_en": "CopilotKit",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "A轮",
+      "amount_usd_m": 27,
+      "amount_display": "2700万美元 A 轮",
+      "valuation": "未披露",
+      "date": "2026-05-05",
+      "location": "美国·西雅图",
+      "business": "帮助开发者在应用内部署原生 AI 智能体的开发框架。",
+      "team": "开发者工具背景团队（不披露具体人名）。",
+      "investors": "Glilot Capital、NFX、SignalFire（联合领投）",
+      "advantage": "切入『应用原生 AI agent』开发框架这一新兴环节，面向开发者快速增长。",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "Status AI",
+      "name_en": "Status AI",
+      "region": "美国",
+      "industry": "AI内容生成",
+      "stage": "种子/天使",
+      "amount_usd_m": 17,
+      "amount_display": "1700万美元（种子+A 轮合计）",
+      "valuation": "未披露",
+      "date": "2026-05-19",
+      "location": "美国",
+      "business": "用 AI 把社交媒体变为可交互娱乐体验的游戏化社交平台。",
+      "team": "消费社交与 AI 背景团队（不披露具体人名）。",
+      "investors": "Abstract、General Catalyst、Union Square Ventures、Y Combinator、LightShed Partners",
+      "advantage": "以游戏化、可交互形态重构社交媒体，获 USV、General Catalyst 等知名机构早期押注。",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/19/gamified-social-media-network-status-announces-17m-funding-to-help-usher-in-new-era-of-social-networking/"
+        },
+        {
+          "label": "Crescendo AI（融资汇总）",
+          "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
       ]
     }
   ]
