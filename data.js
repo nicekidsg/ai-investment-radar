@@ -1,8 +1,8 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-20T04:10:57+00:00",
-  "window": "2026 年 3 月 – 6 月（近一季度）",
+  "updated_at": "2026-06-22T12:09:36+08:00",
+  "window": "2026 年 3 月 – 6 月（近一季度；含个别 2 月底旗舰轮次）",
   "companies": [
     {
       "name": "深度求索 DeepSeek",
@@ -773,6 +773,66 @@ window.FUNDING_DATA = {
         {
           "label": "Crescendo AI（融资汇总）",
           "url": "https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups"
+        }
+      ]
+    },
+    {
+      "name": "曦望 Sunrise",
+      "name_en": "Sunrise (Xiwang)",
+      "region": "中国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "战略投资",
+      "amount_usd_m": 140,
+      "amount_display": "超10亿元人民币（约1.4亿美元）新一轮（一年累计近30亿元）",
+      "valuation": "突破100亿元人民币（约14亿美元）",
+      "date": "2026-04-20",
+      "location": "中国·上海",
+      "business": "国产 AI 推理 GPU 芯片公司，由商汤芯片部门独立而来，主攻面向 AI Agent 与具身智能推理场景的 GPU，推进第三代 S3 推理芯片量产交付。",
+      "team": "由商汤芯片团队拆分独立，联合 CEO 具备百度、AMD 等芯片与互联网研发背景（公开披露，不杜撰具体人名）。",
+      "investors": "三一、第四范式等产业方及多家财务投资机构（报道口径不一）",
+      "advantage": "号称中国首家纯推理 GPU 独角兽，一年内累计融资近 30 亿元、投后估值破百亿元；S3 主打 LPDDR6 内存与 Agent 推理优化，目标大幅降低 token 成本。金额按报道口径，部分轮次未完全官方披露。",
+      "sources": [
+        {
+          "label": "财新",
+          "url": "https://m.caixin.com/m/2026-04-20/102436108.html"
+        },
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-04-28/doc-inhvzfsn8529994.shtml"
+        },
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2074718"
+        }
+      ]
+    },
+    {
+      "name": "智平方 AI² Robotics",
+      "name_en": "AI² Robotics (Zhiping Square)",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 140,
+      "amount_display": "超10亿元人民币（约1.4亿美元）B 轮系列",
+      "valuation": "突破100亿元人民币（约14亿美元）",
+      "date": "2026-02-23",
+      "location": "中国·深圳",
+      "business": "通用具身智能机器人公司，研发 GOVLA 具身大模型（机器人大脑）与 AlphaBot（爱宝）系列生产力型通用机器人。",
+      "team": "成立于 2023 年，创始团队具斯坦福及计算机视觉研究背景（公开披露，不杜撰具体人名）。",
+      "investors": "百度、中车资本、沄柏资本、国泰海通等联合投资，老股东持续加注",
+      "advantage": "一年内累计完成约 12 轮融资，被称为全球融资节奏最快的具身智能企业之一；B 轮系列后估值突破百亿元，形成『资本+产业』双轮驱动。本轮系上半年旗舰交易（2 月底），略早于近一季度窗口但具代表性，金额为报道口径。",
+      "sources": [
+        {
+          "label": "量子位",
+          "url": "https://www.qbitai.com/2026/02/382004.html"
+        },
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/digi/2026-02-23/doc-inhnuxfe2695591.shtml"
+        },
+        {
+          "label": "观察者网",
+          "url": "https://www.guancha.cn/economy/2026_02_24_807853.shtml"
         }
       ]
     }
