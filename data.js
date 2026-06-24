@@ -1,8 +1,8 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-23T12:09:00+08:00",
-  "window": "2026 年 3 月 – 6 月（近一季度；含个别 5 月旗舰轮次）",
+  "updated_at": "2026-06-24T13:55:08+08:00",
+  "window": "2026 年 3 月 – 6 月（近一季度；含个别更早旗舰轮次）",
   "companies": [
     {
       "name": "Anthropic",
@@ -582,6 +582,168 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "Crunchbase News：本周十大融资", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"},
         {"label": "Crunchbase 机构页", "url": "https://www.crunchbase.com/organization/helion-energy"}
+      ]
+    },
+    {
+      "name": "深度求索 DeepSeek",
+      "name_en": "DeepSeek",
+      "region": "中国",
+      "industry": "基础大模型",
+      "stage": "A轮",
+      "amount_usd_m": 7400,
+      "amount_display": "约 510 亿元人民币（约 70–74 亿美元，首轮外部融资；报道不一）",
+      "valuation": "约 4000 亿元人民币（约 560–590 亿美元；报道不一、未官方披露）",
+      "date": "2026-06-15",
+      "location": "中国杭州",
+      "business": "开源大模型（DeepSeek 系列），以高性价比训练与推理著称，V4.1 等版本相继发布。",
+      "team": "由量化机构幻方背景的创始人创办（公开履历，未编造人名）。",
+      "investors": "据报道创始人个人大额出资，腾讯、宁德时代等产业资本参投（结构特殊，海外报道称投资标的为创始人控制的实体、设锁定期且无投票权）",
+      "advantage": "成立以来首次接受外部融资，打破此前“不融资、不上市、不商业化”立场；融资规模与估值居国内前列。金额/估值/交易结构各方报道差异较大，以官方披露为准。",
+      "sources": [
+        {"label": "Crunchbase News（引 The Information）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"},
+        {"label": "IT之家", "url": "https://www.ithome.com/0/965/686.htm"},
+        {"label": "证券时报", "url": "https://www.stcn.com/article/detail/3942310.html"}
+      ]
+    },
+    {
+      "name": "面壁智能 ModelBest",
+      "name_en": "ModelBest",
+      "region": "中国",
+      "industry": "基础大模型",
+      "stage": "战略投资",
+      "amount_usd_m": 140,
+      "amount_display": "数亿元人民币（2026 年内累计融资超 10 亿元，约 1.4 亿美元）",
+      "valuation": "迈入独角兽门槛（具体数额未披露）",
+      "date": "2026-04-07",
+      "location": "中国北京",
+      "business": "端侧高效基座大模型（MiniCPM 系列），主打“高密度”小模型与端侧部署，落地泛司法、汽车、教育等场景。",
+      "team": "源自清华系团队（公开背景，未编造人名）。",
+      "investors": "深创投、汇川产投联合领投，道禾长期投资、国泰海通创新投、武岳峰科创等跟投；春节后首轮由中国电信领投",
+      "advantage": "端侧/高效模型差异化路线，获国家队与产业资本同时下注，正式跻身基座大模型独角兽行列。金额为“数亿元/累计超 10 亿元”口径，未单轮统一披露。",
+      "sources": [
+        {"label": "财联社", "url": "https://www.cls.cn/detail/2338712"},
+        {"label": "InfoQ", "url": "https://www.infoq.cn/news/dOQ5rL2j5Fw1JV2OW8ji"},
+        {"label": "新京报", "url": "https://m.bjnews.com.cn/detail/1775524542129007.html"}
+      ]
+    },
+    {
+      "name": "星海图 Galaxea AI",
+      "name_en": "Galaxea AI",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 280,
+      "amount_display": "再融约 20 亿元人民币（约 2.8 亿美元）",
+      "valuation": "突破 200 亿元人民币（报道不一）",
+      "date": "2026-04-20",
+      "location": "中国北京",
+      "business": "具身智能本体与“大脑”模型一体化研发，面向通用操作与场景落地。",
+      "team": "团队背景见公司披露（未编造人名）。",
+      "investors": "多家头部机构参投（具体以官方为准）",
+      "advantage": "B 轮融资后估值短期接近翻倍、突破 200 亿元，将具身智能头部估值门槛进一步抬高；累计完成近 10 轮、融资总额达 30 亿元级。估值口径报道不一。",
+      "sources": [
+        {"label": "量子位", "url": "https://www.qbitai.com/2026/04/394626.html"},
+        {"label": "搜狐（综合报道）", "url": "https://m.sohu.com/a/991699247_114984"}
+      ]
+    },
+    {
+      "name": "千寻智能 Spirit AI",
+      "name_en": "Spirit AI (Qianxun)",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 280,
+      "amount_display": "连续两轮近 20 亿元人民币（约 2.8 亿美元）",
+      "valuation": "突破 100 亿元人民币（报道不一）",
+      "date": "2026-02-24",
+      "location": "中国",
+      "business": "具身智能机器人本体与操作模型研发。",
+      "team": "团队背景见公司披露（未编造人名）。",
+      "investors": "云锋基金、混沌投资（葛卫东）、红杉中国及某头部国资机构等",
+      "advantage": "开年连续两轮近 20 亿元融资，估值破百亿，跻身具身智能“百亿俱乐部”。注：本轮为 2 月，略早于近一季度窗口，列为参考。",
+      "sources": [
+        {"label": "量子位", "url": "https://www.qbitai.com/2026/02/381766.html"},
+        {"label": "国家科技传播中心", "url": "https://www.ncsti.gov.cn/kjdt/scyq/zgckxc/zgcdt/202602/t20260226_239037.html"}
+      ]
+    },
+    {
+      "name": "影眸科技 Hyper3D",
+      "name_en": "Hyper3D (Influ Tech)",
+      "region": "中国",
+      "industry": "AI内容生成",
+      "stage": "战略投资",
+      "amount_usd_m": 70,
+      "amount_display": "数亿元人民币（约 0.7 亿美元）",
+      "valuation": "未披露",
+      "date": "2026-06-24",
+      "location": "中国上海",
+      "business": "AI 3D 生成（Hyper3D / Rodin），推动 3D 生成进入“思考时代”，面向游戏、影视、设计等。",
+      "team": "团队背景见公司披露（未编造人名）。",
+      "investors": "多家机构参投（具体以官方为准）",
+      "advantage": "AI 3D 内容生成方向稀缺标的，最新一轮数亿元用于模型与产品迭代。金额为“数亿元”口径，未精确披露。",
+      "sources": [
+        {"label": "新浪科技（36氪首发）", "url": "https://finance.sina.com.cn/tech/roll/2026-06-24/doc-inienawa1625626.shtml"},
+        {"label": "36氪", "url": "https://36kr.com/"}
+      ]
+    },
+    {
+      "name": "OpenRouter",
+      "name_en": "OpenRouter",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "B轮",
+      "amount_usd_m": 113,
+      "amount_display": "1.13 亿美元（Series B）",
+      "valuation": "未披露",
+      "date": "2026-06-10",
+      "location": "美国",
+      "business": "面向开发者的多模型聚合市场/路由平台，统一调用多家大模型 API。",
+      "team": "团队背景见官方披露（未编造人名）。",
+      "investors": "多家机构参投（具体以官方为准）",
+      "advantage": "为开发者提供统一的多模型接入与路由，受益于模型多样化与切换需求，开发者侧分发入口价值凸显。",
+      "sources": [
+        {"label": "Crunchbase News：本周十大融资（NinjaOne 领投周）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-biotech-healthcare-ninjaone-leads/"},
+        {"label": "Crunchbase 机构页", "url": "https://www.crunchbase.com/organization/openrouter"}
+      ]
+    },
+    {
+      "name": "Hydra Host",
+      "name_en": "Hydra Host",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "A轮",
+      "amount_usd_m": 100,
+      "amount_display": "1 亿美元（Series A）",
+      "valuation": "未披露",
+      "date": "2026-06-17",
+      "location": "美国科罗拉多州 Boulder",
+      "business": "裸金属 GPU 平台，连接客户与分布式 AI 算力基础设施。",
+      "team": "团队背景见官方披露（未编造人名）。",
+      "investors": "Kindred Ventures 领投，10x Founders、ARK Investment Management、Comcast Ventures、Founders Fund、Nvidia 等参投",
+      "advantage": "在算力紧缺背景下提供分布式裸金属 GPU 供给，A 轮即获英伟达等知名机构加持，累计融资近 1.19 亿美元。",
+      "sources": [
+        {"label": "Crunchbase News：本周十大融资（Odyssey 领投周）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"},
+        {"label": "Crunchbase 机构页", "url": "https://www.crunchbase.com/organization/hydra-host"}
+      ]
+    },
+    {
+      "name": "Bland AI",
+      "name_en": "Bland AI",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "C轮",
+      "amount_usd_m": 50,
+      "amount_display": "5000 万美元（Series C）",
+      "valuation": "未披露",
+      "date": "2026-06-17",
+      "location": "美国旧金山",
+      "business": "AI 语音智能体，自动化企业的呼入/呼出电话对话，替代传统呼叫中心工作流。",
+      "team": "团队背景见官方披露（未编造人名）。",
+      "investors": "Dell Technologies Capital 领投，Y Combinator、Scale Venture Partners、Max Levchin、Tribeca Venture Partners 等参投",
+      "advantage": "企业语音智能体采用度上升，自动化呼叫场景需求旺盛；累计融资约 1.06 亿美元。",
+      "sources": [
+        {"label": "Crunchbase News：本周十大融资（Odyssey 领投周）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"},
+        {"label": "Crunchbase 机构页", "url": "https://www.crunchbase.com/organization/bland-ai"}
       ]
     }
   ]
