@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-24T13:55:08+08:00",
+  "updated_at": "2026-06-25T00:09:50+08:00",
   "window": "2026 年 3 月 – 6 月（近一季度；含个别更早旗舰轮次）",
   "companies": [
     {
@@ -265,26 +265,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "OpenEvidence",
-      "name_en": "OpenEvidence",
-      "region": "美国",
-      "industry": "AI医疗健康",
-      "stage": "D轮及以后",
-      "amount_usd_m": 250,
-      "amount_display": "2.5 亿美元（Series D）",
-      "valuation": "约 120 亿美元",
-      "date": "2026-01-21",
-      "location": "美国佛州迈阿密",
-      "business": "面向医生的循证医学 AI 助手（“医生版 ChatGPT”），临床决策与文献检索。",
-      "team": "CEO Daniel Nadler（公开履历，未编造）。",
-      "investors": "Thrive Capital、DST 领投，GV、英伟达、Kleiner Perkins、Mayo Clinic 等参投",
-      "advantage": "据称约 40% 美国医生使用，年收入超 1 亿美元；一年内估值翻倍。注：本轮为 1 月，略早于近一季度窗口，列为参考旗舰轮。",
-      "sources": [
-        {"label": "CNBC", "url": "https://www.cnbc.com/2026/01/21/openevidence-chatgpt-for-doctors-doubles-valuation-to-12-billion.html"},
-        {"label": "Crunchbase News", "url": "https://news.crunchbase.com/venture/openevidence-ai-doctors-doubles-valuation-seriesd/"}
-      ]
-    },
-    {
       "name": "Corgi",
       "name_en": "Corgi",
       "region": "美国",
@@ -502,26 +482,6 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "新浪财经", "url": "https://finance.sina.cn/stock/jdts/2026-05-12/detail-inhxqknt1565346.d.html"},
         {"label": "华尔街见闻", "url": "https://wallstreetcn.com/articles/3751562"}
-      ]
-    },
-    {
-      "name": "智谱 Zhipu AI",
-      "name_en": "Zhipu AI",
-      "region": "中国",
-      "industry": "基础大模型",
-      "stage": "战略投资",
-      "amount_usd_m": 550,
-      "amount_display": "港股 IPO 募资约 43 亿港元（约 5.5 亿美元）",
-      "valuation": "IPO 前投后约 243.8 亿元人民币；上市首日市值约 579 亿港元",
-      "date": "2026-01-08",
-      "location": "中国北京",
-      "business": "GLM 系列大模型与 MaaS 平台，2025 年收入超 1 亿美元。",
-      "team": "源自清华团队（公开背景，未编造）。",
-      "investors": "美团、阿里、腾讯等产业资本及红杉、高瓴等（历史轮次）",
-      "advantage": "“全球大模型第一股”，港交所上市；募资约 70% 投入大模型研发。注：上市为 1 月，略早于近一季度窗口，列为参考旗舰事件。",
-      "sources": [
-        {"label": "证券时报", "url": "https://www.stcn.com/article/detail/3579827.html"},
-        {"label": "InfoQ", "url": "https://www.infoq.cn/article/AoGqcFOV2vfaoLHmIzaT"}
       ]
     },
     {
@@ -744,6 +704,106 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "Crunchbase News：本周十大融资（Odyssey 领投周）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"},
         {"label": "Crunchbase 机构页", "url": "https://www.crunchbase.com/organization/bland-ai"}
+      ]
+    },
+    {
+      "name": "Ent",
+      "name_en": "Ent",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "种子/天使",
+      "amount_usd_m": 100,
+      "amount_display": "1 亿美元（种子轮）",
+      "valuation": "未披露",
+      "date": "2026-06-16",
+      "location": "美国加州 Santa Clara",
+      "business": "面向 AI 时代的端侧/工作空间安全平台，用设备端 AI 实时识别并预防风险操作（intent-aware workspace security）。",
+      "team": "联合创始人此前共同创办 RiskIQ（2021 年被微软收购，公开履历，未编造）。",
+      "investors": "Decibel Partners 领投，Sequoia、Crosspoint、Craft Ventures、Felicis、In-Q-Tel 等参投",
+      "advantage": "网络安全史上最大种子轮之一，带隐身出场即已部署于多家 Global 2000 客户；以“预防优先”重塑端点/工作空间安全。",
+      "sources": [
+        {"label": "Crunchbase News：本周十大融资（Odyssey 领投周）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"},
+        {"label": "SecurityWeek", "url": "https://www.securityweek.com/endpoint-security-startup-ent-emerges-from-stealth-with-100-million-seed-round/"}
+      ]
+    },
+    {
+      "name": "Wonderful",
+      "name_en": "Wonderful",
+      "region": "以色列",
+      "industry": "智能体与企业应用",
+      "stage": "B轮",
+      "amount_usd_m": 150,
+      "amount_display": "1.5 亿美元（Series B）",
+      "valuation": "约 20 亿美元",
+      "date": "2026-03-12",
+      "location": "以色列",
+      "business": "企业级本地化 AI 客服智能体平台，已在 30 多个国家部署电信、金融、医疗、制造等行业的生产级智能体。",
+      "team": "团队背景见官方披露（未编造人名）。",
+      "investors": "Insight Partners 领投，Index Ventures、IVP、Bessemer、Vine Ventures 等参投",
+      "advantage": "A 轮后仅约四个月即完成 B 轮、估值升至 20 亿美元；多语言、跨行业的企业客服智能体需求强劲。注：本轮为 3 月中，处近一季度窗口边缘。",
+      "sources": [
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/"},
+        {"label": "Index Ventures", "url": "https://www.indexventures.com/perspectives/index-ventures-triples-down-as-wonderful-raises-150m-series-b-to-scale-its-hyper-local-enterprise-ai-platform/"}
+      ]
+    },
+    {
+      "name": "Mecka AI",
+      "name_en": "Mecka AI",
+      "region": "美国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 60,
+      "amount_display": "6000 万美元（2500 万 Series A + 3500 万跟投）",
+      "valuation": "未披露",
+      "date": "2026-06-01",
+      "location": "美国纽约",
+      "business": "为具身智能构建训练数据集，通过体感传感器与 iPhone 采集人体动作数据训练机器人（physical AI 数据）。",
+      "team": "由联合创始人兼 CEO Josh Gao 等于 2025 年创办（公开披露，未编造）。",
+      "investors": "Framework Ventures 领投，Menlo Ventures、SV Angel、Kindred Ventures 等参投",
+      "advantage": "切入机器人“数据”底层环节，已签约合同对应约 1 亿美元年化收入预期，被投资方称为增长最快的标的之一。",
+      "sources": [
+        {"label": "Fortune", "url": "https://fortune.com/2026/06/01/mecka-ai-series-a-60-million-robotics-data-training/"},
+        {"label": "FinSMEs", "url": "https://www.finsmes.com/2026/06/mecka-ai-raises-60m-in-funding.html"}
+      ]
+    },
+    {
+      "name": "深朴智能 Simple AI",
+      "name_en": "Simple AI (Shenpu)",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 55,
+      "amount_display": "数亿元人民币（约 0.55 亿美元，半年内第三轮）",
+      "valuation": "未披露",
+      "date": "2026-06-18",
+      "location": "中国",
+      "business": "通用具身智能机器人研发与商业化落地。",
+      "team": "团队背景见公司披露（未编造人名）。",
+      "investors": "线性资本、普华资本领投，钧山资本、顺为资本、BV 百度风投等老股东追加",
+      "advantage": "半年内连续完成三轮数亿元融资，老股东持续加码，加速通用具身智能商业化落地。金额为“数亿元”口径，未精确披露。",
+      "sources": [
+        {"label": "36氪", "url": "https://36kr.com/p/3760467120276231"},
+        {"label": "爱合伙 AI 创业快讯", "url": "https://www.aihehuo.com/blog/8964-news-2026-06-04"}
+      ]
+    },
+    {
+      "name": "云天畅想 Cloudsky",
+      "name_en": "Cloudsky",
+      "region": "中国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "D轮及以后",
+      "amount_usd_m": 140,
+      "amount_display": "超 10 亿元人民币（约 1.4 亿美元，E 轮）",
+      "valuation": "未披露（累计融资超 30 亿元）",
+      "date": "2026-06-17",
+      "location": "中国",
+      "business": "全球边缘智算（GPU-centric 分布式智算网络）服务商，覆盖全球 300 多个城市，面向 AGI 时代升级“实时智算织网”战略。",
+      "team": "团队背景见公司披露（未编造人名）。",
+      "investors": "中国互联网投资基金领投，中金资本等联合投资",
+      "advantage": "2026 年至今边缘算力赛道单笔最大融资，分布式智算网络规模与全球覆盖突出，受益于 AI 推理算力下沉需求。",
+      "sources": [
+        {"label": "证券时报", "url": "https://www.stcn.com/article/detail/3965595.html"},
+        {"label": "投资界（pedaily）", "url": "https://news.pedaily.cn/202606/565278.shtml"}
       ]
     }
   ]
