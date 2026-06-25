@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-25T00:09:50+08:00",
+  "updated_at": "2026-06-25T12:30:21+08:00",
   "window": "2026 年 3 月 – 6 月（近一季度；含个别更早旗舰轮次）",
   "companies": [
     {
@@ -804,6 +804,26 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "证券时报", "url": "https://www.stcn.com/article/detail/3965595.html"},
         {"label": "投资界（pedaily）", "url": "https://news.pedaily.cn/202606/565278.shtml"}
+      ]
+    },
+    {
+      "name": "Radical Numerics",
+      "name_en": "Radical Numerics",
+      "region": "美国",
+      "industry": "AI医疗健康",
+      "stage": "种子/天使",
+      "amount_usd_m": 50,
+      "amount_display": "5000 万美元（种子轮）",
+      "valuation": "未披露",
+      "date": "2026-06-17",
+      "location": "美国加州 Menlo Park",
+      "business": "研发用于仿真与预测生物系统的 AI 模型，目标加速药物发现与精准医疗。",
+      "team": "团队背景见官方披露（未编造人名）。",
+      "investors": "Emergence Capital 领投，First Spark Ventures、Obvious Ventures、Factory、Triatomic Capital 等参投",
+      "advantage": "隐身出场即获 5000 万美元种子轮，押注“AI for biology”底层模型，切入药物发现与精准医疗的早期稀缺标的。",
+      "sources": [
+        {"label": "Crunchbase News：本周十大融资（Odyssey 领投周）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"},
+        {"label": "Crunchbase 机构页", "url": "https://www.crunchbase.com/organization/radical-numerics"}
       ]
     }
   ]
