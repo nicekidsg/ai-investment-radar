@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-28T14:08:02+08:00",
+  "updated_at": "2026-06-29T19:26:55+08:00",
   "window": "2026 年 4 月 – 6 月（近一季度；含个别更早旗舰轮次）",
   "companies": [
     {
@@ -342,6 +342,26 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "Crunchbase News（2026-06-26 十大融资）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"},
         {"label": "Crunchbase News Venture 板块", "url": "https://news.crunchbase.com/sections/venture/"}
+      ]
+    },
+    {
+      "name": "Ramp",
+      "name_en": "Ramp",
+      "region": "美国",
+      "industry": "AI金融/保险",
+      "stage": "D轮及以后",
+      "amount_usd_m": 750,
+      "amount_display": "7.5 亿美元（Series F）",
+      "valuation": "约 440 亿美元",
+      "date": "2026-06-04",
+      "location": "美国纽约",
+      "business": "企业财务运营与支出管理平台，新推出 AI 驱动的「AI 支出管理」产品，帮助 CFO 管控企业在 AI 等新增项目上的开支。",
+      "team": "成立于 2019 年的金融科技团队（避免未经核实的人名，从略）",
+      "investors": "ICONIQ、GIC、安大略教师退休基金领投，高盛 Alternatives、D.E. Shaw、摩根士丹利投资管理、Insight Partners 等参投",
+      "advantage": "估值较 7 个月前的 320 亿美元上涨约 38%、较一年前 160 亿美元上涨约 175%；年化营收超 10 亿美元、年化交易额约 2000 亿美元，借 AI 支出管理切入企业 AI 预算失控痛点。",
+      "sources": [
+        {"label": "TechCrunch 报道", "url": "https://techcrunch.com/2026/06/04/ramp-raises-750m-at-44b-valuation-as-investors-hunger-for-fintechs-with-an-ai-story/"},
+        {"label": "Crunchbase News（2026-06-05 十大融资）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"}
       ]
     },
     {
