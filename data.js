@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-06-29T19:26:55+08:00",
+  "updated_at": "2026-06-30T12:09:09+08:00",
   "window": "2026 年 4 月 – 6 月（近一季度；含个别更早旗舰轮次）",
   "companies": [
     {
@@ -22,6 +22,46 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "Crunchbase News（2026-06-26 十大融资）", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"},
         {"label": "Business Wire 官方公告", "url": "https://www.businesswire.com/news/home/20260622645563/en/Baseten-Raises-$1.5-Billion-to-Power-the-Next-Era-of-AI-Inference"}
+      ]
+    },
+    {
+      "name": "Odyssey",
+      "name_en": "Odyssey",
+      "region": "美国",
+      "industry": "基础大模型",
+      "stage": "B轮",
+      "amount_usd_m": 310,
+      "amount_display": "3.1 亿美元（Series B）",
+      "valuation": "约 14.5 亿美元",
+      "date": "2026-06-17",
+      "location": "美国",
+      "business": "「世界模型」AI 创业公司，构建可模拟与预测人、物体与环境交互的生成式世界模型，应用于机器人、自动驾驶、科学与游戏等领域。",
+      "team": "由自动驾驶领域资深团队创立（避免未经核实的人名，从略）",
+      "investors": "Natural Capital 领投，Amazon、GV、AMD Ventures、EQT、IQT 等参投",
+      "advantage": "B 轮即 14.5 亿美元估值，押注前沿「世界模型」方向；与 AWS 达成战略合作并部署 Trainium 芯片，巨头与明星天使阵容豪华。",
+      "sources": [
+        {"label": "TechCrunch 报道", "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"},
+        {"label": "Odyssey 官方公告", "url": "https://odyssey.ml/our-series-b"}
+      ]
+    },
+    {
+      "name": "TensorWave",
+      "name_en": "TensorWave",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "B轮",
+      "amount_usd_m": 350,
+      "amount_display": "3.5 亿美元（Series B）",
+      "valuation": "约 15.5 亿美元",
+      "date": "2026-06-10",
+      "location": "美国",
+      "business": "全栈基于 AMD 芯片的 AI 云，专注大模型训练与高吞吐推理等内存密集型工作负载，主打不依赖英伟达的算力路线。",
+      "team": "成立的 AI 云基础设施团队（避免未经核实的人名，从略）",
+      "investors": "Magnetar、AMD Ventures 共同领投，Maverick Silicon、Nexus Venture Partners、Western Frontier 等跟投",
+      "advantage": "运营北美最大 AMD AI 训练集群之一（8192 张 MI325X），锁定超 2GW 长期数据中心容量；AMD 路线为算力市场提供英伟达之外的差异化选择。",
+      "sources": [
+        {"label": "Business Wire 官方公告", "url": "https://www.businesswire.com/news/home/20260610650010/en/TensorWave-Raises-$350-Million-Series-B-at-$1.55B-Valuation-to-Expand-Global-AMD-Powered-AI-Infrastructure"},
+        {"label": "Data Center Dynamics 报道", "url": "https://www.datacenterdynamics.com/en/news/amd-based-ai-cloud-tensorwave-secures-350m-series-b-funding/"}
       ]
     },
     {
@@ -522,6 +562,66 @@ window.FUNDING_DATA = {
       "sources": [
         {"label": "网易/量子位 报道", "url": "https://c.m.163.com/news/a/KMHUTO9R05199NPP.html"},
         {"label": "证券时报 具身智能融资报道", "url": "https://www.stcn.com/article/detail/3753646.html"}
+      ]
+    },
+    {
+      "name": "无界动力",
+      "name_en": "Unbounded Dynamics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "种子/天使",
+      "amount_usd_m": 200,
+      "amount_display": "超 2 亿美元（天使轮累计）",
+      "valuation": "未披露",
+      "date": "2026-06-26",
+      "location": "中国",
+      "business": "通用具身智能机器人公司，聚焦具身「通用大脑」与「操作智能」，技术路线为「隐空间世界模型 + 强化学习」。",
+      "team": "成立于 2025 年的具身智能团队（避免未经核实的人名，从略）",
+      "investors": "京东关联基金、C 资本、弘毅投资、盛宇投资、丰源投资等联合投资；据报道近 2 亿美元 Pre-A 轮亦接近完成",
+      "advantage": "成立约一年天使轮累计融资超 2 亿美元，已拿下远景、ZF LIFETEC 等近 1 亿美元全球订单，京东系产业资本加持。金额为报道口径，未完全官方披露。",
+      "sources": [
+        {"label": "投资界(pedaily) 报道", "url": "https://news.pedaily.cn/202606/565576.shtml"},
+        {"label": "第一财经 报道", "url": "https://www.yicai.com/brief/103154141.html"}
+      ]
+    },
+    {
+      "name": "临界点",
+      "name_en": "Critical Point",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 140,
+      "amount_display": "数亿元人民币（最新一轮约 10 亿元）",
+      "valuation": "约 10 亿美元",
+      "date": "2026-06-25",
+      "location": "中国上海",
+      "business": "从智元机器人拆分独立的灵巧手与夹爪研发商，产品包括自适应夹爪 OmniPicker、全能作业灵巧手 OmniHand Pro 等。",
+      "team": "由智元机器人 2026 年初出资孵化（避免未经核实的人名，从略）",
+      "investors": "蓝驰创投、高瓴创投、百度风投、云锋基金、未来资产、京铭资本等（成立 5 个月内密集完成四轮）",
+      "advantage": "成立不足 5 个月估值破 10 亿美元，灵巧手累计交付超 8000 台、夹爪出货超万台，据透露首季已实现盈利。金额为报道口径，未完全官方披露。",
+      "sources": [
+        {"label": "36氪 氪星晚报", "url": "https://36kr.com/p/3869884559332356"},
+        {"label": "新浪财经 报道", "url": "https://finance.sina.com.cn/jjxw/2026-05-20/doc-inhypaen2653823.shtml"}
+      ]
+    },
+    {
+      "name": "深度机智",
+      "name_en": "Deepwise Robotics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 50,
+      "amount_display": "数亿元人民币（最新一轮）",
+      "valuation": "未披露",
+      "date": "2026-06-26",
+      "location": "中国",
+      "business": "聚焦具身智能的 AI 公司，采用「人类第一视角」技术路线，做人类学习路线全栈，全产品线已落地商业订单。",
+      "team": "兼具科研与产业落地的核心团队（避免未经核实的人名，从略）",
+      "investors": "国寿长三角科创基金领投，普华资本、诚通科创基金、蓝湖资本、磐谷创投等十余家机构参与",
+      "advantage": "「人类第一视角」数据路线差异化，全产品线已签约数千万元商业订单，下一轮融资已进入收尾阶段。金额为报道口径，未完全官方披露。",
+      "sources": [
+        {"label": "腾讯新闻 芯报", "url": "https://news.qq.com/rain/a/20260626A0AB9H00"},
+        {"label": "知乎 独家报道", "url": "https://zhuanlan.zhihu.com/p/2038559923043296165"}
       ]
     },
     {
