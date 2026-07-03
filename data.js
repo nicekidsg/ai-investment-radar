@@ -1,9 +1,65 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-03T18:30:00+08:00",
+  "updated_at": "2026-07-03T12:11:13+08:00",
   "window": "2026 年 4 月 – 7 月初（近一季度；含个别更早旗舰轮次）",
   "companies": [
+    {
+      "name": "可灵AI",
+      "name_en": "Kling AI",
+      "region": "中国",
+      "industry": "AI内容生成",
+      "stage": "战略投资",
+      "amount_usd_m": 3000,
+      "amount_display": "近 30 亿美元（增资扩股）",
+      "valuation": "投后约 180 亿美元",
+      "date": "2026-07-02",
+      "location": "中国北京",
+      "business": "快手旗下独立运营的视频生成大模型公司，旗舰产品可灵（Kling）覆盖文生视频、图生视频与 AI 创作工具，服务电商、短剧、视频广告等场景。",
+      "team": "快手可灵 AI 团队（避免未经核实的人名，从略）",
+      "investors": "CPE源峰、国方创新、腾讯、中关村科学城基金、中信证券等联合领投；阿里云、百度、华策影视、芒果产业投资等 36 家机构参投",
+      "advantage": "创全球视频/多模态大模型公司单轮融资纪录，腾讯、阿里、百度罕见同时入股。2025 年收入约 11 亿元人民币，电商、短剧与视频广告为三大收入来源；本轮为独立分拆并为后续上市铺路。",
+      "sources": [
+        {
+          "label": "新浪科技报道",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-07-03/doc-inifntfe2385521.shtml"
+        },
+        {
+          "label": "投资界（pedaily）报道",
+          "url": "https://news.pedaily.cn/202607/565819.shtml"
+        },
+        {
+          "label": "网易/界面：BAT 全上车",
+          "url": "https://www.163.com/dy/article/L0TISH9905198NMR.html"
+        }
+      ]
+    },
+    {
+      "name": "乐享科技",
+      "name_en": "Lexiang Technology (Zeroth)",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 70,
+      "amount_display": "近 5 亿元人民币（Pre-A 轮，约 0.7 亿美元）",
+      "valuation": "未披露",
+      "date": "2026-07-02",
+      "location": "中国苏州",
+      "business": "消费级/家庭具身智能机器人公司，发布家庭具身智能品牌「元点 Zeroth」，定位陪伴生活与家庭服务的通用小型具身机器人。",
+      "team": "成立约一年半的家庭具身智能团队（避免未经核实的人名，从略）",
+      "investors": "蚂蚁集团领投，吉利资本、三七互娱、元禾璞华跟投，老股东 Monolith 超额跟投",
+      "advantage": "成立一年半累计融资约 10 亿元人民币；公司称在手订单超 3 万台、2026 上半年营收同比增长 600%（公司口径，未经审计）。蚂蚁集团领投彰显产业方对家庭具身智能赛道的押注。",
+      "sources": [
+        {
+          "label": "新浪科技报道",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-07-02/doc-inifmmmw4087044.shtml"
+        },
+        {
+          "label": "光明网报道",
+          "url": "https://tech.gmw.cn/2026-07/02/content_38864263.htm"
+        }
+      ]
+    },
     {
       "name": "Baseten",
       "name_en": "Baseten",
@@ -584,13 +640,13 @@ window.FUNDING_DATA = {
       "stage": "战略投资",
       "amount_usd_m": 2000,
       "amount_display": "约 20 亿美元（传闻洽谈中）",
-      "valuation": "约 300 亿美元（目标，报道口径）",
+      "valuation": "上一轮投后约 200 亿美元已交割；新一轮投前估值报道约 315 亿美元（未官方披露）",
       "date": "2026-06-08",
       "location": "中国北京",
       "business": "通用大模型公司，旗舰产品为 Kimi 智能助手，主打长文本与 Agent 能力。",
       "team": "创始人杨植麟",
       "investors": "新一轮投资方未官方披露",
-      "advantage": "据报道为半年内第三轮融资，目标估值较半年前增长近 6 倍。金额与估值均为媒体报道、未官方披露，存在报道不一，谨慎采信。",
+      "advantage": "据 2026 年 7 月初报道，上一轮 200 亿美元估值融资完成交割，新一轮融资已启动、投前估值升至约 315 亿美元。金额与估值均为媒体报道口径，存在报道不一，谨慎采信。",
       "sources": [
         {
           "label": "36氪 / ZAKER 报道",
