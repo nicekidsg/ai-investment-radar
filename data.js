@@ -1,9 +1,69 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-03T12:11:13+08:00",
+  "updated_at": "2026-07-05T12:00:00+08:00",
   "window": "2026 年 4 月 – 7 月初（近一季度；含个别更早旗舰轮次）",
   "companies": [
+    {
+      "name": "天机智能",
+      "name_en": "Tianji Intelligent (T-Motion)",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 140,
+      "amount_display": "10 亿元人民币（B 轮及 B+ 轮，约 1.4 亿美元）",
+      "valuation": "投后近百亿元人民币",
+      "date": "2026-05-25",
+      "location": "中国广东",
+      "business": "聚焦运动控制、MEMS 传感器、一体化关节模组等底层技术，为具身智能提供力控人形双臂等核心「肢体」部件，服务全球整机厂商与具身智能公司。",
+      "team": "广东天机智能系统团队（避免未经核实的人名，从略）",
+      "investors": "高瓴创投、美团战投联合领投；腾讯、高榕创投、光合创投、纪源资本等跟投，高鹄资本担任独家财务顾问",
+      "advantage": "全球首家实现力控人形双臂量产交付且出货量最大的厂商：2025 年 4 个月交付超 2000 台，2026 年一季度在手订单突破 1 万台，覆盖全球 45 家头部整机厂商。本轮跻身独角兽，将加速北美等海外本地化布局。",
+      "sources": [
+        {
+          "label": "投资界（pedaily）报道",
+          "url": "https://news.pedaily.cn/202605/564328.shtml"
+        },
+        {
+          "label": "创业邦报道",
+          "url": "https://www.cyzone.cn/article/834464.html"
+        },
+        {
+          "label": "21经济网报道",
+          "url": "https://www.21jingji.com/article/20260525/herald/c2fa6f2c59c7410cfe58f5cc2504c5e5.html"
+        }
+      ]
+    },
+    {
+      "name": "Higharc",
+      "name_en": "Higharc",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "C轮",
+      "amount_usd_m": 95,
+      "amount_display": "9500 万美元（C 轮）",
+      "valuation": "未披露",
+      "date": "2026-06-30",
+      "location": "美国北卡罗来纳州达勒姆",
+      "business": "住宅建筑 AI 平台，将房屋生成为 3D 空间数据，覆盖设计、算量、销售到施工全流程；并推出面向建材分销商的 AI Estimating 自动算料产品。",
+      "team": "Higharc 团队（避免未经核实的人名，从略）",
+      "investors": "Insight Partners 领投，Wellington Management、Fifth Wall、Spark Capital、Lux Capital 等跟投",
+      "advantage": "累计融资超 1.7 亿美元，入选 Deloitte Fast 500 前 50。与美国最大私营建材分销商 US LBM 达成合作，把平台从建筑商延伸到建材供应链，卡位住宅建造垂直 AI。",
+      "sources": [
+        {
+          "label": "Crunchbase News 本周十大融资",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+        },
+        {
+          "label": "公司官方公告（PR Newswire）",
+          "url": "https://www.prnewswire.com/news-releases/higharc-raises-95m-series-c-to-scale-ai-for-homebuilding-302814598.html"
+        },
+        {
+          "label": "SiliconANGLE 报道",
+          "url": "https://siliconangle.com/2026/07/01/homebuilding-ai-startup-higharc-bags-90m-series-c-funding/"
+        }
+      ]
+    },
     {
       "name": "可灵AI",
       "name_en": "Kling AI",
