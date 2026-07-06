@@ -1,8 +1,8 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-05T12:00:00+08:00",
-  "window": "2026 年 4 月 – 7 月初（近一季度；含个别更早旗舰轮次）",
+  "updated_at": "2026-07-06T12:10:31+08:00",
+  "window": "2026 年 4 月 – 7 月初（近一季度）",
   "companies": [
     {
       "name": "天机智能",
@@ -1287,6 +1287,156 @@ window.FUNDING_DATA = {
         {
           "label": "36氪报道",
           "url": "https://36kr.com/p/3786490420878344"
+        }
+      ]
+    },
+    {
+      "name": "心智机器人",
+      "name_en": "Mind Robotics",
+      "region": "美国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 400,
+      "amount_display": "4 亿美元（新一轮，Kleiner Perkins 领投）",
+      "valuation": "投后约 34 亿美元",
+      "date": "2026-05-13",
+      "location": "美国加州帕洛阿尔托",
+      "business": "Rivian 分拆的工业机器人公司，开发面向制造业的 AI 模型与专用机器人，利用 Rivian 工厂车间作为真实训练环境，Rivian 为首个客户。",
+      "team": "由 Rivian 创始人兼 CEO RJ Scaringe 于 2025 年 11 月分拆创立",
+      "investors": "Kleiner Perkins 领投，Meritech Capital、Redpoint Ventures、SV Angel、A-Star Capital 等跟投",
+      "advantage": "成立不到一年累计融资超 10 亿美元，估值两个月内升至 34 亿美元；以真实工厂产线为训练场，是「物理 AI」赛道最快跻身独角兽的公司之一。",
+      "sources": [
+        {
+          "label": "TechCrunch 报道",
+          "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/"
+        },
+        {
+          "label": "The Robot Report 报道",
+          "url": "https://www.therobotreport.com/mind-robotics-raises-400m-scale-ai-powered-robots-in-manufacturing/"
+        },
+        {
+          "label": "Crunchbase News 周报",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-anduril-voltagrid-mind-robotics/"
+        }
+      ]
+    },
+    {
+      "name": "Exaforce",
+      "name_en": "Exaforce",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "B轮",
+      "amount_usd_m": 125,
+      "amount_display": "1.25 亿美元（B 轮）",
+      "valuation": "7.25 亿美元",
+      "date": "2026-05-12",
+      "location": "美国加州圣何塞",
+      "business": "AI 原生安全运营（SOC）平台，以实时安全知识图谱结合 AI 智能体「Exabots」自动完成威胁检测、分诊、调查与响应，并配套 MDR 服务。",
+      "team": "Exaforce 团队（避免未经核实的人名，从略）",
+      "investors": "HarbourVest、Peak XV、Mayfield、Khosla Ventures、Seligman Ventures 等",
+      "advantage": "距 7500 万美元 A 轮仅一年再获大额融资，累计融资 2 亿美元；实时知识图谱使调查可在一分钟内完成，主打对抗 AI 驱动的新型攻击。",
+      "sources": [
+        {
+          "label": "TechCrunch 报道",
+          "url": "https://techcrunch.com/2026/05/12/exaforce-raises-125m-series-b-to-build-ai-for-catching-and-stopping-cyberattacks-as-they-happen/"
+        },
+        {
+          "label": "BusinessWire 官方通稿",
+          "url": "https://www.businesswire.com/news/home/20260512993333/en/Exaforce-Raises-%24125M-Series-B-to-Combat-AI-Powered-Attacks-with-Real-Time-Security-Reasoning"
+        },
+        {
+          "label": "Crunchbase News 周报",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-anduril-voltagrid-mind-robotics/"
+        }
+      ]
+    },
+    {
+      "name": "LeapXpert",
+      "name_en": "LeapXpert",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "战略投资",
+      "amount_usd_m": 180,
+      "amount_display": "1.8 亿美元（成长期融资）",
+      "valuation": "未披露",
+      "date": "2026-06-30",
+      "location": "美国纽约",
+      "business": "AI 驱动的合规通信治理平台，将 WhatsApp、iMessage 等消息渠道纳入企业级合规留痕与治理，并用 AI 将客户对话转化为可执行的业务智能。",
+      "team": "LeapXpert 团队（避免未经核实的人名，从略）",
+      "investors": "Riverwood Capital 领投，Portage Ventures 等跟投",
+      "advantage": "连续两年入选 Gartner 数字通信治理魔力象限「远见者」，服务金融机构与公共部门；本轮将加码 AI 对话理解能力并拓展企业市场。",
+      "sources": [
+        {
+          "label": "公司官方公告",
+          "url": "https://www.leapxpert.com/leapxpert-raises-180-million-to-lead-ai-powered-governed-communications/"
+        },
+        {
+          "label": "Riverwood Capital 公告",
+          "url": "https://www.riverwoodcapital.com/rwcm_news/riverwood-capital-leads-180-million-growth-round-investment-in-leapxpert/"
+        },
+        {
+          "label": "PR Newswire 通稿",
+          "url": "https://www.prnewswire.com/news-releases/leapxpert-raises-180-million-to-lead-ai-powered-governed-communications-302814485.html"
+        }
+      ]
+    },
+    {
+      "name": "Etched",
+      "name_en": "Etched",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "C轮",
+      "amount_usd_m": 500,
+      "amount_display": "5 亿美元（Stripes 领投）",
+      "valuation": "投后 50 亿美元",
+      "date": "2026-07-01",
+      "location": "美国加州",
+      "business": "Transformer 专用推理芯片（ASIC）公司，旗舰芯片 Sohu 专为大模型推理设计，宣称单台 8 芯片服务器跑 Llama 70B 可达约 50 万 token/秒。",
+      "team": "2022 年由哈佛辍学生创立（避免未经核实的具体人名，从略）",
+      "investors": "Stripes 领投，Peter Thiel、Ribbit Capital 等参投",
+      "advantage": "芯片尚未大规模交付已锁定约 10 亿美元订单，累计融资约 8 亿美元；TSMC 已流片成功，2026 年夏季开始出货，是专用推理芯片挑战英伟达的代表。",
+      "sources": [
+        {
+          "label": "Data Center Dynamics 报道",
+          "url": "https://www.datacenterdynamics.com/en/news/etchedai-raises-500m-for-a-5bn-valuation-report/"
+        },
+        {
+          "label": "Crypto Briefing 报道",
+          "url": "https://cryptobriefing.com/etched-5b-valuation-ai-chip-sales/"
+        },
+        {
+          "label": "Asia Business Outlook 报道",
+          "url": "https://www.asiabusinessoutlook.com/news/etched-raises-500m-valued-at-5b-for-ai-chip-sohu-nwid-11065.html"
+        }
+      ]
+    },
+    {
+      "name": "极佳视界",
+      "name_en": "GigaAI",
+      "region": "中国",
+      "industry": "基础大模型",
+      "stage": "B轮",
+      "amount_usd_m": 210,
+      "amount_display": "15 亿元人民币（B1 轮，约 2.1 亿美元；一个月内累计融资 25 亿元）",
+      "valuation": "超百亿元人民币",
+      "date": "2026-04-14",
+      "location": "中国北京（海淀）",
+      "business": "世界模型 + 物理 AI 公司，自研 GigaWorld-1 世界模型（WorldArena 评测全球第一），并推出全栈自研双臂移动机器人 Maker H01，已启动规模化量产交付。",
+      "team": "创始人黄冠为清华大学自动化系博士，曾任地平线视觉感知技术负责人、鉴智机器人合伙人",
+      "investors": "多家机构参与（含产业方与财务投资人；3 月曾完成 10 亿元 Pre-B 轮）",
+      "advantage": "被称为国内首个世界模型「百亿独角兽」：3 月至 4 月一个月内连续融资 25 亿元；世界模型与具身本体双轮驱动，2026 年冲刺千台机器人交付。",
+      "sources": [
+        {
+          "label": "投资界（pedaily）报道",
+          "url": "https://news.pedaily.cn/202604/562806.shtml"
+        },
+        {
+          "label": "证券时报报道",
+          "url": "https://stcn.com/article/detail/3754115.html"
+        },
+        {
+          "label": "新浪科技报道",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-04-16/doc-inhuryef7850324.shtml"
         }
       ]
     }
