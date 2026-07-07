@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-06T12:10:31+08:00",
+  "updated_at": "2026-07-07T12:16:42+08:00",
   "window": "2026 年 4 月 – 7 月初（近一季度）",
   "companies": [
     {
@@ -1437,6 +1437,126 @@ window.FUNDING_DATA = {
         {
           "label": "新浪科技报道",
           "url": "https://finance.sina.com.cn/tech/roll/2026-04-16/doc-inhuryef7850324.shtml"
+        }
+      ]
+    },
+    {
+      "name": "自变量机器人",
+      "name_en": "X Square Robot",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "C轮",
+      "amount_usd_m": 280,
+      "amount_display": "B+/B++/C 三轮连续融资（单轮金额未完全披露，据报道半年累计约 20 亿元）",
+      "valuation": "投后超 200 亿元人民币",
+      "date": "2026-07-03",
+      "location": "中国深圳",
+      "business": "通用具身智能公司，走端到端统一大模型路线，自研 WALL-A 具身大模型与轮式双臂机器人「量子 2 号」，面向商业服务与工业场景。",
+      "team": "创始团队具备大模型与机器人交叉背景（不列未经核实人名）",
+      "investors": "中国移动、国家人工智能产业投资基金、红杉中国、IDG资本、源码资本、中金资本等 30 余家；美团、阿里、字节、小米曾分别领投",
+      "advantage": "两个多月连续完成 B+/B++/C 四轮融资并全部交割，成为粤港澳大湾区首家估值破 200 亿元的具身智能公司；四大互联网厂商均领投过，是资本共识度最高的具身智能标的之一。",
+      "sources": [
+        {
+          "label": "爱范儿报道",
+          "url": "https://www.ifanr.com/1670322"
+        },
+        {
+          "label": "新浪财经报道",
+          "url": "https://finance.sina.com.cn/tob/2026-06-29/doc-iniezxay2302062.shtml"
+        },
+        {
+          "label": "中国日报网报道",
+          "url": "https://cn.chinadaily.com.cn/a/202606/30/WS6a43779ea310d709c2fbb137.html"
+        }
+      ]
+    },
+    {
+      "name": "Quantum Systems",
+      "name_en": "Quantum Systems",
+      "region": "欧洲",
+      "industry": "机器人/具身智能",
+      "stage": "D轮及以后",
+      "amount_usd_m": 1200,
+      "amount_display": "12 亿美元 D 轮",
+      "valuation": "投后约 80 亿美元",
+      "date": "2026-07-02",
+      "location": "德国慕尼黑",
+      "business": "AI 自主无人系统公司，产品覆盖空、陆、海军用无人机/无人载具，自研 MOSAIC UXS 软件让多域无人系统共享数据协同作战，2025 年在乌克兰执行超 1.9 万次任务。",
+      "team": "创始团队来自德国无人机与航空工业（不列未经核实人名）",
+      "investors": "Blackstone、Noteus、Airbus、Advent 联合领投，Bond、Fidelity、Balderton、HV Capital 等参投",
+      "advantage": "估值半年多从 35 亿美元翻倍至约 80 亿美元，公司已盈利；欧洲防务 AI 龙头，2026 年防务科技融资已创纪录，资本密集涌入 AI 自主作战系统。",
+      "sources": [
+        {
+          "label": "CNBC 报道",
+          "url": "https://www.cnbc.com/2026/07/02/autonomous-defense-startup-quantum-systems.html"
+        },
+        {
+          "label": "The Robot Report 报道",
+          "url": "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/"
+        },
+        {
+          "label": "Tech Startups 报道",
+          "url": "https://techstartups.com/2026/07/02/german-drone-startup-quantum-systems-raises-1-2b-at-8b-valuation-as-investors-pour-billions-into-ai-defense/"
+        }
+      ]
+    },
+    {
+      "name": "Bespoke Labs",
+      "name_en": "Bespoke Labs",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "A轮",
+      "amount_usd_m": 40,
+      "amount_display": "4000 万美元 A 轮",
+      "valuation": "未披露",
+      "date": "2026-07-06",
+      "location": "美国加州山景城",
+      "business": "AI 智能体训练与评估基础设施公司，模拟企业真实环境（代码库、邮件、Slack 记录）作为强化学习环境，让智能体在部署前安全地测试和迭代。",
+      "team": "2024 年由 Mahesh Sathiamoorthy 与 Alex Dimakis 创立",
+      "investors": "Wing Venture Capital 领投，Mayfield、The House Fund 及来自 Anthropic/OpenAI/Meta 的天使投资人参投",
+      "advantage": "卡位智能体可靠性这一企业落地关键瓶颈，自研 GEPA 优化器自动搜索提示与策略；RL 环境赛道是 2026 年智能体基础设施新热点。",
+      "sources": [
+        {
+          "label": "citybiz 报道",
+          "url": "https://www.citybiz.co/article/869997/bespoke-labs-raises-40m-to-boost-infrastructure-for-ai-agents/"
+        },
+        {
+          "label": "Tech Startups 报道",
+          "url": "https://techstartups.com/2026/07/06/venture-capital-startup-funding-roundup-july-6-2026/"
+        },
+        {
+          "label": "Ventureburn 报道",
+          "url": "https://ventureburn.com/bespoke-labs-raises-40m-ai-agent-training/"
+        }
+      ]
+    },
+    {
+      "name": "逸文科技",
+      "name_en": "Even Realities",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 150,
+      "amount_display": "1.5 亿美元 Pre-B 轮（约 10.2 亿元人民币）",
+      "valuation": "投后超 10 亿美元",
+      "date": "2026-07-06",
+      "location": "中国深圳",
+      "business": "高端 AI 智能眼镜公司（端侧 AI 硬件），核心产品 Even G2 约 37 克、无摄像头设计主打隐私，均价超千美元，已实现盈利。",
+      "team": "创始人王骁逸曾任 Apple Watch 工程师",
+      "investors": "美团龙珠、美团战投、腾讯领投",
+      "advantage": "成立不到三年即成为估值破 10 亿美元的 AI 眼镜独角兽且已盈利；走「先做好眼镜、再加智能」的差异化高端路线，直接对标 Meta 智能眼镜。",
+      "sources": [
+        {
+          "label": "TechCrunch 报道",
+          "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/"
+        },
+        {
+          "label": "新浪科技报道",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-07-07/doc-inifxxxe8341877.shtml"
+        },
+        {
+          "label": "Yahoo Finance 报道",
+          "url": "https://finance.yahoo.com/technology/articles/even-realities-raises-150m-hits-132518787.html"
         }
       ]
     }
