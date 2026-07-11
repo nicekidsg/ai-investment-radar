@@ -1,68 +1,188 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-08T00:09:54+08:00",
+  "updated_at": "2026-07-11T09:00:00+08:00",
   "window": "2026 年 4 月 – 7 月（近一季度）",
   "companies": [
     {
-          "name": "Prometheus",
-          "name_en": "Prometheus",
-          "region": "美国",
-          "industry": "机器人/具身智能",
-          "stage": "B轮",
-          "amount_usd_m": 12000,
-          "amount_display": "120 亿美元（B轮）",
-          "valuation": "投后约 410 亿美元",
-          "date": "2026-06-11",
-          "location": "美国",
-          "business": "由 Jeff Bezos 与前 Google 高管 Vik Bajaj 共同领导的工业 AI 公司，打造面向物理世界的“通用人工工程师”（artificial general engineer），用 AI 自动化喷气发动机、医疗器械、消费电子等复杂物理系统的设计与制造流程。",
-          "team": "Jeff Bezos（联合 CEO）、Vik Bajaj（联合 CEO，前 Google/Verily 高管）",
-          "investors": "JPMorgan、BlackRock、Goldman Sachs、DST Global、ARCH Venture Partners 等",
-          "advantage": "含 2025 年底 62 亿美元启动轮在内累计融资超 180 亿美元，是物理 AI/工业 AI 领域迄今最大押注。Bezos 亲自出任联合 CEO 并罕见公开阐述“压缩工程师 dream-build 循环 10 倍以上”的愿景，顶级金融机构集体入局。",
-          "sources": [
-                {
-                      "label": "TechCrunch 报道",
-                      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/"
-                },
-                {
-                      "label": "Axios 报道",
-                      "url": "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai"
-                },
-                {
-                      "label": "CNBC 报道",
-                      "url": "https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html"
-                }
-          ]
+      "name": "SambaNova",
+      "name_en": "SambaNova Systems",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "D轮及以后",
+      "amount_usd_m": 1000,
+      "amount_display": "10 亿美元（F 轮首次交割）",
+      "valuation": "约 110 亿美元",
+      "date": "2026-07-08",
+      "location": "美国加州帕洛阿尔托",
+      "business": "AI 推理芯片与系统公司，自研 RDU 架构芯片，面向企业与主权客户提供高速 AI 推理基础设施与全栈平台。",
+      "team": "由斯坦福背景的芯片与系统团队创立（人名以公开报道为准，从略）",
+      "investors": "General Atlantic 领投",
+      "advantage": "距上一轮大额融资仅约 5 个月再获 10 亿美元，估值升至约 110 亿美元；在 AI 推理需求爆发背景下，是英伟达之外少数具备量产级推理芯片与系统能力的独立厂商之一。",
+      "sources": [
+        {
+          "label": "TechCrunch 报道",
+          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+        },
+        {
+          "label": "CNBC 报道",
+          "url": "https://www.cnbc.com/2026/07/08/sambanova-ai-chip-funding-valuation.html"
+        },
+        {
+          "label": "SiliconANGLE 报道",
+          "url": "https://siliconangle.com/2026/07/08/inference-chip-startup-sambanova-valued-11b-1b-funding-round/"
+        }
+      ]
     },
-{
-          "name": "众擎机器人",
-          "name_en": "EngineAI",
-          "region": "中国",
-          "industry": "机器人/具身智能",
-          "stage": "B轮",
-          "amount_usd_m": 200,
-          "amount_display": "2 亿美元（B轮）",
-          "valuation": "投后超 100 亿元人民币",
-          "date": "2026-04-09",
-          "location": "中国深圳",
-          "business": "成立于 2023 年 10 月的人形机器人公司，主打高动态运动能力的全尺寸人形机器人，曾以机器人“前空翻”等动作展示出圈，面向科研、展演与工业场景。",
-          "team": "众擎机器人创始团队（避免未经核实的人名，从略）",
-          "investors": "河南投资集团汇融基金领投，立讯精密战略入局并联合领投；基石资本、龙岗金控、金谷资本、财通资本、北京昌发展基金等参投",
-          "advantage": "融资后估值突破百亿元人民币，获立讯精密等产业资本战略加持，打通消费电子供应链制造资源；5 月又完成 B+ 轮，资本关注度持续。",
-          "sources": [
-                {
-                      "label": "36氪快讯",
-                      "url": "https://www.36kr.com/newsflashes/3759548282995201"
-                },
-                {
-                      "label": "新浪财经报道",
-                      "url": "https://finance.sina.com.cn/jjxw/2026-04-09/doc-inhtxkaw0801497.shtml"
-                },
-                {
-                      "label": "新京报报道",
-                      "url": "https://www.bjnews.com.cn/detail/1775737643129915.html"
-                }
-          ]
+    {
+      "name": "Prime Intellect",
+      "name_en": "Prime Intellect",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "A轮",
+      "amount_usd_m": 130,
+      "amount_display": "1.3 亿美元（A 轮）",
+      "valuation": "约 10 亿美元",
+      "date": "2026-07-08",
+      "location": "美国旧金山",
+      "business": "开源去中心化 AI 训练与强化学习基础设施平台，帮助企业在分布式算力上训练自有模型与 AI 智能体（Prime-RL 等开源工具链）。",
+      "team": "开源分布式训练团队（人名以公开报道为准，从略）",
+      "investors": "Radical Ventures 领投，NVIDIA Ventures、Intel Capital、戴尔资本等跟投，Perplexity/Box/Harvey/Cognition 等创始人以天使身份参投",
+      "advantage": "年化收入据报道已超 1 亿美元；开源 RL/分布式训练栈在企业自建智能体浪潮中卡位，产业资本（英伟达、英特尔、戴尔）集体入局。",
+      "sources": [
+        {
+          "label": "TechCrunch 报道",
+          "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
+        },
+        {
+          "label": "SiliconANGLE 报道",
+          "url": "https://siliconangle.com/2026/07/08/prime-intellect-raises-130m-1b-valuation-ai-training-platform/"
+        },
+        {
+          "label": "FinSMEs 报道",
+          "url": "https://www.finsmes.com/2026/07/prime-intellect-raises-130m-in-series-a-funding.html"
+        }
+      ]
+    },
+    {
+      "name": "Norm Ai",
+      "name_en": "Norm Ai",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "C轮",
+      "amount_usd_m": 120,
+      "amount_display": "1.2 亿美元（C 轮）",
+      "valuation": "约 12 亿美元",
+      "date": "2026-07-07",
+      "location": "美国纽约",
+      "business": "「智能体化法律 / 合规」平台，把法规转化为可执行的 AI 智能体，为受监管企业提供合规审查与监督型智能体，并通过关联律所 Norm Law 以 AI 原生方式提供法律服务。",
+      "team": "AI 工程师与执业律师混合团队，成立不到三年（人名以公开报道为准，从略）",
+      "investors": "Khosla Ventures 领投，Blackstone、Bain Capital Ventures、Coatue、Craft Ventures、Vanguard、纽约人寿、TIAA 等跟投",
+      "advantage": "客户合计管理资产超 30 万亿美元；成立不足三年累计融资超 2.6 亿美元并晋升独角兽，是法律/合规 AI 赛道估值最高的公司之一。",
+      "sources": [
+        {
+          "label": "官方新闻稿（PR Newswire）",
+          "url": "https://www.prnewswire.com/news-releases/norm-ai-raises-120-million-at-a-1-2-billion-valuation-led-by-khosla-ventures-to-deliver-the-full-stack-model-for-legal-ai-302819152.html"
+        },
+        {
+          "label": "TechCrunch 报道",
+          "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
+        },
+        {
+          "label": "LawSites 报道",
+          "url": "https://www.lawnext.com/2026/07/norm-ai-hits-unicorn-status-with-120m-series-c-at-1-2-billion-valuation.html"
+        }
+      ]
+    },
+    {
+      "name": "影智XBOT",
+      "name_en": "XBOT",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 42,
+      "amount_display": "连续两轮数亿元人民币（B 轮约 3–5 亿元，报道不一/未官方披露）",
+      "valuation": "未披露（报道称估值领先同赛道）",
+      "date": "2026-07-03",
+      "location": "中国深圳",
+      "business": "餐饮场景商用机器人公司，产品包括咖啡机器人 C3、冰淇淋机器人 I3 及人形机器人 X1，已与京东达成战略合作并在七鲜咖啡门店试点。",
+      "team": "创始人唐沐为小米前生态链副总裁；天使投资人包括张小龙、黎万强、林斌等（据公开报道）",
+      "investors": "多支政府基金、美元基金与产业投资方共同参与；早期获腾讯、小米系高管个人投资",
+      "advantage": "设备落地全球 100 余城、超 1000 台，累计出杯超 400 万；2025 年营收破亿元，2026 年在手订单约 3–5 亿元，是餐饮机器人赛道商业化最快的公司之一。",
+      "sources": [
+        {
+          "label": "36氪报道",
+          "url": "https://36kr.com/p/3882361033322755"
+        },
+        {
+          "label": "凤凰网科技报道",
+          "url": "https://tech.ifeng.com/c/8uShXwkDwBj"
+        },
+        {
+          "label": "新浪新闻报道",
+          "url": "https://www.sina.cn/news/detail/5316658675843498.html"
+        }
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "name_en": "Prometheus",
+      "region": "美国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 12000,
+      "amount_display": "120 亿美元（B轮）",
+      "valuation": "投后约 410 亿美元",
+      "date": "2026-06-11",
+      "location": "美国",
+      "business": "由 Jeff Bezos 与前 Google 高管 Vik Bajaj 共同领导的工业 AI 公司，打造面向物理世界的“通用人工工程师”（artificial general engineer），用 AI 自动化喷气发动机、医疗器械、消费电子等复杂物理系统的设计与制造流程。",
+      "team": "Jeff Bezos（联合 CEO）、Vik Bajaj（联合 CEO，前 Google/Verily 高管）",
+      "investors": "JPMorgan、BlackRock、Goldman Sachs、DST Global、ARCH Venture Partners 等",
+      "advantage": "含 2025 年底 62 亿美元启动轮在内累计融资超 180 亿美元，是物理 AI/工业 AI 领域迄今最大押注。Bezos 亲自出任联合 CEO 并罕见公开阐述“压缩工程师 dream-build 循环 10 倍以上”的愿景，顶级金融机构集体入局。",
+      "sources": [
+        {
+          "label": "TechCrunch 报道",
+          "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/"
+        },
+        {
+          "label": "Axios 报道",
+          "url": "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai"
+        },
+        {
+          "label": "CNBC 报道",
+          "url": "https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html"
+        }
+      ]
+    },
+    {
+      "name": "众擎机器人",
+      "name_en": "EngineAI",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "B轮",
+      "amount_usd_m": 200,
+      "amount_display": "2 亿美元（B轮）",
+      "valuation": "投后超 100 亿元人民币",
+      "date": "2026-04-09",
+      "location": "中国深圳",
+      "business": "成立于 2023 年 10 月的人形机器人公司，主打高动态运动能力的全尺寸人形机器人，曾以机器人“前空翻”等动作展示出圈，面向科研、展演与工业场景。",
+      "team": "众擎机器人创始团队（避免未经核实的人名，从略）",
+      "investors": "河南投资集团汇融基金领投，立讯精密战略入局并联合领投；基石资本、龙岗金控、金谷资本、财通资本、北京昌发展基金等参投",
+      "advantage": "融资后估值突破百亿元人民币，获立讯精密等产业资本战略加持，打通消费电子供应链制造资源；5 月又完成 B+ 轮，资本关注度持续。",
+      "sources": [
+        {
+          "label": "36氪快讯",
+          "url": "https://www.36kr.com/newsflashes/3759548282995201"
+        },
+        {
+          "label": "新浪财经报道",
+          "url": "https://finance.sina.com.cn/jjxw/2026-04-09/doc-inhtxkaw0801497.shtml"
+        },
+        {
+          "label": "新京报报道",
+          "url": "https://www.bjnews.com.cn/detail/1775737643129915.html"
+        }
+      ]
     },
     {
       "name": "天机智能",
