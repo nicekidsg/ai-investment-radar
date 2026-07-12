@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-11T12:14:12+08:00",
+  "updated_at": "2026-07-12T14:32:27+08:00",
   "window": "2026 年 4 月 – 7 月（近一季度）",
   "companies": [
     {
@@ -87,6 +87,36 @@ window.FUNDING_DATA = {
         {
           "label": "FinSMEs 报道",
           "url": "https://www.finsmes.com/2026/07/prime-intellect-raises-130m-in-series-a-funding.html"
+        }
+      ]
+    },
+    {
+      "name": "灵境智源",
+      "name_en": "Lingjing Zhiyuan",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "种子/天使",
+      "amount_usd_m": 15,
+      "amount_display": "超亿元人民币（天使轮及天使+轮，部分报道称 Pre-A）",
+      "valuation": "未披露",
+      "date": "2026-07-08",
+      "location": "上海",
+      "business": "具身智能全栈计算底座（\"具身智脑\"）服务商，自研\"神经-关节\"协同架构，将机器人动态响应延迟压缩至 5 毫秒以内，已对接超 300 家具身智能企业。",
+      "team": "由上海人工智能研究院孵化，成立于 2025 年 7 月",
+      "investors": "经纬创投（连续领投）、上海闵行国资（战略跟投），诚一资本担任长期财务顾问",
+      "advantage": "成立不到一年即覆盖行业超 70% 具身智能企业，超 200 家客户批量装机。突破 20 毫秒生理延迟瓶颈的底层控制技术构成差异化壁垒。资金投向具身原生芯片研发与行业标准生态。",
+      "sources": [
+        {
+          "label": "36氪",
+          "url": "https://36kr.com/newsflashes/3887623484062213"
+        },
+        {
+          "label": "央广网",
+          "url": "https://tech.cnr.cn/techph/20260708/t20260708_527698050.shtml"
+        },
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/tech/2026-07-12/doc-inihnwye6085096.shtml"
         }
       ]
     },
@@ -387,6 +417,36 @@ window.FUNDING_DATA = {
       ]
     },
     {
+      "name": "Tripo AI（VAST）",
+      "name_en": "Tripo AI",
+      "region": "中国",
+      "industry": "AI内容生成",
+      "stage": "A轮",
+      "amount_usd_m": 150,
+      "amount_display": "1.5 亿美元（A3 轮；此前 6 月初另完成近 2 亿美元 A+/A++ 轮）",
+      "valuation": "未披露",
+      "date": "2026-07-02",
+      "location": "北京",
+      "business": "3D 生成基础模型与世界模型公司，产品 Tripo 系列可从文本/图像生成高质量 3D 资产，已发布 Tripo H3.1、P1.0 及 8K 纹理生成等能力。",
+      "team": "VAST 团队，聚焦 3D 基础模型核心算法与数据基础设施",
+      "investors": "吉利资本、4399、巨人网络、复星资本、基石资本、毅达资本、探湾网络、INCE Capital、Genesis Capital（老股东加注）等",
+      "advantage": "全球 3D 生成赛道头部玩家，一个多月内连续完成近 3.5 亿美元融资。投资方横跨汽车、游戏、互联网产业，商业化生态协同强。3D 与世界模型路线契合具身智能与内容生产双重需求。",
+      "sources": [
+        {
+          "label": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/07/02/3321436/0/en/Tripo-AI-Raises-150-Million-in-Series-A3-Financing-Backed-by-Investors-Across-Automotive-Gaming-Internet-and-Technology-Sectors.html"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/07/02/tripo-ai-secures-additional-150m-funding-enhance-3d-world-models/"
+        },
+        {
+          "label": "DEVELOP3D",
+          "url": "https://develop3d.com/ai/tripo-ai-150-million-funding-for-3d-foundation-models/"
+        }
+      ]
+    },
+    {
       "name": "Together AI",
       "name_en": "Together AI",
       "region": "美国",
@@ -551,6 +611,36 @@ window.FUNDING_DATA = {
         {
           "label": "PR Newswire 通稿",
           "url": "https://www.prnewswire.com/news-releases/leapxpert-raises-180-million-to-lead-ai-powered-governed-communications-302814485.html"
+        }
+      ]
+    },
+    {
+      "name": "智平方",
+      "name_en": "AI² Robotics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 690,
+      "amount_display": "近 50 亿元人民币（约 6.9 亿美元，一系列新融资）",
+      "valuation": "超 200 亿元人民币",
+      "date": "2026-06-29",
+      "location": "深圳",
+      "business": "通用具身智能公司，研发 AlphaBot 系列生产力型人形机器人，半自动化产线年产能突破 2000 台，正推动产品从项目制交付转向批量化标准品。",
+      "team": "核心团队来自 AI 与智能制造领域（公司为大湾区首个估值超 200 亿元的具身智能独角兽）",
+      "investors": "国家中小企业基金、广东省人工智能基金、南山战新投、招商局资本、茅台集团、中国生物制药、康龙化成、中贝通信 等",
+      "advantage": "大湾区估值最高的具身智能企业，已实现生产力型机器人常态化批量交付。计划 2026 下半年启动数万台产线建设，商业化交付节奏领先同行。政策基金与产业资本共同加持，产业落地场景丰富。",
+      "sources": [
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/jjxw/2026-06-29/doc-inieznpe2397601.shtml"
+        },
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2411316"
+        },
+        {
+          "label": "福布斯中国",
+          "url": "https://www.forbeschina.com/investment/71797"
         }
       ]
     },
