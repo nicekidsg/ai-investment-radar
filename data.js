@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-12T14:32:27+08:00",
+  "updated_at": "2026-07-13T08:21:10+08:00",
   "window": "2026 年 4 月 – 7 月（近一季度）",
   "companies": [
     {
@@ -267,6 +267,32 @@ window.FUNDING_DATA = {
         {
           "label": "Yahoo Finance 报道",
           "url": "https://finance.yahoo.com/technology/articles/even-realities-raises-150m-hits-132518787.html"
+        }
+      ]
+    },
+    {
+      "name": "星动纪元",
+      "name_en": "Robot Era",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 140,
+      "amount_display": "新一轮 10 亿元人民币（两个月内累计融资 25 亿元）",
+      "valuation": "超百亿元人民币（2026 年 3 月轮次时已破百亿）",
+      "date": "2026-07-06",
+      "location": "中国北京",
+      "business": "清华大学唯一直接持股的具身智能公司，全栈自研'数据-大脑-运控-灵巧手-本体'，产品含人形机器人星动L7、轮式服务机器人星动Q5及XHAND灵巧手，已在顺丰、中国邮政物流分拣场景规模化落地",
+      "team": "创始人陈建宇（清华大学交叉信息研究院助理教授，UC伯克利博士）",
+      "investors": "诚通基金（国务院国资委旗下）领投，江西国控、国元股权、渝富中新基金、杭州资本、中金雷诺、九坤创投、弘毅投资等参与，老股东厚雪资本、清控天诚追加",
+      "advantage": "具身世界模型路线的最早提出者之一，2024 年 PAD 世界动作模型早于英伟达同类方案近一年。物流场景率先实现 PMF，分拣效率达每小时 1200+ 件并 7×24 常态化运营；两个月密集融资 25 亿元，集齐国家级国资+顶级财务+超 20 家产业资本。",
+      "sources": [
+        {
+          "label": "投资界（首发）",
+          "url": "https://news.pedaily.cn/202607/565883.shtml"
+        },
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-07-06/doc-inifvqsc8735540.shtml"
         }
       ]
     },
@@ -1195,6 +1221,32 @@ window.FUNDING_DATA = {
       ]
     },
     {
+      "name": "诺亦腾机器人",
+      "name_en": "Noitom Robotics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 42,
+      "amount_display": "Pre-A++ 轮数亿元人民币（具体金额未披露）",
+      "valuation": "未披露",
+      "date": "2026-06-17",
+      "location": "中国北京",
+      "business": "具身智能数据基础设施提供商，专注多模态训练数据的采集、治理与交付，建设数据工厂与工程化平台，为机器人厂商提供核心'数据燃料'",
+      "team": "创始人戴若犒博士（诺亦腾联合创始人，动作捕捉技术专家）",
+      "investors": "昆仑资本、北京市人工智能产业投资基金、上海人工智能产业系列基金、深创投、中金投资等",
+      "advantage": "定位具身智能'卖铲人'，类比行业'台积电'，卡位数据荒这一全行业瓶颈。北京、上海两地国资基金同时入局，数据工厂模式在具身智能爆发期具备横向服务全行业的杠杆效应。",
+      "sources": [
+        {
+          "label": "投资界",
+          "url": "https://news.pedaily.cn/202606/565258.shtml"
+        },
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/wm/2026-06-17/doc-inicthnt6024625.shtml"
+        }
+      ]
+    },
+    {
       "name": "深度求索",
       "name_en": "DeepSeek",
       "region": "中国",
@@ -1217,6 +1269,62 @@ window.FUNDING_DATA = {
         {
           "label": "证券时报报道",
           "url": "https://www.stcn.com/article/detail/3904065.html"
+        }
+      ]
+    },
+    {
+      "name": "Hydra Host",
+      "name_en": "Hydra Host",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "A轮",
+      "amount_usd_m": 100,
+      "amount_display": "A 轮 1 亿美元",
+      "valuation": "约 8 亿美元（媒体报道，未官方披露）",
+      "date": "2026-06-16",
+      "location": "美国科罗拉多州博尔德",
+      "business": "裸金属 GPU 算力平台，自研 Brokkr 操作系统连接客户与分布式 AI 数据中心算力，已部署于美洲、亚太、欧非中东 50 余个数据中心",
+      "team": "CEO Aaron Ginn（联合创始人）",
+      "investors": "Kindred Ventures 领投，Nvidia、ARK Invest、Comcast Ventures、Magnetar、PEAK6 等新进，老股东 Founders Fund、10x Founders 跟投",
+      "advantage": "以'AI 工厂算力承销网络'切入 GPU 供需错配痛点，轻资产模式区别于自建数据中心的 Neocloud。Nvidia 与 Founders Fund 同时背书，A 轮即达 1 亿美元规模，反映主权算力与分布式 GPU 租赁需求高涨。",
+      "sources": [
+        {
+          "label": "BusinessWire（官方公告）",
+          "url": "https://www.businesswire.com/news/home/20260616230170/en/Hydra-Host-Raises-$100-Million-Series-A-to-Expand-Global-AI-Factory-Capacity"
+        },
+        {
+          "label": "Crunchbase News",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        },
+        {
+          "label": "Data Center Dynamics",
+          "url": "https://www.datacenterdynamics.com/en/news/hydra-host-raises-100m-in-series-a-funding-round/"
+        }
+      ]
+    },
+    {
+      "name": "Bland",
+      "name_en": "Bland AI",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "C轮",
+      "amount_usd_m": 50,
+      "amount_display": "C 轮 5000 万美元（累计融资超 1 亿美元）",
+      "valuation": "未披露",
+      "date": "2026-06-16",
+      "location": "美国旧金山",
+      "business": "企业级语音 AI 智能体平台，自研语音专用模型，为电话、短信、聊天场景部署生产级 AI 客服代理，去年处理超 1.75 亿通 AI 电话，企业客户 250+ 家",
+      "team": "联合创始人 Isaiah Granet、Sobhan Nejad（2023 年创立）",
+      "investors": "Dell Technologies Capital 领投，HubSpot Ventures、Archerman Capital、Tribeca Venture Partners 新进，Emergence、Scale VP、Y Combinator、Max Levchin 等跟投",
+      "advantage": "区别于套壳第三方基础模型的同行，坚持自研语音专用模型，主打高可靠、可合规的复杂对话场景。曾被 180 家投资人拒绝后逆袭，三年累计融资破亿美元，验证语音智能体赛道商业化拐点。",
+      "sources": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/06/16/voice-ai-bland-50-million-after-being-rejected-by-180-investors/"
+        },
+        {
+          "label": "PR Newswire（官方公告）",
+          "url": "https://www.prnewswire.com/news-releases/bland-surpasses-100m-funding-with-new-series-c-to-advance-voice-ai-for-complex-high-stakes-conversations-302801583.html"
         }
       ]
     },
