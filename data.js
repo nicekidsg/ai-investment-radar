@@ -1,38 +1,98 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-13T20:35:00+08:00",
+  "updated_at": "2026-07-14T12:09:33+08:00",
   "window": "2026 年 4 月 – 7 月（近一季度）",
   "companies": [
     {
-          "name": "墨奇智能",
-          "name_en": "Morphi",
-          "region": "中国",
-          "industry": "机器人/具身智能",
-          "stage": "种子/天使",
-          "amount_usd_m": 140,
-          "amount_display": "天使轮系列超 10 亿元人民币（约 1.4 亿美元）",
-          "valuation": "投后估值超 70 亿元人民币（约 9.8 亿美元）",
-          "date": "2026-07-10",
-          "location": "中国",
-          "business": "通用具身智能公司，构建硬件、软件、算法、数据深度耦合的实时闭环具身系统，长期目标是打造具备自主进化能力的通用家庭机器人，采取商用场景先行、逐步向家庭迁移的落地策略",
-          "team": "未详细披露",
-          "investors": "阿里巴巴、腾讯联袂投资，蓝驰创投、君联资本、华业天成、高榕资本、中科创星、源码资本、光合创投、柏睿资本、58产业基金等十余家机构参投",
-          "advantage": "首轮融资即获阿里、腾讯两大巨头联合投资，估值超 70 亿元，创国内具身智能赛道公开披露首轮融资规模纪录。天使阶段即聚齐十余家一线机构，资本配置密度罕见。",
-          "sources": [
-                {
-                      "label": "投资界",
-                      "url": "https://news.pedaily.cn/202607/565900.shtml"
-                },
-                {
-                      "label": "36氪",
-                      "url": "https://36kr.com/newsflashes/3888086745119488"
-                },
-                {
-                      "label": "网易科技",
-                      "url": "https://www.163.com/tech/article/L188NSIR00098IEO.html"
-                }
-          ]
+      "name": "Arca",
+      "name_en": "Arca",
+      "region": "美国",
+      "industry": "AI金融/保险",
+      "stage": "A轮",
+      "amount_usd_m": 64,
+      "amount_display": "6400 万美元（种子 1550 万 + A 轮 4850 万）",
+      "valuation": "未披露",
+      "date": "2026-06-24",
+      "location": "美国纽约",
+      "business": "AI 原生财富管理公司，以「顾问+AI」模式提供个性化理财规划，已管理超 10 亿美元客户资产",
+      "team": "创始人兼 CEO Rron Rexha（前 Plaid 产品负责人）",
+      "investors": "A 轮由 General Catalyst 领投，Index Ventures、Venrock 跟投；种子轮由 Venrock 领投",
+      "advantage": "脱离隐身模式即披露 6400 万美元累计融资，主打人类顾问为中心、AI 提效的财富管理，顾问团队含 Vanguard 前 CEO 等重量级人物背书。",
+      "sources": [
+        {
+          "label": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20260624333055/en/Arca-Raises-$64-Million-to-Revolutionize-and-Humanize-Wealth-Management-at-Scale"
+        },
+        {
+          "label": "FinTech Futures",
+          "url": "https://www.fintechfutures.com/venture-capital-funding/arca-exits-stealth-64m-funding"
+        },
+        {
+          "label": "Finextra",
+          "url": "https://www.finextra.com/newsarticle/47995/arca-raises-64m-for-ai-native-wealth-management"
+        }
+      ]
+    },
+    {
+      "name": "Helsing",
+      "name_en": "Helsing",
+      "region": "欧洲",
+      "industry": "机器人/具身智能",
+      "stage": "D轮及以后",
+      "amount_usd_m": 1800,
+      "amount_display": "18 亿美元 Series E",
+      "valuation": "投后约 180 亿美元",
+      "date": "2026-07-13",
+      "location": "德国慕尼黑",
+      "business": "AI 国防科技公司，为无人机、有人/无人航空系统（CA-1 系列）及战场情报提供 AI 软件平台",
+      "team": "未披露具体创始团队成员（公司强调保持欧洲多数控股）",
+      "investors": "Dragoneer、Lightspeed、Iconiq、General Catalyst、高盛另类资产、摩根大通、CPP Investments、Accel、Prima Materia 等",
+      "advantage": "欧洲国防科技史上最大单轮融资，规模较 5 月传闻的 12 亿美元扩大 50% 且超额认购。受欧洲防务开支上升驱动，被视为欧洲版 Anduril，软件+航空平台双线扩张。",
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/13/helsing-fund-raise-defense-18-billion.html"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/07/13/defense-technology-startup-helsing-raises-1-8b-18b-valuation/"
+        },
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/07/13/german-defense-helsing-18-billion"
+        }
+      ]
+    },
+    {
+      "name": "墨奇智能",
+      "name_en": "Morphi",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "种子/天使",
+      "amount_usd_m": 140,
+      "amount_display": "天使轮系列超 10 亿元人民币（约 1.4 亿美元）",
+      "valuation": "投后估值超 70 亿元人民币（约 9.8 亿美元）",
+      "date": "2026-07-10",
+      "location": "中国",
+      "business": "通用具身智能公司，构建硬件、软件、算法、数据深度耦合的实时闭环具身系统，长期目标是打造具备自主进化能力的通用家庭机器人，采取商用场景先行、逐步向家庭迁移的落地策略",
+      "team": "未详细披露",
+      "investors": "阿里巴巴、腾讯联袂投资，蓝驰创投、君联资本、华业天成、高榕资本、中科创星、源码资本、光合创投、柏睿资本、58产业基金等十余家机构参投",
+      "advantage": "首轮融资即获阿里、腾讯两大巨头联合投资，估值超 70 亿元，创国内具身智能赛道公开披露首轮融资规模纪录。天使阶段即聚齐十余家一线机构，资本配置密度罕见。",
+      "sources": [
+        {
+          "label": "投资界",
+          "url": "https://news.pedaily.cn/202607/565900.shtml"
+        },
+        {
+          "label": "36氪",
+          "url": "https://36kr.com/newsflashes/3888086745119488"
+        },
+        {
+          "label": "网易科技",
+          "url": "https://www.163.com/tech/article/L188NSIR00098IEO.html"
+        }
+      ]
     },
     {
       "name": "Gradium",
@@ -1680,15 +1740,15 @@ window.FUNDING_DATA = {
       "region": "中国",
       "industry": "基础大模型",
       "stage": "战略投资",
-      "amount_usd_m": 550,
-      "amount_display": "港股 IPO 募资超 43 亿港元；拟科创板募资不超 150 亿元",
+      "amount_usd_m": 4000,
+      "amount_display": "7 月 9 日启动约 314 亿港元 H 股配售（创港股科技企业单次配售纪录）；另拟科创板募资不超 150 亿元",
       "valuation": "港股市值一度超 3200 亿港元",
-      "date": "2026-06-01",
+      "date": "2026-07-09",
       "location": "中国北京",
       "business": "以 AGI 基座模型为核心的大模型公司，提供 GLM 系列模型与企业服务。",
       "team": "清华系大模型团队（避免未经核实的人名，从略）",
       "investors": "公开市场投资人（港股已上市，拟回 A 登陆科创板）",
-      "advantage": "全球首家以 AGI 基座模型为核心业务的上市公司，6 月发布科创板上市公告拟募资不超 150 亿元，A+H 双重资本化领先同业。",
+      "advantage": "港股「大模型第一股」，上市后再启 314 亿港元配售，为国内大模型赛道企业上市后最大一笔股权融资，资金投向通用基座大模型与 MaaS 平台。",
       "sources": [
         {
           "label": "财联社 大模型第一股报道",
@@ -1697,6 +1757,10 @@ window.FUNDING_DATA = {
         {
           "label": "知乎 极新月报",
           "url": "https://zhuanlan.zhihu.com/p/2001758790966595845"
+        },
+        {
+          "label": "证券时报",
+          "url": "https://www.stcn.com/article/detail/4009674.html"
         }
       ]
     },
