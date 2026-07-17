@@ -1,36 +1,96 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-14T12:09:33+08:00",
+  "updated_at": "2026-07-17T18:34:39+08:00",
   "window": "2026 年 4 月 – 7 月（近一季度）",
   "companies": [
     {
-      "name": "Arca",
-      "name_en": "Arca",
+      "name": "Bunkerhill Health",
+      "name_en": "Bunkerhill Health",
       "region": "美国",
-      "industry": "AI金融/保险",
-      "stage": "A轮",
-      "amount_usd_m": 64,
-      "amount_display": "6400 万美元（种子 1550 万 + A 轮 4850 万）",
+      "industry": "AI医疗健康",
+      "stage": "B轮",
+      "amount_usd_m": 25,
+      "amount_display": "2500 万美元（B 轮，累计融资 5500 万美元）",
       "valuation": "未披露",
-      "date": "2026-06-24",
-      "location": "美国纽约",
-      "business": "AI 原生财富管理公司，以「顾问+AI」模式提供个性化理财规划，已管理超 10 亿美元客户资产",
-      "team": "创始人兼 CEO Rron Rexha（前 Plaid 产品负责人）",
-      "investors": "A 轮由 General Catalyst 领投，Index Ventures、Venrock 跟投；种子轮由 Venrock 领投",
-      "advantage": "脱离隐身模式即披露 6400 万美元累计融资，主打人类顾问为中心、AI 提效的财富管理，顾问团队含 Vanguard 前 CEO 等重量级人物背书。",
+      "date": "2026-07-16",
+      "location": "美国加州",
+      "business": "医院智能体平台 Carebricks：医院提出流程痛点（候诊过长、随访遗漏、文书积压等），平台将其转化为可上线的 AI 智能体，已部署于 15 家医疗系统（含 Cleveland Clinic、Mayo Clinic、Intermountain Health）。",
+      "team": "2019 年联合创立（人名以公开报道为准，从略）",
+      "investors": "Khosla Ventures 领投，Sequoia、Felicis、Optum Ventures、Y Combinator 跟投",
+      "advantage": "过去一年收入增长 20 倍、新签超 12 家医疗系统；UTMB 已上线 22 个智能体，其中冠脉影像智能体上线首月即识别高危患者。医院「自带想法、平台造智能体」的模式差异化明显。",
       "sources": [
         {
-          "label": "Business Wire",
-          "url": "https://www.businesswire.com/news/home/20260624333055/en/Arca-Raises-$64-Million-to-Revolutionize-and-Humanize-Wealth-Management-at-Scale"
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/07/16/bunkerhill-health-raises-55-million-ai-agents-work-inside-hospitals/"
         },
         {
-          "label": "FinTech Futures",
-          "url": "https://www.fintechfutures.com/venture-capital-funding/arca-exits-stealth-64m-funding"
+          "label": "Business Wire（Morningstar 转载）",
+          "url": "https://www.morningstar.com/news/business-wire/20260716806874/bunkerhill-health-raises-55-million-to-help-health-systems-turn-their-best-ideas-into-reality"
         },
         {
-          "label": "Finextra",
-          "url": "https://www.finextra.com/newsarticle/47995/arca-raises-64m-for-ai-native-wealth-management"
+          "label": "HIT Consultant",
+          "url": "https://hitconsultant.net/2026/07/16/bunkerhill-health-closes-series-b-agentic-ai-carebricks/"
+        }
+      ]
+    },
+    {
+      "name": "Neko Health",
+      "name_en": "Neko Health",
+      "region": "欧洲",
+      "industry": "AI医疗健康",
+      "stage": "C轮",
+      "amount_usd_m": 700,
+      "amount_display": "7 亿美元（Series C）",
+      "valuation": "接近 70 亿美元",
+      "date": "2026-07-15",
+      "location": "瑞典斯德哥尔摩",
+      "business": "AI 全身扫描预防医学公司，以无创扫描 + AI 诊断提供年度健康体检，已在瑞典、英国运营诊所，融资用于进军美国市场（纽约首店）。",
+      "team": "由 Spotify 创始人 Daniel Ek 与 Hjalmar Nilsonne 联合创立",
+      "investors": "Lightspeed Venture Partners 领投，O.G. Venture Partners 联合领投，Atomico、General Catalyst、Lakestar、BDT & MSD 及扎克伯格夫妇等参投",
+      "advantage": "估值一年半内从 17 亿美元跃升近 4 倍至约 70 亿美元，是欧洲预防医学 AI 的头部标的；名人与顶级机构云集，美国扩张是本轮核心叙事。",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/"
+        },
+        {
+          "label": "Axios Pro",
+          "url": "https://www.axios.com/pro/health-tech-deals/2026/07/15/neko-health-raises-700m-series-c"
+        },
+        {
+          "label": "公司官方公告",
+          "url": "https://www.nekohealth.com/gb/en/press/neko-health-raises-usd700m-series-c-ahead-of-us-launch"
+        }
+      ]
+    },
+    {
+      "name": "逐际动力",
+      "name_en": "LimX Dynamics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "D轮及以后",
+      "amount_usd_m": 200,
+      "amount_display": "近 2 亿美元（Pre-IPO 轮，半年累计融资 4 亿美元）",
+      "valuation": "投后 150 亿元人民币",
+      "date": "2026-07-14",
+      "location": "中国深圳",
+      "business": "通用人形机器人公司，聚焦大小脑融合技术与全自主人形机器人，正推动数千台规模化部署并拓展全球市场。",
+      "team": "未详细披露（避免未经核实的人名）",
+      "investors": "IDG资本、蓝思科技、GGG Group、Redstone VC、华山资本、合肥滨湖产发集团等参与，阿联酋磊石资本连续追投，绿洲资本、基石资本、南山战新投、尚颀资本、蔚来资本等老股东加注",
+      "advantage": "半年内累计融资 4 亿美元并明确 Pre-IPO 定位，是人形机器人第一梯队中最早启动上市进程的公司之一；产业资本（蓝思科技）+ 中东资本 + 国资多元结构。",
+      "sources": [
+        {
+          "label": "财新",
+          "url": "https://companies.caixin.com/2026-07-14/102464082.html"
+        },
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-07-14/doc-inihtrnk8614941.shtml"
+        },
+        {
+          "label": "深圳新闻网",
+          "url": "https://www.sznews.com/news/content/2026-07/14/content_32120513.htm"
         }
       ]
     },
@@ -117,6 +177,36 @@ window.FUNDING_DATA = {
         {
           "label": "Sifted",
           "url": "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed"
+        }
+      ]
+    },
+    {
+      "name": "智谱",
+      "name_en": "Zhipu AI",
+      "region": "中国",
+      "industry": "基础大模型",
+      "stage": "战略投资",
+      "amount_usd_m": 4000,
+      "amount_display": "7 月 9 日启动约 314 亿港元 H 股配售（创港股科技企业单次配售纪录）；另拟科创板募资不超 150 亿元",
+      "valuation": "港股市值一度超 3200 亿港元",
+      "date": "2026-07-09",
+      "location": "中国北京",
+      "business": "以 AGI 基座模型为核心的大模型公司，提供 GLM 系列模型与企业服务。",
+      "team": "清华系大模型团队（避免未经核实的人名，从略）",
+      "investors": "公开市场投资人（港股已上市，拟回 A 登陆科创板）",
+      "advantage": "港股「大模型第一股」，上市后再启 314 亿港元配售，为国内大模型赛道企业上市后最大一笔股权融资，资金投向通用基座大模型与 MaaS 平台。",
+      "sources": [
+        {
+          "label": "财联社 大模型第一股报道",
+          "url": "https://www.cls.cn/detail/2227664"
+        },
+        {
+          "label": "知乎 极新月报",
+          "url": "https://zhuanlan.zhihu.com/p/2001758790966595845"
+        },
+        {
+          "label": "证券时报",
+          "url": "https://www.stcn.com/article/detail/4009674.html"
         }
       ]
     },
@@ -671,66 +761,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "Higharc",
-      "name_en": "Higharc",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "C轮",
-      "amount_usd_m": 95,
-      "amount_display": "9500 万美元（C 轮）",
-      "valuation": "未披露",
-      "date": "2026-06-30",
-      "location": "美国北卡罗来纳州达勒姆",
-      "business": "住宅建筑 AI 平台，将房屋生成为 3D 空间数据，覆盖设计、算量、销售到施工全流程；并推出面向建材分销商的 AI Estimating 自动算料产品。",
-      "team": "Higharc 团队（避免未经核实的人名，从略）",
-      "investors": "Insight Partners 领投，Wellington Management、Fifth Wall、Spark Capital、Lux Capital 等跟投",
-      "advantage": "累计融资超 1.7 亿美元，入选 Deloitte Fast 500 前 50。与美国最大私营建材分销商 US LBM 达成合作，把平台从建筑商延伸到建材供应链，卡位住宅建造垂直 AI。",
-      "sources": [
-        {
-          "label": "Crunchbase News 本周十大融资",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
-        },
-        {
-          "label": "公司官方公告（PR Newswire）",
-          "url": "https://www.prnewswire.com/news-releases/higharc-raises-95m-series-c-to-scale-ai-for-homebuilding-302814598.html"
-        },
-        {
-          "label": "SiliconANGLE 报道",
-          "url": "https://siliconangle.com/2026/07/01/homebuilding-ai-startup-higharc-bags-90m-series-c-funding/"
-        }
-      ]
-    },
-    {
-      "name": "LeapXpert",
-      "name_en": "LeapXpert",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "战略投资",
-      "amount_usd_m": 180,
-      "amount_display": "1.8 亿美元（成长期融资）",
-      "valuation": "未披露",
-      "date": "2026-06-30",
-      "location": "美国纽约",
-      "business": "AI 驱动的合规通信治理平台，将 WhatsApp、iMessage 等消息渠道纳入企业级合规留痕与治理，并用 AI 将客户对话转化为可执行的业务智能。",
-      "team": "LeapXpert 团队（避免未经核实的人名，从略）",
-      "investors": "Riverwood Capital 领投，Portage Ventures 等跟投",
-      "advantage": "连续两年入选 Gartner 数字通信治理魔力象限「远见者」，服务金融机构与公共部门；本轮将加码 AI 对话理解能力并拓展企业市场。",
-      "sources": [
-        {
-          "label": "公司官方公告",
-          "url": "https://www.leapxpert.com/leapxpert-raises-180-million-to-lead-ai-powered-governed-communications/"
-        },
-        {
-          "label": "Riverwood Capital 公告",
-          "url": "https://www.riverwoodcapital.com/rwcm_news/riverwood-capital-leads-180-million-growth-round-investment-in-leapxpert/"
-        },
-        {
-          "label": "PR Newswire 通稿",
-          "url": "https://www.prnewswire.com/news-releases/leapxpert-raises-180-million-to-lead-ai-powered-governed-communications-302814485.html"
-        }
-      ]
-    },
-    {
       "name": "智平方",
       "name_en": "AI² Robotics",
       "region": "中国",
@@ -813,136 +843,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "General Intuition",
-      "name_en": "General Intuition",
-      "region": "美国",
-      "industry": "基础大模型",
-      "stage": "A轮",
-      "amount_usd_m": 320,
-      "amount_display": "3.2 亿美元（Series A）",
-      "valuation": "约 23 亿美元",
-      "date": "2026-06-26",
-      "location": "美国纽约",
-      "business": "基于海量游戏画面训练的「世界模型」基础 AI，目标让智能体理解空间与物理交互。",
-      "team": "新成立的世界模型研究团队（避免未经核实的人名，从略）",
-      "investors": "Khosla Ventures 领投，Jeff Bezos、General Catalyst 等参投",
-      "advantage": "A 轮即 23 亿美元估值，押注「世界模型」这一前沿方向；以游戏数据训练空间智能，路线独特。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-26 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
-        },
-        {
-          "label": "钛媒体 世界模型报道",
-          "url": "https://www.tmtpost.com/8037833.html"
-        }
-      ]
-    },
-    {
-      "name": "Mirendil",
-      "name_en": "Mirendil",
-      "region": "美国",
-      "industry": "基础大模型",
-      "stage": "种子/天使",
-      "amount_usd_m": 200,
-      "amount_display": "2 亿美元（种子轮）",
-      "valuation": "未披露",
-      "date": "2026-06-26",
-      "location": "美国旧金山",
-      "business": "前沿实验室，构建在「AI 研发自动化」上表现卓越的系统，目标用 AI 加速 AI 研究。",
-      "team": "新成立的前沿实验室团队（避免未经核实的人名，从略）",
-      "investors": "Andreessen Horowitz、Kleiner Perkins 领投，Nvidia 参投",
-      "advantage": "2 亿美元种子轮规模罕见，顶级 VC 加英伟达背书；瞄准「用 AI 做 AI 研发」的自我加速路径。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-26 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
-        },
-        {
-          "label": "Crunchbase 大额种子轮分析",
-          "url": "https://news.crunchbase.com/venture/data-largest-seed-rounds-ai-startups/"
-        }
-      ]
-    },
-    {
-      "name": "Upscale AI",
-      "name_en": "Upscale AI",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "A轮",
-      "amount_usd_m": 190,
-      "amount_display": "1.9 亿美元（Series A 追加）",
-      "valuation": "约 20 亿美元",
-      "date": "2026-06-26",
-      "location": "美国圣克拉拉（加州）",
-      "business": "AI 网络基础设施，为大规模 AI 集群提供高性能网络互联方案。",
-      "team": "新成立的网络基础设施团队（避免未经核实的人名，从略）",
-      "investors": "Premji Invest 领投",
-      "advantage": "A 轮追加后累计融资达 5 亿美元，估值 20 亿美元；AI 算力集群规模化带动网络互联需求爆发。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-26 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
-        },
-        {
-          "label": "Crunchbase News AI 板块",
-          "url": "https://news.crunchbase.com/sections/ai/"
-        }
-      ]
-    },
-    {
-      "name": "Quantifind",
-      "name_en": "Quantifind",
-      "region": "美国",
-      "industry": "AI金融/保险",
-      "stage": "D轮及以后",
-      "amount_usd_m": 200,
-      "amount_display": "2 亿美元（成长轮）",
-      "valuation": "未披露",
-      "date": "2026-06-26",
-      "location": "美国帕洛阿尔托（加州）",
-      "business": "面向金融犯罪侦测与国家安全的风险情报平台，用 AI 识别欺诈、洗钱与制裁风险。",
-      "team": "成立多年的风险情报团队（避免未经核实的人名，从略）",
-      "investors": "Summit Partners 领投",
-      "advantage": "金融犯罪合规与风险情报刚需赛道，AI 实体识别与图谱分析能力构成壁垒。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-26 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
-        },
-        {
-          "label": "Crunchbase News AI 板块",
-          "url": "https://news.crunchbase.com/sections/ai/"
-        }
-      ]
-    },
-    {
-      "name": "Peregrine Technologies",
-      "name_en": "Peregrine Technologies",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "D轮及以后",
-      "amount_usd_m": 250,
-      "amount_display": "2.5 亿美元（Series D）",
-      "valuation": "约 68 亿美元",
-      "date": "2026-06-26",
-      "location": "美国旧金山",
-      "business": "面向公共安全机构与政府部门的数据整合与分析平台，用 AI 打通多源数据辅助决策。",
-      "team": "成立于 2017 年的政府软件团队（避免未经核实的人名，从略）",
-      "investors": "Fifth Down Capital、Sequoia Capital、Goldcrest Capital、XYZ Ventures 等",
-      "advantage": "政府与公共安全数据中台稀缺供应商，估值升至 68 亿美元；合规与数据壁垒高、续约稳定。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-26 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
-        },
-        {
-          "label": "Crunchbase News Venture 板块",
-          "url": "https://news.crunchbase.com/sections/venture/"
-        }
-      ]
-    },
-    {
       "name": "Alan",
       "name_en": "Alan",
       "region": "欧洲",
@@ -965,296 +865,6 @@ window.FUNDING_DATA = {
         {
           "label": "Crunchbase News Venture 板块",
           "url": "https://news.crunchbase.com/sections/venture/"
-        }
-      ]
-    },
-    {
-      "name": "无界动力",
-      "name_en": "Unbounded Dynamics",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "种子/天使",
-      "amount_usd_m": 200,
-      "amount_display": "超 2 亿美元（天使轮累计）",
-      "valuation": "未披露",
-      "date": "2026-06-26",
-      "location": "中国",
-      "business": "通用具身智能机器人公司，聚焦具身「通用大脑」与「操作智能」，技术路线为「隐空间世界模型 + 强化学习」。",
-      "team": "成立于 2025 年的具身智能团队（避免未经核实的人名，从略）",
-      "investors": "京东关联基金、C 资本、弘毅投资、盛宇投资、丰源投资等联合投资；据报道近 2 亿美元 Pre-A 轮亦接近完成",
-      "advantage": "成立约一年天使轮累计融资超 2 亿美元，已拿下远景、ZF LIFETEC 等近 1 亿美元全球订单，京东系产业资本加持。金额为报道口径，未完全官方披露。",
-      "sources": [
-        {
-          "label": "投资界(pedaily) 报道",
-          "url": "https://news.pedaily.cn/202606/565576.shtml"
-        },
-        {
-          "label": "第一财经 报道",
-          "url": "https://www.yicai.com/brief/103154141.html"
-        }
-      ]
-    },
-    {
-      "name": "深度机智",
-      "name_en": "Deepwise Robotics",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 50,
-      "amount_display": "数亿元人民币（最新一轮）",
-      "valuation": "未披露",
-      "date": "2026-06-26",
-      "location": "中国",
-      "business": "聚焦具身智能的 AI 公司，采用「人类第一视角」技术路线，做人类学习路线全栈，全产品线已落地商业订单。",
-      "team": "兼具科研与产业落地的核心团队（避免未经核实的人名，从略）",
-      "investors": "国寿长三角科创基金领投，普华资本、诚通科创基金、蓝湖资本、磐谷创投等十余家机构参与",
-      "advantage": "「人类第一视角」数据路线差异化，全产品线已签约数千万元商业订单，下一轮融资已进入收尾阶段。金额为报道口径，未完全官方披露。",
-      "sources": [
-        {
-          "label": "腾讯新闻 芯报",
-          "url": "https://news.qq.com/rain/a/20260626A0AB9H00"
-        },
-        {
-          "label": "知乎 独家报道",
-          "url": "https://zhuanlan.zhihu.com/p/2038559923043296165"
-        }
-      ]
-    },
-    {
-      "name": "8090 Solutions",
-      "name_en": "8090",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "A轮",
-      "amount_usd_m": 135,
-      "amount_display": "1.35 亿美元（Series A）",
-      "valuation": "未披露",
-      "date": "2026-06-26",
-      "location": "美国",
-      "business": "「Software Factory」平台，让企业工程团队与 AI 智能体协同，将业务需求转化为生产级、可审计代码，并提供面向医疗、保险、生命科学、航空航天、能源、制造、金融、政府等受监管行业的托管开发服务。",
-      "team": "2024 年 1 月由 Chamath Palihapitiya 与联合创始人兼 CTO Sina Sojoodi 创立",
-      "investors": "Salesforce Ventures 领投，WndrCo、Craft Ventures、The Production Board、LAUNCH 等参投",
-      "advantage": "定位「人机协同软件工厂」，切入受监管行业的定制软件与托管开发市场，创始人转为全职 CEO 后加速商业化。",
-      "sources": [
-        {
-          "label": "Business Wire 官方公告",
-          "url": "https://www.businesswire.com/news/home/20260626795833/en/8090-Raises-$135M-Series-A-to-Accelerate-Their-Rollout-of-Software-Factory"
-        },
-        {
-          "label": "SiliconANGLE 报道",
-          "url": "https://siliconangle.com/2026/06/29/ai-software-development-startup-8090-nabs-135m-funding-round/"
-        }
-      ]
-    },
-    {
-      "name": "临界点",
-      "name_en": "Critical Point",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 140,
-      "amount_display": "数亿元人民币（最新一轮约 10 亿元）",
-      "valuation": "约 10 亿美元",
-      "date": "2026-06-25",
-      "location": "中国上海",
-      "business": "从智元机器人拆分独立的灵巧手与夹爪研发商，产品包括自适应夹爪 OmniPicker、全能作业灵巧手 OmniHand Pro 等。",
-      "team": "由智元机器人 2026 年初出资孵化（避免未经核实的人名，从略）",
-      "investors": "蓝驰创投、高瓴创投、百度风投、云锋基金、未来资产、京铭资本等（成立 5 个月内密集完成四轮）",
-      "advantage": "成立不足 5 个月估值破 10 亿美元，灵巧手累计交付超 8000 台、夹爪出货超万台，据透露首季已实现盈利。金额为报道口径，未完全官方披露。",
-      "sources": [
-        {
-          "label": "36氪 氪星晚报",
-          "url": "https://36kr.com/p/3869884559332356"
-        },
-        {
-          "label": "新浪财经 报道",
-          "url": "https://finance.sina.com.cn/jjxw/2026-05-20/doc-inhypaen2653823.shtml"
-        }
-      ]
-    },
-    {
-      "name": "Patronus AI",
-      "name_en": "Patronus AI",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "B轮",
-      "amount_usd_m": 50,
-      "amount_display": "5000 万美元 B 轮",
-      "valuation": "未披露",
-      "date": "2026-06-25",
-      "location": "美国旧金山",
-      "business": "AI 智能体评测与压力测试平台，推出首个「数字世界模型」，在模拟环境中提前发现 AI 智能体的失败模式",
-      "team": "创始人 Anand Kannappan、Rebecca Qian（均为前 Meta AI 研究员）",
-      "investors": "Greenfield Partners 领投，Notable Capital、Lightspeed、Datadog、三星、Factorial Capital 等参投",
-      "advantage": "过去一年收入增长约 15 倍，几乎所有头部 AI 实验室都是其客户。随着企业大规模部署智能体，部署前仿真测试正成为刚需环节，Patronus 卡位这一新基础设施层。",
-      "sources": [
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/"
-        },
-        {
-          "label": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/06/25/patronus-ai-grabs-50m-funding-stress-test-ai-agents-simulated-environments/"
-        },
-        {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html"
-        }
-      ]
-    },
-    {
-      "name": "Assort Health",
-      "name_en": "Assort Health",
-      "region": "美国",
-      "industry": "AI医疗健康",
-      "stage": "C轮",
-      "amount_usd_m": 120,
-      "amount_display": "1.2 亿美元（Series C）",
-      "valuation": "未披露",
-      "date": "2026-06-24",
-      "location": "美国",
-      "business": "面向医疗机构的 AI 语音/通信平台，自动处理患者来电、预约与分诊等前台流程。",
-      "team": "医疗 AI 创业团队（避免未经核实的人名，从略）",
-      "investors": "Menlo Ventures、Lightspeed、Felicis、First Round Capital 等，累计融资超 2.22 亿美元",
-      "advantage": "切入医院前台人力短缺痛点，AI 语音代理可显著降本增效；累计融资超 2.22 亿美元，商业化进展快。",
-      "sources": [
-        {
-          "label": "Tech Startups 融资综述（2026-06-24）",
-          "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/"
-        },
-        {
-          "label": "AI Funding Tracker 医疗榜",
-          "url": "https://aifundingtracker.com/top-ai-healthcare-startups/"
-        }
-      ]
-    },
-    {
-      "name": "xCures",
-      "name_en": "xCures",
-      "region": "美国",
-      "industry": "AI医疗健康",
-      "stage": "B轮",
-      "amount_usd_m": 46,
-      "amount_display": "4600 万美元（Series B）",
-      "valuation": "约 1.27 亿美元（投后）",
-      "date": "2026-06-24",
-      "location": "美国",
-      "business": "用 AI 自动归集、结构化并清洗分散的患者病历与医疗记录，服务临床研究与诊疗决策。",
-      "team": "医疗数据 AI 团队（避免未经核实的人名，从略）",
-      "investors": "Innovius Capital 领投，iGrow、GKCC、Spring Mountain Capital 等",
-      "advantage": "解决医疗数据「脏、散、乱」的底层难题，结构化病历对临床试验和真实世界研究价值高。",
-      "sources": [
-        {
-          "label": "Crunchbase News 独家报道",
-          "url": "https://news.crunchbase.com/venture/xcures-lands-seriesb-medical-records-ai/"
-        },
-        {
-          "label": "Tech Startups 融资综述（2026-06-24）",
-          "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/"
-        }
-      ]
-    },
-    {
-      "name": "Taktile",
-      "name_en": "Taktile",
-      "region": "美国",
-      "industry": "AI金融/保险",
-      "stage": "C轮",
-      "amount_usd_m": 110,
-      "amount_display": "1.1 亿美元（Series C）",
-      "valuation": "未披露",
-      "date": "2026-06-24",
-      "location": "美国纽约 / 德国柏林",
-      "business": "面向金融机构的 AI 决策引擎，帮助银行与信贷机构搭建和迭代风控、授信等自动化决策流。",
-      "team": "金融科技工程团队（避免未经核实的人名，从略）",
-      "investors": "Goldman Sachs 领投，累计融资达 1.84 亿美元",
-      "advantage": "高盛领投强化金融客户背书；低代码决策编排让金融机构快速上线 AI 风控，替换传统规则引擎。",
-      "sources": [
-        {
-          "label": "Tech Startups 融资综述（2026-06-24）",
-          "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/"
-        },
-        {
-          "label": "Crunchbase News AI 板块",
-          "url": "https://news.crunchbase.com/sections/ai/"
-        }
-      ]
-    },
-    {
-      "name": "TensorX",
-      "name_en": "TensorX",
-      "region": "欧洲",
-      "industry": "AI开发工具/基础设施",
-      "stage": "种子/天使",
-      "amount_usd_m": 9,
-      "amount_display": "约 800 万欧元（种子轮）",
-      "valuation": "未披露",
-      "date": "2026-06-24",
-      "location": "欧洲",
-      "business": "主权算力（sovereign compute）公司，为区域客户提供自主可控的 AI 算力与基础设施。",
-      "team": "主权算力创业团队（避免未经核实的人名，从略）",
-      "investors": "Darius Cubed Ventures",
-      "advantage": "顺应各国「算力主权」与数据本地化趋势，定位区域自主 AI 基础设施，早期切入差异化赛道。",
-      "sources": [
-        {
-          "label": "Tech Startups 融资综述（2026-06-24）",
-          "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/"
-        },
-        {
-          "label": "Crunchbase News AI 板块",
-          "url": "https://news.crunchbase.com/sections/ai/"
-        }
-      ]
-    },
-    {
-      "name": "RunPod",
-      "name_en": "RunPod",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "A轮",
-      "amount_usd_m": 100,
-      "amount_display": "1 亿美元",
-      "valuation": "约 10 亿美元",
-      "date": "2026-06-24",
-      "location": "美国新泽西州纽瓦克",
-      "business": "面向 AI 开发者的云平台，提供模型训练、微调、推理与多节点扩展一体化基础设施，平台开发者用户超 100 万。",
-      "team": "由前 Comcast 工程师团队创立（避免未经核实的人名，从略）",
-      "investors": "Summit Partners 领投",
-      "advantage": "拒绝逾 5 亿美元收购要约选择独立发展；估值较 2024 年种子轮的约 1 亿美元大幅跃升，是 AI 开发者云赛道成长最快的公司之一。",
-      "sources": [
-        {
-          "label": "PR Newswire 官方公告",
-          "url": "https://www.prnewswire.com/news-releases/runpod-raises-100m-led-by-summit-partners-to-accelerate-the-ai-developer-cloud-302808689.html"
-        },
-        {
-          "label": "The Information 报道",
-          "url": "https://www.theinformation.com/newsletters/ai-agenda/cloud-startup-runpod-raises-100-million-says-turned-buyout-offers"
-        }
-      ]
-    },
-    {
-      "name": "Trase",
-      "name_en": "Trase",
-      "region": "美国",
-      "industry": "AI医疗健康",
-      "stage": "种子/天使",
-      "amount_usd_m": 107,
-      "amount_display": "1.07 亿美元（种子轮）",
-      "valuation": "未披露",
-      "date": "2026-06-24",
-      "location": "美国",
-      "business": "面向医疗、国防等高监管行业的智能体操作系统 Trase Origin，提供患者接入导航、临床研究、资源优化、临床支持、护理路径自动化、收入周期管理等专用智能体，按客户效率提升计费、不上收数据。",
-      "team": "面向受监管行业的智能体团队（避免未经核实的人名，从略）",
-      "investors": "ARCH Venture Partners 领投，Red Cell Partners 等参投",
-      "advantage": "在杜克大学医疗系统心内科单科每月处理超 5000 份传真，客户还包括美国海军，是少数聚焦高合规壁垒场景的智能体公司，种子轮融资规模罕见地达 1 亿美元级别。",
-      "sources": [
-        {
-          "label": "Axios 报道",
-          "url": "https://www.axios.com/pro/health-tech-deals/2026/06/24/trase-107-million-health-care-defense-ai"
-        },
-        {
-          "label": "MobiHealthNews 报道",
-          "url": "https://www.mobihealthnews.com/news/trase-lands-107m-scale-ai-agents-healthcare-and-high-stakes-industries"
         }
       ]
     },
@@ -1285,58 +895,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "Odyssey",
-      "name_en": "Odyssey",
-      "region": "美国",
-      "industry": "基础大模型",
-      "stage": "B轮",
-      "amount_usd_m": 310,
-      "amount_display": "3.1 亿美元（Series B）",
-      "valuation": "约 14.5 亿美元",
-      "date": "2026-06-17",
-      "location": "美国",
-      "business": "「世界模型」AI 创业公司，构建可模拟与预测人、物体与环境交互的生成式世界模型，应用于机器人、自动驾驶、科学与游戏等领域。",
-      "team": "由自动驾驶领域资深团队创立（避免未经核实的人名，从略）",
-      "investors": "Natural Capital 领投，Amazon、GV、AMD Ventures、EQT、IQT 等参投",
-      "advantage": "B 轮即 14.5 亿美元估值，押注前沿「世界模型」方向；与 AWS 达成战略合作并部署 Trainium 芯片，巨头与明星天使阵容豪华。",
-      "sources": [
-        {
-          "label": "TechCrunch 报道",
-          "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
-        },
-        {
-          "label": "Odyssey 官方公告",
-          "url": "https://odyssey.ml/our-series-b"
-        }
-      ]
-    },
-    {
-      "name": "诺亦腾机器人",
-      "name_en": "Noitom Robotics",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "A轮",
-      "amount_usd_m": 42,
-      "amount_display": "Pre-A++ 轮数亿元人民币（具体金额未披露）",
-      "valuation": "未披露",
-      "date": "2026-06-17",
-      "location": "中国北京",
-      "business": "具身智能数据基础设施提供商，专注多模态训练数据的采集、治理与交付，建设数据工厂与工程化平台，为机器人厂商提供核心'数据燃料'",
-      "team": "创始人戴若犒博士（诺亦腾联合创始人，动作捕捉技术专家）",
-      "investors": "昆仑资本、北京市人工智能产业投资基金、上海人工智能产业系列基金、深创投、中金投资等",
-      "advantage": "定位具身智能'卖铲人'，类比行业'台积电'，卡位数据荒这一全行业瓶颈。北京、上海两地国资基金同时入局，数据工厂模式在具身智能爆发期具备横向服务全行业的杠杆效应。",
-      "sources": [
-        {
-          "label": "投资界",
-          "url": "https://news.pedaily.cn/202606/565258.shtml"
-        },
-        {
-          "label": "新浪财经",
-          "url": "https://finance.sina.com.cn/wm/2026-06-17/doc-inicthnt6024625.shtml"
-        }
-      ]
-    },
-    {
       "name": "深度求索",
       "name_en": "DeepSeek",
       "region": "中国",
@@ -1363,62 +921,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "Hydra Host",
-      "name_en": "Hydra Host",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "A轮",
-      "amount_usd_m": 100,
-      "amount_display": "A 轮 1 亿美元",
-      "valuation": "约 8 亿美元（媒体报道，未官方披露）",
-      "date": "2026-06-16",
-      "location": "美国科罗拉多州博尔德",
-      "business": "裸金属 GPU 算力平台，自研 Brokkr 操作系统连接客户与分布式 AI 数据中心算力，已部署于美洲、亚太、欧非中东 50 余个数据中心",
-      "team": "CEO Aaron Ginn（联合创始人）",
-      "investors": "Kindred Ventures 领投，Nvidia、ARK Invest、Comcast Ventures、Magnetar、PEAK6 等新进，老股东 Founders Fund、10x Founders 跟投",
-      "advantage": "以'AI 工厂算力承销网络'切入 GPU 供需错配痛点，轻资产模式区别于自建数据中心的 Neocloud。Nvidia 与 Founders Fund 同时背书，A 轮即达 1 亿美元规模，反映主权算力与分布式 GPU 租赁需求高涨。",
-      "sources": [
-        {
-          "label": "BusinessWire（官方公告）",
-          "url": "https://www.businesswire.com/news/home/20260616230170/en/Hydra-Host-Raises-$100-Million-Series-A-to-Expand-Global-AI-Factory-Capacity"
-        },
-        {
-          "label": "Crunchbase News",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
-        },
-        {
-          "label": "Data Center Dynamics",
-          "url": "https://www.datacenterdynamics.com/en/news/hydra-host-raises-100m-in-series-a-funding-round/"
-        }
-      ]
-    },
-    {
-      "name": "Bland",
-      "name_en": "Bland AI",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "C轮",
-      "amount_usd_m": 50,
-      "amount_display": "C 轮 5000 万美元（累计融资超 1 亿美元）",
-      "valuation": "未披露",
-      "date": "2026-06-16",
-      "location": "美国旧金山",
-      "business": "企业级语音 AI 智能体平台，自研语音专用模型，为电话、短信、聊天场景部署生产级 AI 客服代理，去年处理超 1.75 亿通 AI 电话，企业客户 250+ 家",
-      "team": "联合创始人 Isaiah Granet、Sobhan Nejad（2023 年创立）",
-      "investors": "Dell Technologies Capital 领投，HubSpot Ventures、Archerman Capital、Tribeca Venture Partners 新进，Emergence、Scale VP、Y Combinator、Max Levchin 等跟投",
-      "advantage": "区别于套壳第三方基础模型的同行，坚持自研语音专用模型，主打高可靠、可合规的复杂对话场景。曾被 180 家投资人拒绝后逆袭，三年累计融资破亿美元，验证语音智能体赛道商业化拐点。",
-      "sources": [
-        {
-          "label": "Fortune",
-          "url": "https://fortune.com/2026/06/16/voice-ai-bland-50-million-after-being-rejected-by-180-investors/"
-        },
-        {
-          "label": "PR Newswire（官方公告）",
-          "url": "https://www.prnewswire.com/news-releases/bland-surpasses-100m-funding-with-new-series-c-to-advance-voice-ai-for-complex-high-stakes-conversations-302801583.html"
-        }
-      ]
-    },
-    {
       "name": "阶跃星辰",
       "name_en": "StepFun",
       "region": "中国",
@@ -1441,32 +943,6 @@ window.FUNDING_DATA = {
         {
           "label": "DoNews 报道",
           "url": "https://www.donews.com/news/detail/4/6552997.html"
-        }
-      ]
-    },
-    {
-      "name": "世航智能",
-      "name_en": "Shihang Intelligent",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "A轮",
-      "amount_usd_m": 140,
-      "amount_display": "超 10 亿元人民币（约 1.4 亿美元，A 轮）",
-      "valuation": "未披露",
-      "date": "2026-06-15",
-      "location": "中国苏州",
-      "business": "海洋具身智能机器人研发商，「虎鲸」等型号具备 0–10000 米全海深、全自由度作业能力，是目前唯一在真实海洋环境中实现全海深稳定商业部署的产品，今年以来订单金额已超 10 亿元。",
-      "team": "海洋机器人研发团队（避免未经核实的人名，从略）",
-      "investors": "摩尔线程/昆仑芯关联的上河动量基金、淡马锡旗下 Vertex Growth、中信集团旗下农业产业基金、誉尊资本、大洋电机等新股东，金沙江创投、祥峰中国、华映资本、长石资本、盛景嘉成资本、鞍羽资本等老股东超额追投",
-      "advantage": "创全球海洋机器人赛道单轮融资纪录，将具身智能从陆地拓展至全海深场景，是稀缺的「海洋+具身智能」标的。",
-      "sources": [
-        {
-          "label": "投资界报道",
-          "url": "https://news.pedaily.cn/202606/565212.shtml"
-        },
-        {
-          "label": "东方财富网报道",
-          "url": "https://wap.eastmoney.com/a/202606153771444027.html"
         }
       ]
     },
@@ -1501,28 +977,32 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "TensorWave",
-      "name_en": "TensorWave",
-      "region": "美国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "B轮",
-      "amount_usd_m": 350,
-      "amount_display": "3.5 亿美元（Series B）",
-      "valuation": "约 15.5 亿美元",
+      "name": "Neura Robotics",
+      "name_en": "NEURA Robotics",
+      "region": "欧洲",
+      "industry": "机器人/具身智能",
+      "stage": "C轮",
+      "amount_usd_m": 1400,
+      "amount_display": "最高 14 亿美元（Series C，部分资金与业绩里程碑挂钩）",
+      "valuation": "约 70 亿美元（据知情人士，公司未确认）",
       "date": "2026-06-10",
-      "location": "美国",
-      "business": "全栈基于 AMD 芯片的 AI 云，专注大模型训练与高吞吐推理等内存密集型工作负载，主打不依赖英伟达的算力路线。",
-      "team": "成立的 AI 云基础设施团队（避免未经核实的人名，从略）",
-      "investors": "Magnetar、AMD Ventures 共同领投，Maverick Silicon、Nexus Venture Partners、Western Frontier 等跟投",
-      "advantage": "运营北美最大 AMD AI 训练集群之一（8192 张 MI325X），锁定超 2GW 长期数据中心容量；AMD 路线为算力市场提供英伟达之外的差异化选择。",
+      "location": "德国梅廷根",
+      "business": "认知与人形机器人「Physical AI」平台公司，全栈自研机器人本体、传感与 Neuraverse 软件生态，覆盖工业与家用场景。",
+      "team": "创始人 David Reger",
+      "investors": "Tether 领投，Qualcomm、Amazon、NVIDIA、Bosch、Schaeffler、imec.xpand、欧洲投资银行、Lingotto、InterAlpen 等参投",
+      "advantage": "全栈机器人公司史上最大单轮，欧洲对标 Figure 的核心标的；产业资本（高通、亚马逊、英伟达、博世）密集入场。注意：全额到账取决于里程碑达成。",
       "sources": [
         {
-          "label": "Business Wire 官方公告",
-          "url": "https://www.businesswire.com/news/home/20260610650010/en/TensorWave-Raises-$350-Million-Series-B-at-$1.55B-Valuation-to-Expand-Global-AMD-Powered-AI-Infrastructure"
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/10/neura-robotics-funding-ai-humanoid-robots.html"
         },
         {
-          "label": "Data Center Dynamics 报道",
-          "url": "https://www.datacenterdynamics.com/en/news/amd-based-ai-cloud-tensorwave-secures-350m-series-b-funding/"
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-10/tether-backs-german-robotics-startup-neura-in-1-4-billion-round"
+        },
+        {
+          "label": "公司官方公告",
+          "url": "https://neura-robotics.com/record-series-c/"
         }
       ]
     },
@@ -1605,110 +1085,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "Flourish",
-      "name_en": "Flourish",
-      "region": "美国",
-      "industry": "基础大模型",
-      "stage": "种子/天使",
-      "amount_usd_m": 500,
-      "amount_display": "5 亿美元（初始轮）",
-      "valuation": "未披露",
-      "date": "2026-06-05",
-      "location": "美国纽约",
-      "business": "研发受人脑启发的新型人工智能模型，探索区别于主流 Transformer 的类脑架构。",
-      "team": "新成立的研究型团队（避免未经核实的人名，从略）",
-      "investors": "Jeff Bezos、Lux Capital、Google Ventures 等",
-      "advantage": "5 亿美元初始轮在种子阶段极为罕见，明星投资人背书；类脑架构若跑通有望突破现有大模型的能耗与泛化瓶颈。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-05 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
-        },
-        {
-          "label": "Crunchbase 大额种子轮分析",
-          "url": "https://news.crunchbase.com/venture/data-largest-seed-rounds-ai-startups/"
-        }
-      ]
-    },
-    {
-      "name": "Suno",
-      "name_en": "Suno",
-      "region": "美国",
-      "industry": "AI内容生成",
-      "stage": "D轮及以后",
-      "amount_usd_m": 400,
-      "amount_display": "4 亿美元（Series D）",
-      "valuation": "约 54 亿美元",
-      "date": "2026-06-05",
-      "location": "美国剑桥（马萨诸塞）",
-      "business": "AI 音乐生成工具，用户用文本提示即可生成完整歌曲与配乐。",
-      "team": "成立于 2022 年的音乐 AI 团队（避免未经核实的人名，从略）",
-      "investors": "Bond 领投",
-      "advantage": "消费级 AI 音乐生成的领跑者，付费用户增长迅速；同时面临多家唱片公司就版权训练数据提起的诉讼，存在法律不确定性。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-05 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
-        },
-        {
-          "label": "Tech Startups 融资综述",
-          "url": "https://techstartups.com/2026/06/03/venture-capital-startup-funding-roundup-june-3-2026/"
-        }
-      ]
-    },
-    {
-      "name": "Generalist AI",
-      "name_en": "Generalist AI",
-      "region": "美国",
-      "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 400,
-      "amount_display": "4 亿美元",
-      "valuation": "约 20 亿美元",
-      "date": "2026-06-05",
-      "location": "美国圣马特奥（加州）",
-      "business": "用通用 AI 让机器人完成复杂任务，研发跨形态的机器人基础模型。",
-      "team": "成立约 2 年的机器人 AI 团队（避免未经核实的人名，从略）",
-      "investors": "Radical Ventures 领投",
-      "advantage": "成立两年即获 4 亿美元与 20 亿美元估值，押注具身智能通用基础模型，是海外具身赛道明星新贵。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-05 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
-        },
-        {
-          "label": "Crunchbase News AI 板块",
-          "url": "https://news.crunchbase.com/sections/ai/"
-        }
-      ]
-    },
-    {
-      "name": "AlphaSense",
-      "name_en": "AlphaSense",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "D轮及以后",
-      "amount_usd_m": 350,
-      "amount_display": "3.5 亿美元",
-      "valuation": "约 75 亿美元",
-      "date": "2026-06-05",
-      "location": "美国纽约",
-      "business": "AI 市场情报与工作流编排平台，服务金融、咨询与企业研究人员的信息检索与分析。",
-      "team": "成立于 2011 年的金融信息团队（避免未经核实的人名，从略）",
-      "investors": "Vitruvian Partners、Accenture Ventures、J.P. Morgan Asset Management、D.E. Shaw Ventures、Pinegrove 等",
-      "advantage": "企业级 AI 研究/情报赛道头部，客户黏性高、数据壁垒强，估值持续抬升。",
-      "sources": [
-        {
-          "label": "Crunchbase News（2026-06-05 十大融资）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
-        },
-        {
-          "label": "Crunchbase News AI 板块",
-          "url": "https://news.crunchbase.com/sections/ai/"
-        }
-      ]
-    },
-    {
       "name": "Ramp",
       "name_en": "Ramp",
       "region": "美国",
@@ -1735,118 +1111,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "智谱",
-      "name_en": "Zhipu AI",
-      "region": "中国",
-      "industry": "基础大模型",
-      "stage": "战略投资",
-      "amount_usd_m": 4000,
-      "amount_display": "7 月 9 日启动约 314 亿港元 H 股配售（创港股科技企业单次配售纪录）；另拟科创板募资不超 150 亿元",
-      "valuation": "港股市值一度超 3200 亿港元",
-      "date": "2026-07-09",
-      "location": "中国北京",
-      "business": "以 AGI 基座模型为核心的大模型公司，提供 GLM 系列模型与企业服务。",
-      "team": "清华系大模型团队（避免未经核实的人名，从略）",
-      "investors": "公开市场投资人（港股已上市，拟回 A 登陆科创板）",
-      "advantage": "港股「大模型第一股」，上市后再启 314 亿港元配售，为国内大模型赛道企业上市后最大一笔股权融资，资金投向通用基座大模型与 MaaS 平台。",
-      "sources": [
-        {
-          "label": "财联社 大模型第一股报道",
-          "url": "https://www.cls.cn/detail/2227664"
-        },
-        {
-          "label": "知乎 极新月报",
-          "url": "https://zhuanlan.zhihu.com/p/2001758790966595845"
-        },
-        {
-          "label": "证券时报",
-          "url": "https://www.stcn.com/article/detail/4009674.html"
-        }
-      ]
-    },
-    {
-      "name": "天机智能",
-      "name_en": "Tianji Intelligent (T-Motion)",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "B轮",
-      "amount_usd_m": 140,
-      "amount_display": "10 亿元人民币（B 轮及 B+ 轮，约 1.4 亿美元）",
-      "valuation": "投后近百亿元人民币",
-      "date": "2026-05-25",
-      "location": "中国广东",
-      "business": "聚焦运动控制、MEMS 传感器、一体化关节模组等底层技术，为具身智能提供力控人形双臂等核心「肢体」部件，服务全球整机厂商与具身智能公司。",
-      "team": "广东天机智能系统团队（避免未经核实的人名，从略）",
-      "investors": "高瓴创投、美团战投联合领投；腾讯、高榕创投、光合创投、纪源资本等跟投，高鹄资本担任独家财务顾问",
-      "advantage": "全球首家实现力控人形双臂量产交付且出货量最大的厂商：2025 年 4 个月交付超 2000 台，2026 年一季度在手订单突破 1 万台，覆盖全球 45 家头部整机厂商。本轮跻身独角兽，将加速北美等海外本地化布局。",
-      "sources": [
-        {
-          "label": "投资界（pedaily）报道",
-          "url": "https://news.pedaily.cn/202605/564328.shtml"
-        },
-        {
-          "label": "创业邦报道",
-          "url": "https://www.cyzone.cn/article/834464.html"
-        },
-        {
-          "label": "21经济网报道",
-          "url": "https://www.21jingji.com/article/20260525/herald/c2fa6f2c59c7410cfe58f5cc2504c5e5.html"
-        }
-      ]
-    },
-    {
-      "name": "地瓜机器人",
-      "name_en": "D-Robotics",
-      "region": "中国",
-      "industry": "AI开发工具/基础设施",
-      "stage": "B轮",
-      "amount_usd_m": 140,
-      "amount_display": "约 10 亿元人民币级（近一季度）",
-      "valuation": "未披露",
-      "date": "2026-05-25",
-      "location": "中国上海",
-      "business": "机器人计算平台与边缘 AI 芯片公司，为机器人/具身智能提供算力底座与开发工具链。",
-      "team": "边缘 AI 芯片团队（避免未经核实的人名，从略）",
-      "investors": "多家产业与机构投资人（以披露为准）",
-      "advantage": "为机器人提供「大脑」算力与软件栈，卡位具身智能基础设施。金额为近一季度区间估计，具体以官方披露为准。",
-      "sources": [
-        {
-          "label": "投资界 具身智能融资盘点",
-          "url": "https://news.pedaily.cn/202606/565245.shtml"
-        },
-        {
-          "label": "证券时报 具身智能融资报道",
-          "url": "https://www.stcn.com/article/detail/3753646.html"
-        }
-      ]
-    },
-    {
-      "name": "千寻智能",
-      "name_en": "Spirit AI",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "A轮",
-      "amount_usd_m": 70,
-      "amount_display": "约 5 亿元人民币级（近一季度）",
-      "valuation": "未披露",
-      "date": "2026-05-20",
-      "location": "中国杭州",
-      "business": "具身智能公司，研发通用人形机器人与具身操作模型。",
-      "team": "具身智能创业团队（避免未经核实的人名，从略）",
-      "investors": "多家机构（以披露为准）",
-      "advantage": "上半年中国具身智能融资热潮中的活跃头部之一，聚焦操作智能与本体一体化。金额为近一季度区间估计，具体以官方披露为准。",
-      "sources": [
-        {
-          "label": "投资界 具身智能融资盘点",
-          "url": "https://news.pedaily.cn/202606/565245.shtml"
-        },
-        {
-          "label": "证券时报 具身智能融资报道",
-          "url": "https://www.stcn.com/article/detail/3753646.html"
-        }
-      ]
-    },
-    {
       "name": "Anthropic",
       "name_en": "Anthropic",
       "region": "美国",
@@ -1869,226 +1133,6 @@ window.FUNDING_DATA = {
         {
           "label": "Crunchbase News AI 板块",
           "url": "https://news.crunchbase.com/sections/ai/"
-        }
-      ]
-    },
-    {
-      "name": "心智机器人",
-      "name_en": "Mind Robotics",
-      "region": "美国",
-      "industry": "机器人/具身智能",
-      "stage": "B轮",
-      "amount_usd_m": 400,
-      "amount_display": "4 亿美元（新一轮，Kleiner Perkins 领投）",
-      "valuation": "投后约 34 亿美元",
-      "date": "2026-05-13",
-      "location": "美国加州帕洛阿尔托",
-      "business": "Rivian 分拆的工业机器人公司，开发面向制造业的 AI 模型与专用机器人，利用 Rivian 工厂车间作为真实训练环境，Rivian 为首个客户。",
-      "team": "由 Rivian 创始人兼 CEO RJ Scaringe 于 2025 年 11 月分拆创立",
-      "investors": "Kleiner Perkins 领投，Meritech Capital、Redpoint Ventures、SV Angel、A-Star Capital 等跟投",
-      "advantage": "成立不到一年累计融资超 10 亿美元，估值两个月内升至 34 亿美元；以真实工厂产线为训练场，是「物理 AI」赛道最快跻身独角兽的公司之一。",
-      "sources": [
-        {
-          "label": "TechCrunch 报道",
-          "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/"
-        },
-        {
-          "label": "The Robot Report 报道",
-          "url": "https://www.therobotreport.com/mind-robotics-raises-400m-scale-ai-powered-robots-in-manufacturing/"
-        },
-        {
-          "label": "Crunchbase News 周报",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-anduril-voltagrid-mind-robotics/"
-        }
-      ]
-    },
-    {
-      "name": "Exaforce",
-      "name_en": "Exaforce",
-      "region": "美国",
-      "industry": "智能体与企业应用",
-      "stage": "B轮",
-      "amount_usd_m": 125,
-      "amount_display": "1.25 亿美元（B 轮）",
-      "valuation": "7.25 亿美元",
-      "date": "2026-05-12",
-      "location": "美国加州圣何塞",
-      "business": "AI 原生安全运营（SOC）平台，以实时安全知识图谱结合 AI 智能体「Exabots」自动完成威胁检测、分诊、调查与响应，并配套 MDR 服务。",
-      "team": "Exaforce 团队（避免未经核实的人名，从略）",
-      "investors": "HarbourVest、Peak XV、Mayfield、Khosla Ventures、Seligman Ventures 等",
-      "advantage": "距 7500 万美元 A 轮仅一年再获大额融资，累计融资 2 亿美元；实时知识图谱使调查可在一分钟内完成，主打对抗 AI 驱动的新型攻击。",
-      "sources": [
-        {
-          "label": "TechCrunch 报道",
-          "url": "https://techcrunch.com/2026/05/12/exaforce-raises-125m-series-b-to-build-ai-for-catching-and-stopping-cyberattacks-as-they-happen/"
-        },
-        {
-          "label": "BusinessWire 官方通稿",
-          "url": "https://www.businesswire.com/news/home/20260512993333/en/Exaforce-Raises-%24125M-Series-B-to-Combat-AI-Powered-Attacks-with-Real-Time-Security-Reasoning"
-        },
-        {
-          "label": "Crunchbase News 周报",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-anduril-voltagrid-mind-robotics/"
-        }
-      ]
-    },
-    {
-      "name": "星尘智能",
-      "name_en": "Astribot",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "A轮",
-      "amount_usd_m": 60,
-      "amount_display": "数亿元人民币（近一季度）",
-      "valuation": "未披露",
-      "date": "2026-05-10",
-      "location": "中国深圳",
-      "business": "具身智能公司，研发面向家庭与商用场景的高自由度协作机器人。",
-      "team": "深圳具身智能团队（避免未经核实的人名，从略）",
-      "investors": "多家机构（以披露为准）",
-      "advantage": "高自由度本体与灵巧操作演示出圈，是具身赛道高关注度新锐。金额为近一季度区间估计，具体以官方披露为准。",
-      "sources": [
-        {
-          "label": "投资界 具身智能融资盘点",
-          "url": "https://news.pedaily.cn/202606/565245.shtml"
-        },
-        {
-          "label": "腾讯新闻 融资日报",
-          "url": "https://news.qq.com/rain/a/20260601A087VN00"
-        }
-      ]
-    },
-    {
-      "name": "星海图",
-      "name_en": "Galaxea AI",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 280,
-      "amount_display": "约 20 亿元人民币（再融资）",
-      "valuation": "约 200 亿元人民币",
-      "date": "2026-04-25",
-      "location": "中国北京",
-      "business": "具身智能公司，研发具身基础模型与一体化机器人本体，推动数据-模型-本体闭环。",
-      "team": "具身智能研究团队（避免未经核实的人名，从略）",
-      "investors": "多家头部机构（以披露为准）",
-      "advantage": "再融约 20 亿元将头部具身门槛抬升至约 200 亿元估值，数据与本体一体化布局领先。",
-      "sources": [
-        {
-          "label": "量子位 报道",
-          "url": "https://www.qbitai.com/2026/04/394626.html"
-        },
-        {
-          "label": "证券时报 具身智能融资报道",
-          "url": "https://www.stcn.com/article/detail/3753646.html"
-        }
-      ]
-    },
-    {
-      "name": "普渡机器人",
-      "name_en": "Pudu Robotics",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 150,
-      "amount_display": "近 10 亿元人民币（约 1.5 亿美元）",
-      "valuation": "突破百亿元人民币（约 15 亿美元）",
-      "date": "2026-04-23",
-      "location": "中国深圳",
-      "business": "全球商用服务机器人厂商，清洁、配送机器人全球市场份额约 23% 居第一，海外营收占比连续多年超八成，正拓展工业配送与具身智能技术。",
-      "team": "2016 年成立的商用服务机器人团队（避免未经核实的人名，从略）",
-      "investors": "龙岗金控、亚投资本联合领投，北汽产投、蓝思科技、弘晖基金及珠三角、长三角多地政府引导基金等参投",
-      "advantage": "累计融资超 20 亿元，晋升国内具身智能百亿估值独角兽，正筹备港股上市，是全球商用服务机器人出货量与市场份额双第一的公司。",
-      "sources": [
-        {
-          "label": "新浪财经报道",
-          "url": "https://finance.sina.com.cn/roll/2026-04-23/doc-inhvnhrk3817008.shtml"
-        },
-        {
-          "label": "36氪报道",
-          "url": "https://36kr.com/p/3786490420878344"
-        }
-      ]
-    },
-    {
-      "name": "银河通用",
-      "name_en": "Galbot",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 350,
-      "amount_display": "约 25 亿元人民币",
-      "valuation": "约 210 亿元人民币",
-      "date": "2026-04-20",
-      "location": "中国北京",
-      "business": "通用具身智能机器人公司，研发轮式人形机器人与具身大模型，落地零售、工业等场景。",
-      "team": "北京具身智能团队（避免未经核实的人名，从略）",
-      "investors": "国家人工智能产业基金（大基金三期）、中国石化、中信集团、中国银行等国家队与产业巨头",
-      "advantage": "国家队与产业资本密集加持，自称当时估值最高的未上市机器人公司，约 210 亿元。",
-      "sources": [
-        {
-          "label": "财新 报道",
-          "url": "https://m.caixin.com/m/2026-03-02/102418619.html"
-        },
-        {
-          "label": "证券时报 具身智能融资报道",
-          "url": "https://www.stcn.com/article/detail/3753646.html"
-        }
-      ]
-    },
-    {
-      "name": "它石智航",
-      "name_en": "TARS",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "A轮",
-      "amount_usd_m": 455,
-      "amount_display": "4.55 亿美元",
-      "valuation": "未披露",
-      "date": "2026-04-15",
-      "location": "中国",
-      "business": "具身智能公司，研发具身「大脑」与机器人通用模型，强调大规模真机数据驱动。",
-      "team": "创始团队强调具身智能需千万小时级数据（避免未经核实的人名，从略）",
-      "investors": "美团战投、北京机器人产业发展投资基金、上海国投先导等 20 余家机构",
-      "advantage": "被称为当时中国具身智能最大单笔融资，产业与国资资本阵容豪华，数据驱动路线清晰。",
-      "sources": [
-        {
-          "label": "量子位 报道",
-          "url": "https://www.qbitai.com/2026/04/402388.html"
-        },
-        {
-          "label": "EET-China 报道",
-          "url": "https://www.eet-china.com/mp/a488901.html"
-        }
-      ]
-    },
-    {
-      "name": "极佳视界",
-      "name_en": "GigaAI",
-      "region": "中国",
-      "industry": "基础大模型",
-      "stage": "B轮",
-      "amount_usd_m": 210,
-      "amount_display": "15 亿元人民币（B1 轮，约 2.1 亿美元；一个月内累计融资 25 亿元）",
-      "valuation": "超百亿元人民币",
-      "date": "2026-04-14",
-      "location": "中国北京（海淀）",
-      "business": "世界模型 + 物理 AI 公司，自研 GigaWorld-1 世界模型（WorldArena 评测全球第一），并推出全栈自研双臂移动机器人 Maker H01，已启动规模化量产交付。",
-      "team": "创始人黄冠为清华大学自动化系博士，曾任地平线视觉感知技术负责人、鉴智机器人合伙人",
-      "investors": "多家机构参与（含产业方与财务投资人；3 月曾完成 10 亿元 Pre-B 轮）",
-      "advantage": "被称为国内首个世界模型「百亿独角兽」：3 月至 4 月一个月内连续融资 25 亿元；世界模型与具身本体双轮驱动，2026 年冲刺千台机器人交付。",
-      "sources": [
-        {
-          "label": "投资界（pedaily）报道",
-          "url": "https://news.pedaily.cn/202604/562806.shtml"
-        },
-        {
-          "label": "证券时报报道",
-          "url": "https://stcn.com/article/detail/3754115.html"
-        },
-        {
-          "label": "新浪科技报道",
-          "url": "https://finance.sina.com.cn/tech/roll/2026-04-16/doc-inhuryef7850324.shtml"
         }
       ]
     }
