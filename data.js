@@ -1,7 +1,7 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-17T18:34:39+08:00",
+  "updated_at": "2026-07-17T18:40:11+08:00",
   "window": "2026 年 4 月 – 7 月（近一季度）",
   "companies": [
     {
@@ -869,6 +869,62 @@ window.FUNDING_DATA = {
       ]
     },
     {
+      "name": "Taktile",
+      "name_en": "Taktile",
+      "region": "美国",
+      "industry": "AI金融/保险",
+      "stage": "C轮",
+      "amount_usd_m": 110,
+      "amount_display": "1.1 亿美元（Series C，累计融资 1.84 亿美元）",
+      "valuation": "未披露",
+      "date": "2026-06-24",
+      "location": "美国纽约（另设柏林、伦敦等办公室）",
+      "business": "面向银行与保险公司的 Agentic 决策平台，将 AI 智能体、规则与人工监督结合，自动化贷款审批、理赔评估、反金融犯罪等高风险决策。",
+      "team": "创始人 Maik Taro Wehmeyer、Maximilian Eber",
+      "investors": "Goldman Sachs Alternatives 旗下 Growth Equity 领投，Balderton、Index Ventures、Tiger Global、Y Combinator 等参投",
+      "advantage": "客户含 Mercury、Monzo、Faire 等，每日驱动数百万次决策；某全球大型保险公司仅理赔处理一项预计节省超 9000 万美元成本。",
+      "sources": [
+        {
+          "label": "Business Wire 官方公告（2026-06-24）",
+          "url": "https://www.businesswire.com/news/home/20260624713959/en/Taktile-Secures-$110M-in-Goldman-Sachs-Led-Series-C-to-Power-AI-Transformation-in-Financial-Institutions"
+        },
+        {
+          "label": "Fortune 独家报道",
+          "url": "https://fortune.com/2026/06/24/exclusive-taktile-goldman-sachs-ai-bank-insurance-funding/"
+        }
+      ]
+    },
+    {
+      "name": "Cadence",
+      "name_en": "Cadence",
+      "region": "美国",
+      "industry": "AI医疗健康",
+      "stage": "C轮",
+      "amount_usd_m": 100,
+      "amount_display": "1 亿美元（Series C，累计融资 2.41 亿美元）",
+      "valuation": "投后约 12.3 亿美元",
+      "date": "2026-06-23",
+      "location": "美国纽约",
+      "business": "AI 慢病管理平台，居家监测心衰、高血压、糖尿病患者并实时调整用药，服务超 10 万活跃患者、20 余家合作医疗系统。",
+      "team": "创始人兼 CEO Chris Altchek",
+      "investors": "Spark Capital 领投，Thrive Capital、General Catalyst、Coatue、B Capital 及多家医疗系统参投",
+      "advantage": "2025 年 ARR 增长约三倍，据报道每周为 Medicare 节省约 270 万美元；以受监管的 AI 智能体自动化慢病照护，成为数字健康新晋独角兽。",
+      "sources": [
+        {
+          "label": "STAT News（2026-06-23）",
+          "url": "https://www.statnews.com/2026/06/23/cadence-100-million-raise-automate-chronic-care-ai/"
+        },
+        {
+          "label": "Fierce Healthcare",
+          "url": "https://www.fiercehealthcare.com/finance/cadence-secures-100m-series-c-advance-chronic-care-ai-agents"
+        },
+        {
+          "label": "Business Wire 官方公告",
+          "url": "https://www.businesswire.com/news/home/20260623072271/en/Cadence-Raises-$100M-Series-C-Led-by-Spark-Capital-to-Automate-Chronic-Care"
+        }
+      ]
+    },
+    {
       "name": "Baseten",
       "name_en": "Baseten",
       "region": "美国",
@@ -1107,6 +1163,66 @@ window.FUNDING_DATA = {
         {
           "label": "Crunchbase News（2026-06-05 十大融资）",
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"
+        }
+      ]
+    },
+    {
+      "name": "千寻智能",
+      "name_en": "Spirit AI",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 210,
+      "amount_display": "15 亿元人民币 A+ 轮（约 2.1 亿美元；3 个月内四轮累计超 45 亿元）",
+      "valuation": "未披露",
+      "date": "2026-06-03",
+      "location": "中国杭州",
+      "business": "具身智能与通用人形机器人公司，自研具身基座模型 Spirit v1.6，已在宁德时代电池产线与京东零售场景落地。",
+      "team": "创始人韩峰涛",
+      "investors": "一线美元基金、大型产业投资方及国资基金（未逐一披露）",
+      "advantage": "3 个月内完成四轮融资、累计超 45 亿元，刷新具身智能赛道融资速度纪录；自研 Spirit v1.6 据报道在 RoboArena 榜单登顶，成为首个登顶的中国具身模型。",
+      "sources": [
+        {
+          "label": "投资界（2026-06-03 首发）",
+          "url": "https://news.pedaily.cn/202606/564786.shtml"
+        },
+        {
+          "label": "证券时报",
+          "url": "https://www.stcn.com/article/detail/3940468.html"
+        },
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacxkk4007887.shtml"
+        }
+      ]
+    },
+    {
+      "name": "Suno",
+      "name_en": "Suno",
+      "region": "美国",
+      "industry": "AI内容生成",
+      "stage": "D轮及以后",
+      "amount_usd_m": 400,
+      "amount_display": "4 亿美元（Series D）",
+      "valuation": "投后约 54 亿美元",
+      "date": "2026-06-03",
+      "location": "美国剑桥（马萨诸塞州）",
+      "business": "AI 音乐生成平台，订阅用户超 200 万，年经常性收入约 3 亿美元。",
+      "team": "联合创始人兼 CEO Mikey Shulman",
+      "investors": "Bond 领投，IVP、Forerunner、Union Square Ventures、Alkeon 等参投",
+      "advantage": "估值较 2025 年 11 月的 24.5 亿美元翻倍以上；已与华纳音乐达成和解及授权合作，但 UMG 与索尼的版权诉讼仍在进行，为主要风险点。",
+      "sources": [
+        {
+          "label": "Variety（2026-06）",
+          "url": "https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/"
+        },
+        {
+          "label": "Digital Music News",
+          "url": "https://www.digitalmusicnews.com/2026/06/03/suno-series-d/"
+        },
+        {
+          "label": "Built In",
+          "url": "https://builtin.com/articles/suno-raises-400m-series-d-54b-valuation-20260603"
         }
       ]
     },
