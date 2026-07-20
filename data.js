@@ -1,9 +1,189 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-17T18:40:11+08:00",
+  "updated_at": "2026-07-20T12:10:20+08:00",
   "window": "2026 年 4 月 – 7 月（近一季度）",
   "companies": [
+    {
+      "name": "Fireworks AI",
+      "name_en": "Fireworks AI",
+      "region": "美国",
+      "industry": "AI开发工具/基础设施",
+      "stage": "D轮及以后",
+      "amount_usd_m": 1505,
+      "amount_display": "15.05 亿美元（Series D）",
+      "valuation": "175 亿美元",
+      "date": "2026-07-16",
+      "location": "美国加州圣马特奥",
+      "business": "企业级 AI 推理与模型定制平台：帮助企业把通用大模型转化为在自有数据上训练的「专用智能」，并在其高性能推理栈上规模化部署，平台日均处理超 40 万亿 tokens。",
+      "team": "由前 Meta PyTorch 团队负责人乔琳（Lin Qiao）等创立",
+      "investors": "Atreides Management、Index Ventures、TCV 联合领投，Evantic、Lightspeed、NVIDIA、20VC、Bessemer、Menlo Ventures 等参投",
+      "advantage": "年化收入（ARR）已突破 10 亿美元、同比增长约 5 倍；95% 经其平台输出的 tokens 来自定制化模型，「专用智能」叙事契合企业降本诉求，是本季度 AI 基础设施最大单笔融资之一。",
+      "sources": [
+        {
+          "label": "Business Wire（官方公告）",
+          "url": "https://www.businesswire.com/news/home/20260716264405/en/Fireworks-Raises-a-$1.5-Billion-Series-D-to-Lead-the-Specialized-Intelligence-Revolution"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/16/fireworks-nvidia-cloud-ai-startup-value.html"
+        },
+        {
+          "label": "Crunchbase News（周度 Top10）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        }
+      ]
+    },
+    {
+      "name": "Chai Discovery",
+      "name_en": "Chai Discovery",
+      "region": "美国",
+      "industry": "AI医疗健康",
+      "stage": "C轮",
+      "amount_usd_m": 400,
+      "amount_display": "4 亿美元（Series C）",
+      "valuation": "38 亿美元",
+      "date": "2026-07-15",
+      "location": "美国旧金山",
+      "business": "AI 药物发现公司，构建能推理生物结构与功能并生成全新分子设计的基础模型（Chai 系列），已与礼来共建定制模型、并向辉瑞授权最新 Chai-3 模型早期使用权。",
+      "team": "2024 年由 OpenAI、Meta 背景的研究者联合创立（含 Joshua Meier 等）",
+      "investors": "Index Ventures 领投，Sequoia、Kleiner Perkins、Dimension、Bain Capital Ventures、Baillie Gifford、OpenAI、Thrive 等参投",
+      "advantage": "约 7 个月内估值从 13 亿美元增至 38 亿美元、近乎三倍；已签下礼来、辉瑞等大药企商业合同，是 AI 分子设计赛道商业化验证最快的公司之一。",
+      "sources": [
+        {
+          "label": "Endpoints News",
+          "url": "https://endpoints.news/chai-discovery-gets-400m-tripling-valuation-from-seven-months-ago/"
+        },
+        {
+          "label": "citybiz",
+          "url": "https://www.citybiz.co/article/874292/chai-discovery-raises-400-million-series-c-to-scale-ai-drug-discovery-platform/"
+        },
+        {
+          "label": "Crunchbase News（周度 Top10）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        }
+      ]
+    },
+    {
+      "name": "Walden Robotics",
+      "name_en": "Walden Robotics",
+      "region": "美国",
+      "industry": "机器人/具身智能",
+      "stage": "种子/天使",
+      "amount_usd_m": 300,
+      "amount_display": "3 亿美元（种子轮，出隐身）",
+      "valuation": "11 亿美元",
+      "date": "2026-07-15",
+      "location": "美国马萨诸塞州剑桥",
+      "business": "脱胎于丰田研究院（TRI）的全栈 Physical AI 公司，基于 Large Behavior Models（大行为模型）打造面向制造与物流的通用机器人，机器人已在丰田北美工厂承担上下料、清洁、配套装配等实际生产任务。",
+      "team": "创始团队来自丰田研究院、MIT、斯坦福与亚马逊（Diffusion Policy 与 LBM 相关研究先驱，人名从略）",
+      "investors": "丰田（Toyota）与 Deviation Capital 联合领投，NVIDIA、波音、三星风投、AE Ventures 等参投",
+      "advantage": "出隐身即独角兽（估值 11 亿美元）；从首次试点到真实产线部署不到两个月，「边干活边持续学习」的 LBM 路线与丰田产业场景绑定，落地确定性高于多数人形机器人同行。",
+      "sources": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-15/toyota-backed-robotics-startup-walden-launches-with-1-1-billion-valuation"
+        },
+        {
+          "label": "Business Wire（官方公告）",
+          "url": "https://www.businesswire.com/news/home/20260715089377/en/Walden-Robotics-Launches-with-$300-Million-to-Put-General-Purpose-Robots-to-Work-Today"
+        },
+        {
+          "label": "The Robot Report",
+          "url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/"
+        }
+      ]
+    },
+    {
+      "name": "Emergent",
+      "name_en": "Emergent",
+      "region": "印度",
+      "industry": "AI开发工具/基础设施",
+      "stage": "C轮",
+      "amount_usd_m": 130,
+      "amount_display": "1.3 亿美元（Series C）",
+      "valuation": "15 亿美元（投后）",
+      "date": "2026-07-15",
+      "location": "印度班加罗尔",
+      "business": "AI 软件创建（vibe coding）平台，让创业者与中小企业无需工程团队即可构建全栈、可上线的 Web 与移动应用，付费客户超 20 万、月活约 150–200 万。",
+      "team": "创始团队为印度连续创业者（人名以公开报道为准，从略）",
+      "investors": "私募基金 Creaegis 领投，MNI Ventures-Claypond、Sentinel Global 及老股东 Khosla Ventures、软银愿景基金 2 期、Lightspeed、Y Combinator 参投",
+      "advantage": "上线一年多即成独角兽，估值 6 个月内涨约 5 倍；ARR 达 1.2 亿美元，是印度 AI 编程赛道增长最快的标的，累计融资 2.3 亿美元。",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"
+        },
+        {
+          "label": "DealStreetAsia",
+          "url": "https://www.dealstreetasia.com/stories/emergent-unicorn-489228"
+        },
+        {
+          "label": "Business Wire（官方公告）",
+          "url": "https://www.businesswire.com/news/home/20260715082819/en/Emergent-Raises-Series-C-at-$1.5B-Valuation-to-Help-Entrepreneurs-and-SMBs-Build-the-Software-Their-Businesses-Run-On"
+        }
+      ]
+    },
+    {
+      "name": "千觉机器人",
+      "name_en": "Qianjue Robotics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 14,
+      "amount_display": "亿元人民币（约 1400 万美元，战略融资）",
+      "valuation": "未披露",
+      "date": "2026-07-14",
+      "location": "中国上海",
+      "business": "具身智能触觉方案商：自研多模态视触觉传感器、XTac UMI G1 触觉数采系统与原生支持触觉/接触模态的 VTLA 物理智能模型，覆盖硬件-数据-模型-场景全链条，已服务 300 余家行业头部客户。",
+      "team": "2024 年 5 月由上海交通大学副教授、ICRA 2021 全球最佳论文奖得主马道林创立",
+      "investors": "头部具身智能产业方与吉德电器战略投资，天季资本参投",
+      "advantage": "触觉是具身智能补齐「手感」的关键缺口，公司为全球少数原生支持触觉模态的物理智能模型团队；产业资本战略入局印证其在灵巧操作、精密装配等场景的落地进展。",
+      "sources": [
+        {
+          "label": "投资界（pedaily）",
+          "url": "https://news.pedaily.cn/20260714/134082.shtml"
+        },
+        {
+          "label": "盖世汽车",
+          "url": "https://auto.gasgoo.com/news/202607/14I70465674C601.shtml"
+        },
+        {
+          "label": "中华网科技",
+          "url": "https://tech.china.com/articles/20260714/202607141916393.html"
+        }
+      ]
+    },
+    {
+      "name": "逆矩阵科技",
+      "name_en": "Physis（NiMatrix）",
+      "region": "中国",
+      "industry": "基础大模型",
+      "stage": "种子/天使",
+      "amount_usd_m": 100,
+      "amount_display": "超 1 亿美元（种子++轮）",
+      "valuation": "未披露",
+      "date": "2026-06-17",
+      "location": "中国北京",
+      "business": "通用世界基座模型公司，为工业仿真、具身智能、物理仿真、交互世界与科学预测等物理 AI 场景提供底层认知引擎，由智源研究院孵化。",
+      "team": "由北大青年学者陈博远与吉嘉铭联合创立，长期专注强化学习与世界模型研究",
+      "investors": "经纬创投、光合创投、五源资本、BAI 资本、钟鼎资本等参投，蚂蚁集团战略投资，高瓴创投、燕缘创投等老股东加注",
+      "advantage": "成立不久即在 3 个月内连续完成超千万美元与超亿美元两轮融资，是国内世界模型赛道种子期融资规模最大的团队之一；「Z 世代」原生科研团队 + 智源孵化背景稀缺。",
+      "sources": [
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2403881"
+        },
+        {
+          "label": "钛媒体",
+          "url": "https://www.tmtpost.com/8033411.html"
+        },
+        {
+          "label": "澎湃新闻",
+          "url": "https://m.thepaper.cn/newsDetail_forward_33405964"
+        }
+      ]
+    },
     {
       "name": "Bunkerhill Health",
       "name_en": "Bunkerhill Health",
