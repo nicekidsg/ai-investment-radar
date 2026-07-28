@@ -1,9 +1,125 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-28T12:24:57+08:00",
+  "updated_at": "2026-07-29T12:00:00+08:00",
   "window": "2026 年 5 月 – 7 月（近一季度）",
   "companies": [
+    {
+      "name": "智谷天厨",
+      "name_en": "T-Chef",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 14,
+      "amount_display": "近亿元人民币战略融资（约 1400 万美元）",
+      "valuation": "未披露",
+      "date": "2026-07-27",
+      "location": "中国广东深圳",
+      "business": "智能烹饪机器人研发生产商，以「烹饪机器人硬件 + AI 数字菜肴大模型」为核心，把中餐烹饪中高度依赖厨师经验的环节转化为可标准化开发、规模化交付的产品能力，公司称已率先跑通盈利。",
+      "team": "官方通稿未详列创始团队成员",
+      "investors": "招商局创投领投，跃迁资本跟投，云启资本、啟赋资本等老股东超额追投",
+      "advantage": "在餐饮机器人赛道中少见的已盈利公司，获招商局系产业资本背书；融资后将持续推进物理 AI 研发，并加速中式及泛亚洲餐饮的全球化落地。",
+      "sources": [
+        {
+          "label": "投资界",
+          "url": "https://news.pedaily.cn/202607/566865.shtml"
+        },
+        {
+          "label": "中金在线",
+          "url": "http://hy.stock.cnfol.com/dianzixinxijishu/20260727/32318176.shtml"
+        },
+        {
+          "label": "Fastdata极数",
+          "url": "https://www.ifastdata.com/2026/07/27/%E6%99%BA%E8%B0%B7%E5%A4%A9%E5%8E%A8%E8%8E%B7%E6%8B%9B%E5%95%86%E5%B1%80%E5%88%9B%E6%8A%95%E9%A2%86%E6%8A%95%E8%BF%91%E4%BA%BF%E5%85%83%E8%9E%8D%E8%B5%84/"
+        }
+      ]
+    },
+    {
+      "name": "Enigma",
+      "name_en": "Enigma",
+      "region": "美国",
+      "industry": "机器人/具身智能",
+      "stage": "种子/天使",
+      "amount_usd_m": 71,
+      "amount_display": "7100 万美元种子轮（出隐身）",
+      "valuation": "未披露",
+      "date": "2026-07-27",
+      "location": "美国旧金山（创始团队来自以色列）",
+      "business": "构建与机器人本体无关（robot-agnostic）的 AI 模型与人机交互接口层，让智能机器更易部署和操控；已将 100 多台真实机器人放到线上供公众交互，以规模化采集人机接口数据。",
+      "team": "联合创始人 Jonathan Jacobi（微软史上最年轻员工、前 Wiz 成员）与 Gal Niv",
+      "investors": "Index Ventures 与 Ribbit Capital 领投，Conviction 的 Sarah Guo 及来自 OpenAI、Anthropic、DeepMind、xAI、Cognition、Wiz 的多位高管个人参投",
+      "advantage": "切入具身智能中「模型能力与人类可用性之间」的接口层而非本体硬件，思路差异化；种子轮即获 7100 万美元与一线基金和明星天使背书。",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
+        },
+        {
+          "label": "Calcalist (Ctech)",
+          "url": "https://www.calcalistech.com/ctechnews/article/h1tdxjhrgx"
+        },
+        {
+          "label": "Tech Startups",
+          "url": "https://techstartups.com/2026/07/27/venture-capital-startup-funding-roundup-july-27-2026-b-capital-index-ventures-paradigm-point72-ventures-ribbit-capital-more/"
+        }
+      ]
+    },
+    {
+      "name": "Ominimo",
+      "name_en": "Ominimo",
+      "region": "欧洲",
+      "industry": "AI金融/保险",
+      "stage": "B轮",
+      "amount_usd_m": 22.5,
+      "amount_display": "2010 万欧元 B 轮（约 2250 万美元）",
+      "valuation": "14 亿欧元（约 16 亿美元），成立两年即成独角兽且已盈利",
+      "date": "2026-07-27",
+      "location": "匈牙利布达佩斯（塞尔维亚/匈牙利创始团队）",
+      "business": "AI 驱动的车险定价与承保平台，采用 MGA（管理型总代理）模式不自担保险风险；年化总保费规模从 2024 年约 2630 万欧元增至目前约 3.07 亿欧元。",
+      "team": "创始人 Dusan Komar、Dennis Weinbender、Laslo Horvath（2024 年创立）",
+      "investors": "欧洲复兴开发银行（EBRD）风投部门领投",
+      "advantage": "欧洲少见的「已盈利 + 两年成独角兽」保险科技样本；以数据密集定价模型对接传统保险资产负债表，资金将用于申请自有保险牌照并筹备进入美国市场。",
+      "sources": [
+        {
+          "label": "EU-Startups",
+          "url": "https://www.eu-startups.com/2026/07/profitable-serbian-hungarian-insurtech-ominimo-hits-unicorn-status-two-years-after-launch-raises-e20-1-million-at-e1-4-billion-valuation/"
+        },
+        {
+          "label": "The Insurer",
+          "url": "https://www.theinsurer.com/ti/news/hungarian-insurtech-ominimo-valued-at-16-billion-in-ebrd-led-round-2026-07-28/"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/ominimo-ebrd-series-b-1-4-billion-insurtech-unicorn"
+        }
+      ]
+    },
+    {
+      "name": "眸深智能",
+      "name_en": "Motion Brain",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 14,
+      "amount_display": "近亿元人民币 Pre-A 轮追加融资（约 1400 万美元；另据报道近 5 亿元 Pre-A+ 轮交割中）",
+      "valuation": "未披露（据报道半年估值涨超 10 倍）",
+      "date": "2026-07-26",
+      "location": "中国上海徐汇",
+      "business": "端侧生成式通用具身大脑（「给 10 亿台机器人装原生通用大脑」），客户覆盖工业检测、物业、环卫等场景；2026 上半年审计回款收入约 3000 万元，全年预计超 5000 万元。",
+      "team": "复旦大学未来信息创新学院教授陈涛与原英特尔中国首席科学家张益民等联合创办",
+      "investors": "瑾悦投资、创合汇资本联合投资，老股东徐汇资本追加",
+      "advantage": "学界 + 产业界复合创始团队，两个月内连续获投、商业化回款在具身大脑赛道领先；已与小米、宇树科技等建立合作（据 36氪报道）。",
+      "sources": [
+        {
+          "label": "36氪（新浪转载）",
+          "url": "https://finance.sina.cn/stock/jdts/2026-07-26/detail-inikawym3784879.d.html"
+        },
+        {
+          "label": "投资界",
+          "url": "https://news.pedaily.cn/202607/566855.shtml"
+        }
+      ]
+    },
     {
       "name": "智象未来",
       "name_en": "HiDream.ai",
@@ -121,6 +237,36 @@ window.FUNDING_DATA = {
         {
           "label": "VoxelMatters",
           "url": "https://www.voxelmatters.com/meshy-raises-400-million-series-b-at-1-5-billion-valuation/"
+        }
+      ]
+    },
+    {
+      "name": "Genius AI",
+      "name_en": "Genius AI (原 GlossGenius)",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "D轮及以后",
+      "amount_usd_m": 44,
+      "amount_display": "4400 万美元 Series D",
+      "valuation": "11.5 亿美元",
+      "date": "2026-07-21",
+      "location": "美国纽约",
+      "business": "美业 SaaS 公司 GlossGenius 更名 Genius AI，向整个线下服务业扩张：为门店提供预约排班、支付、营销与客户管理的 AI 自动化平台，累计融资超 1.25 亿美元。",
+      "team": "创始人兼 CEO Danielle Cohen-Shohet",
+      "investors": "Lux Capital 领投，Bessemer Venture Partners、Imaginary Ventures、L Catterton Growth、2048 Ventures、StepStone 等参投",
+      "advantage": "从垂直（美业）向水平（全线下服务业）扩张的典型样本，AI 直接贴近门店收入环节；本轮后正式跻身独角兽。",
+      "sources": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/07/21/glossgenius-rebrand-genius-ai-small-businesses-beauty-unicorn-series-d/"
+        },
+        {
+          "label": "FinSMEs",
+          "url": "https://www.finsmes.com/2026/07/genius-ai-raises-44m-in-series-d-funding.html"
+        },
+        {
+          "label": "citybiz",
+          "url": "https://www.citybiz.co/article/879167/genius-ai-hits-1-15b-valuation-with-44m-series-d-expands-ai-platform/"
         }
       ]
     },
