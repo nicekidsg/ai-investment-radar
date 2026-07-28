@@ -1,9 +1,39 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-28T10:18:29+08:00",
+  "updated_at": "2026-07-28T12:24:57+08:00",
   "window": "2026 年 5 月 – 7 月（近一季度）",
   "companies": [
+    {
+      "name": "智象未来",
+      "name_en": "HiDream.ai",
+      "region": "中国",
+      "industry": "AI内容生成",
+      "stage": "C轮",
+      "amount_usd_m": 210,
+      "amount_display": "15 亿元人民币 C 轮（约 2.1 亿美元）",
+      "valuation": "投后估值超 10 亿美元（跻身独角兽）",
+      "date": "2026-07-23",
+      "location": "中国安徽合肥",
+      "business": "原生全模态世界模型与视觉内容生成：从「视觉生成」走向「世界生成」，服务超 4 万家企业客户及全球 5000 万专业个人用户，2026 年一季度营收已超 2025 年全年。",
+      "team": "创始人梅涛（前京东集团副总裁、IEEE Fellow）",
+      "investors": "社保基金四川振兴科创基金、工银资本、弘颐资管、敦鸿资本联合领投，多家地方国资与产业资本跟投，老股东合肥产投、东方富海等加注",
+      "advantage": "近三个月连续完成三轮融资、累计超 21 亿元；国家级基金与国资背书突出，商业化收入增长快，是中国世界模型赛道估值确立最快的公司之一。",
+      "sources": [
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/wm/2026-07-24/doc-iniiwzsm1621451.shtml"
+        },
+        {
+          "label": "网易科技",
+          "url": "https://www.163.com/tech/article/L2H678E500098IEO.html"
+        },
+        {
+          "label": "ITBear",
+          "url": "https://www.itbear.com.cn/html/2026-07/1461019.html"
+        }
+      ]
+    },
     {
       "name": "Atoms",
       "name_en": "Atoms",
@@ -31,6 +61,36 @@ window.FUNDING_DATA = {
         {
           "label": "PYMNTS",
           "url": "https://www.pymnts.com/news/artificial-intelligence/2026/uber-co-founder-kalanicks-atoms-secures-1-7-billion-to-build-physical-ai/"
+        }
+      ]
+    },
+    {
+      "name": "未来不远机器人",
+      "name_en": "Futuring Robot",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 140,
+      "amount_display": "近 10 亿元人民币 Pre-A 轮（约 1.4 亿美元）",
+      "valuation": "未披露",
+      "date": "2026-07-22",
+      "location": "中国上海",
+      "business": "家庭通用机器人研发与应用：面向家庭场景的通用服务机器人，已进入 500 余户家庭试用，累计服务超 5 万小时，用户满意度 96.8%。",
+      "team": "创始人为上市公司创始人再创业（2022 年 9 月成立）",
+      "investors": "德宁资本、汇川产投、纳爱斯集团、博源资本、国方资本、联新资本、源来资本等",
+      "advantage": "创下家庭通用机器人赛道融资速度纪录：半年内完成三轮融资（1 月天使轮 2 亿元、3 月数亿元、7 月 Pre-A 近 10 亿元）；家庭场景是具身智能中壁垒最高、想象空间最大的方向之一。",
+      "sources": [
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-07-22/doc-iniisawe8784088.shtml"
+        },
+        {
+          "label": "机器人大讲堂",
+          "url": "https://www.leaderobot.com/news/8658"
+        },
+        {
+          "label": "搜狐（亿欧投融资日报）",
+          "url": "https://m.sohu.com/a/1053831297_115035"
         }
       ]
     },
@@ -65,190 +125,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "爱诗科技",
-      "name_en": "AIsphere (PixVerse)",
-      "region": "中国",
-      "industry": "AI内容生成",
-      "stage": "C轮",
-      "amount_usd_m": 418,
-      "amount_display": "29.8 亿元人民币（约 4.2 亿美元，C 轮整体；英文报道 4.39 亿美元，口径不一）",
-      "valuation": "未披露",
-      "date": "2026-07-14",
-      "location": "中国北京",
-      "business": "自研 AI 视频生成大模型：旗舰模型 PixVerse V6 面向全球，国内 C 端产品「拍我AI」，全球用户超 1.5 亿，主打实时交互视频生成。",
-      "team": "创始人王长虎（前字节跳动视觉技术负责人）",
-      "investors": "C+ 轮由阿里巴巴领投，Lollapalooza Capital（王慧文家办）、常春藤资本、惠远资本、钟鼎资本、韩国未来资产、Lion X 基金、蓝色光标、CloudAlpha、iGlobe Partners 等参投",
-      "advantage": "国内 AI 视频生成赛道最大 C 轮之一；ARR 2025 年 10 月已超 4000 万美元，阿里领投带来云与生态协同，实时交互视频是差异化方向。",
-      "sources": [
-        {
-          "label": "财新",
-          "url": "https://companies.caixin.com/2026-07-14/102464181.html"
-        },
-        {
-          "label": "投资界",
-          "url": "https://news.pedaily.cn/202607/566238.shtml"
-        },
-        {
-          "label": "量子位",
-          "url": "https://www.qbitai.com/2026/07/449836.html"
-        },
-        {
-          "label": "财联社",
-          "url": "https://www.cls.cn/detail/2426300"
-        }
-      ]
-    },
-    {
-      "name": "MiniMax",
-      "name_en": "MiniMax",
-      "region": "中国",
-      "industry": "基础大模型",
-      "stage": "战略投资",
-      "amount_usd_m": 2050,
-      "amount_display": "160 亿港元（约 20.5 亿美元，上市后「配售新股+零息可转债」）",
-      "valuation": "港股上市公司，市值随行情波动（配售价 268 港元/股）",
-      "date": "2026-07-10",
-      "location": "中国上海",
-      "business": "通用大模型公司（港股上市）：文本/语音/视频多模态模型与 C 端应用（海螺 AI、Talkie 等），本轮约 80% 资金投向 AI 基础设施与模型研发。",
-      "team": "创始人兼 CEO 闫俊杰（宣布在实现 AGI 前放弃个人薪酬）",
-      "investors": "配售+可转债获国际主权基金、长线基金、中资机构等百余家机构参与，约 7 倍认购",
-      "advantage": "国产大模型公司上市后最大规模再融资之一；7 倍超额认购显示国际长线资金对中国大模型商业化的认可，为与 DeepSeek、智谱等的竞争储备弹药。",
-      "sources": [
-        {
-          "label": "证券时报",
-          "url": "https://www.stcn.com/article/detail/4010339.html"
-        },
-        {
-          "label": "新浪财经",
-          "url": "https://finance.sina.com.cn/tech/shenji/2026-07-10/doc-inihhrae7167264.shtml"
-        },
-        {
-          "label": "财联社",
-          "url": "https://www.cls.cn/detail/2422383"
-        }
-      ]
-    },
-    {
-      "name": "求之科技",
-      "name_en": "DISCOVER Robotics",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "种子/天使",
-      "amount_usd_m": 100,
-      "amount_display": "超 1 亿美元（天使轮/首轮）",
-      "valuation": "未披露",
-      "date": "2026-07-01",
-      "location": "中国北京",
-      "business": "消费级具身智能机器人：孵化自清华大学智能产业研究院（AIR），面向商业服务与家庭服务场景打造具身智能机器人系统，资金用于核心技术研发、样机量产与家庭场景落地。",
-      "team": "创立发起人及首席科学家周谷越（前大疆 DJI 资深科学家）",
-      "investors": "君联资本、京国瑞、联想创投、普华资本、沄柏资本、临港科创投、琥珀资本、庚辛资本联合领投，瑞辰资本跟投",
-      "advantage": "国内消费级具身智能赛道最大单笔天使轮；清华 AIR 学术底座+大疆产品化基因，八家头部机构联合领投显示早期共识度高。",
-      "sources": [
-        {
-          "label": "投资界",
-          "url": "https://news.pedaily.cn/202607/565737.shtml"
-        },
-        {
-          "label": "投中网",
-          "url": "https://m.chinaventure.com.cn/news/116-20260702-392114.html"
-        },
-        {
-          "label": "新浪科技",
-          "url": "https://finance.sina.com.cn/tech/roll/2026-07-02/doc-inifkqha5929513.shtml"
-        }
-      ]
-    },
-    {
-      "name": "Odyssey",
-      "name_en": "Odyssey",
-      "region": "美国",
-      "industry": "基础大模型",
-      "stage": "B轮",
-      "amount_usd_m": 310,
-      "amount_display": "3.1 亿美元（Series B）",
-      "valuation": "14.5 亿美元",
-      "date": "2026-06-17",
-      "location": "美国旧金山",
-      "business": "AI 世界模型（world model）研究公司：构建以精确物理规律模拟真实环境的世界模型，与 AWS 达成首选云合作，应用于仿真、机器人与内容生成。",
-      "team": "由前自动驾驶创业者 Oliver Cameron（Voyage 创始人）与 Jeff Hawke 于 2023 年创立",
-      "investors": "Natural Capital 领投，Amazon、GV、AMD Ventures、IQT、EQT 等参投，早期个人股东含 Jeff Dean、Elad Gil、Garry Tan 等",
-      "advantage": "世界模型赛道代表性融资；获 Amazon/AMD 产业资本加持并绑定 AWS 算力，累计融资 3.37 亿美元后估值近 15 亿美元。",
-      "sources": [
-        {
-          "label": "Business Wire（官方公告）",
-          "url": "https://www.businesswire.com/news/home/20260617490386/en/Odyssey-Raises-$310-Million-to-Accelerate-World-Simulation"
-        },
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
-        },
-        {
-          "label": "Crunchbase News（周度 Top10）",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
-        }
-      ]
-    },
-    {
-      "name": "Hark",
-      "name_en": "Hark",
-      "region": "美国",
-      "industry": "基础大模型",
-      "stage": "A轮",
-      "amount_usd_m": 700,
-      "amount_display": "超 7 亿美元（Series A）",
-      "valuation": "60 亿美元（投后）",
-      "date": "2026-05-21",
-      "location": "美国",
-      "business": "「个人智能」AI+硬件平台：垂直整合自研基础模型（语音/视觉/记忆多模态）、软件系统与 AI 原生硬件，打造人机之间的通用交互界面，2026 年夏起开放模型早期使用。",
-      "team": "创始人 Brett Adcock（Figure 人形机器人创始人）",
-      "investors": "Parkway Venture Capital 领投，NVIDIA、AMD Ventures、ARK Invest、Brookfield、Greycroft、Intel Capital、Qualcomm Ventures、Salesforce Ventures 等参投",
-      "advantage": "尚未发布产品即获 60 亿美元投后估值的超大 A 轮；芯片与云产业资本云集，赌注在于 AI 原生个人硬件成为下一代计算入口。",
-      "sources": [
-        {
-          "label": "Business Wire（官方公告）",
-          "url": "https://www.businesswire.com/news/home/20260521171628/en/Hark-Raises-$700M-Series-A-at-a-$6B-Valuation"
-        },
-        {
-          "label": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-21/ai-hardware-startup-hark-valued-at-6-billion-in-new-funding-round"
-        },
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/"
-        }
-      ]
-    },
-    {
-      "name": "Recursive Superintelligence",
-      "name_en": "Recursive Superintelligence",
-      "region": "欧洲",
-      "industry": "基础大模型",
-      "stage": "A轮",
-      "amount_usd_m": 650,
-      "amount_display": "6.5 亿美元（Series A）",
-      "valuation": "46.5 亿美元",
-      "date": "2026-05-13",
-      "location": "英国伦敦 / 美国旧金山",
-      "business": "自我改进 AI 研究实验室：让 AI 系统自动化模型架构设计、训练方法、评测与研究方向选择等科研环节，融资用于扩充算力与研究团队。",
-      "team": "由 Richard Socher、Tim Rocktäschel、Jeff Clune、Josh Tobin、Tim Shi 等前 OpenAI/DeepMind/Meta AI/Salesforce AI 负责人于 2025 年创立",
-      "investors": "GV 与 Greycroft 联合领投，NVIDIA、AMD Ventures 参投",
-      "advantage": "成立仅数月即以 46.5 亿美元估值完成 6.5 亿美元 A 轮；明星研究团队+「递归自我改进」叙事，是欧洲本周期最大 AI 早期融资之一。",
-      "sources": [
-        {
-          "label": "Tech.eu",
-          "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/"
-        },
-        {
-          "label": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/"
-        },
-        {
-          "label": "Tech Funding News",
-          "url": "https://techfundingnews.com/uk-ai-startup-recursive-hits-4-65b-valuation-with-650m-raise-from-nvidia-and-gv/"
-        }
-      ]
-    },
-    {
       "name": "Fireworks AI",
       "name_en": "Fireworks AI",
       "region": "美国",
@@ -275,6 +151,36 @@ window.FUNDING_DATA = {
         {
           "label": "Crunchbase News（周度 Top10）",
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        }
+      ]
+    },
+    {
+      "name": "Bunkerhill Health",
+      "name_en": "Bunkerhill Health",
+      "region": "美国",
+      "industry": "AI医疗健康",
+      "stage": "B轮",
+      "amount_usd_m": 25,
+      "amount_display": "2500 万美元（B 轮，累计融资 5500 万美元）",
+      "valuation": "未披露",
+      "date": "2026-07-16",
+      "location": "美国加州",
+      "business": "医院智能体平台 Carebricks：医院提出流程痛点（候诊过长、随访遗漏、文书积压等），平台将其转化为可上线的 AI 智能体，已部署于 15 家医疗系统（含 Cleveland Clinic、Mayo Clinic、Intermountain Health）。",
+      "team": "2019 年联合创立（人名以公开报道为准，从略）",
+      "investors": "Khosla Ventures 领投，Sequoia、Felicis、Optum Ventures、Y Combinator 跟投",
+      "advantage": "过去一年收入增长 20 倍、新签超 12 家医疗系统；UTMB 已上线 22 个智能体，其中冠脉影像智能体上线首月即识别高危患者。医院「自带想法、平台造智能体」的模式差异化明显。",
+      "sources": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/07/16/bunkerhill-health-raises-55-million-ai-agents-work-inside-hospitals/"
+        },
+        {
+          "label": "Business Wire（Morningstar 转载）",
+          "url": "https://www.morningstar.com/news/business-wire/20260716806874/bunkerhill-health-raises-55-million-to-help-health-systems-turn-their-best-ideas-into-reality"
+        },
+        {
+          "label": "HIT Consultant",
+          "url": "https://hitconsultant.net/2026/07/16/bunkerhill-health-closes-series-b-agentic-ai-carebricks/"
         }
       ]
     },
@@ -369,96 +275,6 @@ window.FUNDING_DATA = {
       ]
     },
     {
-      "name": "千觉机器人",
-      "name_en": "Qianjue Robotics",
-      "region": "中国",
-      "industry": "机器人/具身智能",
-      "stage": "战略投资",
-      "amount_usd_m": 14,
-      "amount_display": "亿元人民币（约 1400 万美元，战略融资）",
-      "valuation": "未披露",
-      "date": "2026-07-14",
-      "location": "中国上海",
-      "business": "具身智能触觉方案商：自研多模态视触觉传感器、XTac UMI G1 触觉数采系统与原生支持触觉/接触模态的 VTLA 物理智能模型，覆盖硬件-数据-模型-场景全链条，已服务 300 余家行业头部客户。",
-      "team": "2024 年 5 月由上海交通大学副教授、ICRA 2021 全球最佳论文奖得主马道林创立",
-      "investors": "头部具身智能产业方与吉德电器战略投资，天季资本参投",
-      "advantage": "触觉是具身智能补齐「手感」的关键缺口，公司为全球少数原生支持触觉模态的物理智能模型团队；产业资本战略入局印证其在灵巧操作、精密装配等场景的落地进展。",
-      "sources": [
-        {
-          "label": "投资界（pedaily）",
-          "url": "https://news.pedaily.cn/20260714/134082.shtml"
-        },
-        {
-          "label": "盖世汽车",
-          "url": "https://auto.gasgoo.com/news/202607/14I70465674C601.shtml"
-        },
-        {
-          "label": "中华网科技",
-          "url": "https://tech.china.com/articles/20260714/202607141916393.html"
-        }
-      ]
-    },
-    {
-      "name": "逆矩阵科技",
-      "name_en": "Physis（NiMatrix）",
-      "region": "中国",
-      "industry": "基础大模型",
-      "stage": "种子/天使",
-      "amount_usd_m": 100,
-      "amount_display": "超 1 亿美元（种子++轮）",
-      "valuation": "未披露",
-      "date": "2026-06-17",
-      "location": "中国北京",
-      "business": "通用世界基座模型公司，为工业仿真、具身智能、物理仿真、交互世界与科学预测等物理 AI 场景提供底层认知引擎，由智源研究院孵化。",
-      "team": "由北大青年学者陈博远与吉嘉铭联合创立，长期专注强化学习与世界模型研究",
-      "investors": "经纬创投、光合创投、五源资本、BAI 资本、钟鼎资本等参投，蚂蚁集团战略投资，高瓴创投、燕缘创投等老股东加注",
-      "advantage": "成立不久即在 3 个月内连续完成超千万美元与超亿美元两轮融资，是国内世界模型赛道种子期融资规模最大的团队之一；「Z 世代」原生科研团队 + 智源孵化背景稀缺。",
-      "sources": [
-        {
-          "label": "财联社",
-          "url": "https://www.cls.cn/detail/2403881"
-        },
-        {
-          "label": "钛媒体",
-          "url": "https://www.tmtpost.com/8033411.html"
-        },
-        {
-          "label": "澎湃新闻",
-          "url": "https://m.thepaper.cn/newsDetail_forward_33405964"
-        }
-      ]
-    },
-    {
-      "name": "Bunkerhill Health",
-      "name_en": "Bunkerhill Health",
-      "region": "美国",
-      "industry": "AI医疗健康",
-      "stage": "B轮",
-      "amount_usd_m": 25,
-      "amount_display": "2500 万美元（B 轮，累计融资 5500 万美元）",
-      "valuation": "未披露",
-      "date": "2026-07-16",
-      "location": "美国加州",
-      "business": "医院智能体平台 Carebricks：医院提出流程痛点（候诊过长、随访遗漏、文书积压等），平台将其转化为可上线的 AI 智能体，已部署于 15 家医疗系统（含 Cleveland Clinic、Mayo Clinic、Intermountain Health）。",
-      "team": "2019 年联合创立（人名以公开报道为准，从略）",
-      "investors": "Khosla Ventures 领投，Sequoia、Felicis、Optum Ventures、Y Combinator 跟投",
-      "advantage": "过去一年收入增长 20 倍、新签超 12 家医疗系统；UTMB 已上线 22 个智能体，其中冠脉影像智能体上线首月即识别高危患者。医院「自带想法、平台造智能体」的模式差异化明显。",
-      "sources": [
-        {
-          "label": "Fortune",
-          "url": "https://fortune.com/2026/07/16/bunkerhill-health-raises-55-million-ai-agents-work-inside-hospitals/"
-        },
-        {
-          "label": "Business Wire（Morningstar 转载）",
-          "url": "https://www.morningstar.com/news/business-wire/20260716806874/bunkerhill-health-raises-55-million-to-help-health-systems-turn-their-best-ideas-into-reality"
-        },
-        {
-          "label": "HIT Consultant",
-          "url": "https://hitconsultant.net/2026/07/16/bunkerhill-health-closes-series-b-agentic-ai-carebricks/"
-        }
-      ]
-    },
-    {
       "name": "Neko Health",
       "name_en": "Neko Health",
       "region": "欧洲",
@@ -485,6 +301,70 @@ window.FUNDING_DATA = {
         {
           "label": "公司官方公告",
           "url": "https://www.nekohealth.com/gb/en/press/neko-health-raises-usd700m-series-c-ahead-of-us-launch"
+        }
+      ]
+    },
+    {
+      "name": "爱诗科技",
+      "name_en": "AIsphere (PixVerse)",
+      "region": "中国",
+      "industry": "AI内容生成",
+      "stage": "C轮",
+      "amount_usd_m": 418,
+      "amount_display": "29.8 亿元人民币（约 4.2 亿美元，C 轮整体；英文报道 4.39 亿美元，口径不一）",
+      "valuation": "未披露",
+      "date": "2026-07-14",
+      "location": "中国北京",
+      "business": "自研 AI 视频生成大模型：旗舰模型 PixVerse V6 面向全球，国内 C 端产品「拍我AI」，全球用户超 1.5 亿，主打实时交互视频生成。",
+      "team": "创始人王长虎（前字节跳动视觉技术负责人）",
+      "investors": "C+ 轮由阿里巴巴领投，Lollapalooza Capital（王慧文家办）、常春藤资本、惠远资本、钟鼎资本、韩国未来资产、Lion X 基金、蓝色光标、CloudAlpha、iGlobe Partners 等参投",
+      "advantage": "国内 AI 视频生成赛道最大 C 轮之一；ARR 2025 年 10 月已超 4000 万美元，阿里领投带来云与生态协同，实时交互视频是差异化方向。",
+      "sources": [
+        {
+          "label": "财新",
+          "url": "https://companies.caixin.com/2026-07-14/102464181.html"
+        },
+        {
+          "label": "投资界",
+          "url": "https://news.pedaily.cn/202607/566238.shtml"
+        },
+        {
+          "label": "量子位",
+          "url": "https://www.qbitai.com/2026/07/449836.html"
+        },
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2426300"
+        }
+      ]
+    },
+    {
+      "name": "千觉机器人",
+      "name_en": "Qianjue Robotics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "战略投资",
+      "amount_usd_m": 14,
+      "amount_display": "亿元人民币（约 1400 万美元，战略融资）",
+      "valuation": "未披露",
+      "date": "2026-07-14",
+      "location": "中国上海",
+      "business": "具身智能触觉方案商：自研多模态视触觉传感器、XTac UMI G1 触觉数采系统与原生支持触觉/接触模态的 VTLA 物理智能模型，覆盖硬件-数据-模型-场景全链条，已服务 300 余家行业头部客户。",
+      "team": "2024 年 5 月由上海交通大学副教授、ICRA 2021 全球最佳论文奖得主马道林创立",
+      "investors": "头部具身智能产业方与吉德电器战略投资，天季资本参投",
+      "advantage": "触觉是具身智能补齐「手感」的关键缺口，公司为全球少数原生支持触觉模态的物理智能模型团队；产业资本战略入局印证其在灵巧操作、精密装配等场景的落地进展。",
+      "sources": [
+        {
+          "label": "投资界（pedaily）",
+          "url": "https://news.pedaily.cn/20260714/134082.shtml"
+        },
+        {
+          "label": "盖世汽车",
+          "url": "https://auto.gasgoo.com/news/202607/14I70465674C601.shtml"
+        },
+        {
+          "label": "中华网科技",
+          "url": "https://tech.china.com/articles/20260714/202607141916393.html"
         }
       ]
     },
@@ -519,6 +399,36 @@ window.FUNDING_DATA = {
       ]
     },
     {
+      "name": "State Affairs",
+      "name_en": "State Affairs",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "A轮",
+      "amount_usd_m": 70,
+      "amount_display": "7000 万美元（Crunchbase 记为 Series A，官方通稿称累计融资）",
+      "valuation": "未披露",
+      "date": "2026-07-14",
+      "location": "美国纽约",
+      "business": "AI 政策与监管情报平台：结合全美最大规模之一的驻州议会记者网络与 AI 知识图谱，追踪 50 个州及联邦的立法、法规与听证，帮助机构理解并应对政策变化；客户含沃尔玛、万事达卡、麦当劳等。",
+      "team": "由 Evan Burns 与 Jamie Seltzer 创办",
+      "investors": "Founders Fund、Khosla Ventures 领投，Tru Arrow Partners、Alumni Ventures 及多位个人投资者参投",
+      "advantage": "「记者网络 + AI」的独特数据壁垒，覆盖美国三分之一的州与联邦民选官员；政策监管经济（regulatory economy）赛道罕有的规模化玩家。",
+      "sources": [
+        {
+          "label": "PR Newswire（官方通稿）",
+          "url": "https://www.prnewswire.com/news-releases/state-affairs-raises-70-million-to-help-institutions-navigate-the-policy-and-regulatory-economy-302824501.html"
+        },
+        {
+          "label": "Crunchbase News（周度 Top10）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "label": "Pulse2",
+          "url": "https://pulse2.com/state-affairs-raises-70-million-to-advance-policy-and-regulatory-intelligence-platform/"
+        }
+      ]
+    },
+    {
       "name": "Helsing",
       "name_en": "Helsing",
       "region": "欧洲",
@@ -545,6 +455,62 @@ window.FUNDING_DATA = {
         {
           "label": "Axios",
           "url": "https://www.axios.com/2026/07/13/german-defense-helsing-18-billion"
+        }
+      ]
+    },
+    {
+      "name": "海艺AI",
+      "name_en": "SeaArt",
+      "region": "中国",
+      "industry": "AI内容生成",
+      "stage": "B轮",
+      "amount_usd_m": 15,
+      "amount_display": "超亿元人民币 B 轮（具体金额未披露）",
+      "valuation": "未披露",
+      "date": "2026-07-13",
+      "location": "中国广州",
+      "business": "全球 AI 全模态内容互动娱乐平台（AI 艺术创作社区）：累计注册用户超 6500 万，海外用户占比超 90%，整体毛利率逾 40%，核心产品用户续费率超 60%。",
+      "team": "未披露（中国团队出海代表）",
+      "investors": "视觉中国、华盖创赢、祥峰投资（Vertex China）联合领投，广发信德、天投资本、川创投、广州合伟永晟共同投资",
+      "advantage": "中国团队做全球 AI 创作社区的头部案例，出海收入占比高且已有健康毛利；视觉中国领投带来版权素材与商业化协同。",
+      "sources": [
+        {
+          "label": "36氪",
+          "url": "https://36kr.com/newsflashes/3893781881043719"
+        },
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2438241"
+        }
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "name_en": "MiniMax",
+      "region": "中国",
+      "industry": "基础大模型",
+      "stage": "战略投资",
+      "amount_usd_m": 2050,
+      "amount_display": "160 亿港元（约 20.5 亿美元，上市后「配售新股+零息可转债」）",
+      "valuation": "港股上市公司，市值随行情波动（配售价 268 港元/股）",
+      "date": "2026-07-10",
+      "location": "中国上海",
+      "business": "通用大模型公司（港股上市）：文本/语音/视频多模态模型与 C 端应用（海螺 AI、Talkie 等），本轮约 80% 资金投向 AI 基础设施与模型研发。",
+      "team": "创始人兼 CEO 闫俊杰（宣布在实现 AGI 前放弃个人薪酬）",
+      "investors": "配售+可转债获国际主权基金、长线基金、中资机构等百余家机构参与，约 7 倍认购",
+      "advantage": "国产大模型公司上市后最大规模再融资之一；7 倍超额认购显示国际长线资金对中国大模型商业化的认可，为与 DeepSeek、智谱等的竞争储备弹药。",
+      "sources": [
+        {
+          "label": "证券时报",
+          "url": "https://www.stcn.com/article/detail/4010339.html"
+        },
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/tech/shenji/2026-07-10/doc-inihhrae7167264.shtml"
+        },
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2422383"
         }
       ]
     },
@@ -1077,6 +1043,36 @@ window.FUNDING_DATA = {
       ]
     },
     {
+      "name": "求之科技",
+      "name_en": "DISCOVER Robotics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "种子/天使",
+      "amount_usd_m": 100,
+      "amount_display": "超 1 亿美元（天使轮/首轮）",
+      "valuation": "未披露",
+      "date": "2026-07-01",
+      "location": "中国北京",
+      "business": "消费级具身智能机器人：孵化自清华大学智能产业研究院（AIR），面向商业服务与家庭服务场景打造具身智能机器人系统，资金用于核心技术研发、样机量产与家庭场景落地。",
+      "team": "创立发起人及首席科学家周谷越（前大疆 DJI 资深科学家）",
+      "investors": "君联资本、京国瑞、联想创投、普华资本、沄柏资本、临港科创投、琥珀资本、庚辛资本联合领投，瑞辰资本跟投",
+      "advantage": "国内消费级具身智能赛道最大单笔天使轮；清华 AIR 学术底座+大疆产品化基因，八家头部机构联合领投显示早期共识度高。",
+      "sources": [
+        {
+          "label": "投资界",
+          "url": "https://news.pedaily.cn/202607/565737.shtml"
+        },
+        {
+          "label": "投中网",
+          "url": "https://m.chinaventure.com.cn/news/116-20260702-392114.html"
+        },
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-07-02/doc-inifkqha5929513.shtml"
+        }
+      ]
+    },
+    {
       "name": "Together AI",
       "name_en": "Together AI",
       "region": "美国",
@@ -1293,6 +1289,36 @@ window.FUNDING_DATA = {
       ]
     },
     {
+      "name": "8090",
+      "name_en": "8090 (8090 Solutions)",
+      "region": "美国",
+      "industry": "智能体与企业应用",
+      "stage": "A轮",
+      "amount_usd_m": 135,
+      "amount_display": "1.35 亿美元 A 轮",
+      "valuation": "未披露",
+      "date": "2026-06-26",
+      "location": "美国加州红木城",
+      "business": "「AI 原生软件工厂（Software Factory）」：让人类团队与 AI 智能体在人类监督下协同构建和修改企业级软件，保留审计追踪等合规控制，面向医疗、保险、航空航天、金融、政府等强监管行业。",
+      "team": "由知名投资人 Chamath Palihapitiya 联合创办，本轮后其出任 CEO（离开 Facebook 后首个全职运营岗位）",
+      "investors": "Salesforce Ventures 领投，WNDR、Craft Ventures、The Production Board、LAUNCH 及 Nikesh Arora、Adam D'Angelo 等天使参投",
+      "advantage": "明星创始人亲自下场运营；押注「AI 智能体 + 人类监督」的企业软件生产模式，切入强监管行业的合规缺口，与 Salesforce 生态有天然协同。",
+      "sources": [
+        {
+          "label": "BusinessWire（官方通稿）",
+          "url": "https://www.businesswire.com/news/home/20260626795833/en/8090-Raises-$135M-Series-A-to-Accelerate-Their-Rollout-of-Software-Factory"
+        },
+        {
+          "label": "Crunchbase News（周度 Top10）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/chamath-palihapitiya-8090-135m-series-a-ai-coding"
+        }
+      ]
+    },
+    {
       "name": "Taktile",
       "name_en": "Taktile",
       "region": "美国",
@@ -1371,6 +1397,66 @@ window.FUNDING_DATA = {
         {
           "label": "Business Wire 官方公告",
           "url": "https://www.businesswire.com/news/home/20260622645563/en/Baseten-Raises-$1.5-Billion-to-Power-the-Next-Era-of-AI-Inference"
+        }
+      ]
+    },
+    {
+      "name": "Odyssey",
+      "name_en": "Odyssey",
+      "region": "美国",
+      "industry": "基础大模型",
+      "stage": "B轮",
+      "amount_usd_m": 310,
+      "amount_display": "3.1 亿美元（Series B）",
+      "valuation": "14.5 亿美元",
+      "date": "2026-06-17",
+      "location": "美国旧金山",
+      "business": "AI 世界模型（world model）研究公司：构建以精确物理规律模拟真实环境的世界模型，与 AWS 达成首选云合作，应用于仿真、机器人与内容生成。",
+      "team": "由前自动驾驶创业者 Oliver Cameron（Voyage 创始人）与 Jeff Hawke 于 2023 年创立",
+      "investors": "Natural Capital 领投，Amazon、GV、AMD Ventures、IQT、EQT 等参投，早期个人股东含 Jeff Dean、Elad Gil、Garry Tan 等",
+      "advantage": "世界模型赛道代表性融资；获 Amazon/AMD 产业资本加持并绑定 AWS 算力，累计融资 3.37 亿美元后估值近 15 亿美元。",
+      "sources": [
+        {
+          "label": "Business Wire（官方公告）",
+          "url": "https://www.businesswire.com/news/home/20260617490386/en/Odyssey-Raises-$310-Million-to-Accelerate-World-Simulation"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
+        },
+        {
+          "label": "Crunchbase News（周度 Top10）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        }
+      ]
+    },
+    {
+      "name": "逆矩阵科技",
+      "name_en": "Physis（NiMatrix）",
+      "region": "中国",
+      "industry": "基础大模型",
+      "stage": "种子/天使",
+      "amount_usd_m": 100,
+      "amount_display": "超 1 亿美元（种子++轮）",
+      "valuation": "未披露",
+      "date": "2026-06-17",
+      "location": "中国北京",
+      "business": "通用世界基座模型公司，为工业仿真、具身智能、物理仿真、交互世界与科学预测等物理 AI 场景提供底层认知引擎，由智源研究院孵化。",
+      "team": "由北大青年学者陈博远与吉嘉铭联合创立，长期专注强化学习与世界模型研究",
+      "investors": "经纬创投、光合创投、五源资本、BAI 资本、钟鼎资本等参投，蚂蚁集团战略投资，高瓴创投、燕缘创投等老股东加注",
+      "advantage": "成立不久即在 3 个月内连续完成超千万美元与超亿美元两轮融资，是国内世界模型赛道种子期融资规模最大的团队之一；「Z 世代」原生科研团队 + 智源孵化背景稀缺。",
+      "sources": [
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2403881"
+        },
+        {
+          "label": "钛媒体",
+          "url": "https://www.tmtpost.com/8033411.html"
+        },
+        {
+          "label": "澎湃新闻",
+          "url": "https://m.thepaper.cn/newsDetail_forward_33405964"
         }
       ]
     },
@@ -1651,6 +1737,36 @@ window.FUNDING_DATA = {
       ]
     },
     {
+      "name": "Hark",
+      "name_en": "Hark",
+      "region": "美国",
+      "industry": "基础大模型",
+      "stage": "A轮",
+      "amount_usd_m": 700,
+      "amount_display": "超 7 亿美元（Series A）",
+      "valuation": "60 亿美元（投后）",
+      "date": "2026-05-21",
+      "location": "美国",
+      "business": "「个人智能」AI+硬件平台：垂直整合自研基础模型（语音/视觉/记忆多模态）、软件系统与 AI 原生硬件，打造人机之间的通用交互界面，2026 年夏起开放模型早期使用。",
+      "team": "创始人 Brett Adcock（Figure 人形机器人创始人）",
+      "investors": "Parkway Venture Capital 领投，NVIDIA、AMD Ventures、ARK Invest、Brookfield、Greycroft、Intel Capital、Qualcomm Ventures、Salesforce Ventures 等参投",
+      "advantage": "尚未发布产品即获 60 亿美元投后估值的超大 A 轮；芯片与云产业资本云集，赌注在于 AI 原生个人硬件成为下一代计算入口。",
+      "sources": [
+        {
+          "label": "Business Wire（官方公告）",
+          "url": "https://www.businesswire.com/news/home/20260521171628/en/Hark-Raises-$700M-Series-A-at-a-$6B-Valuation"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-21/ai-hardware-startup-hark-valued-at-6-billion-in-new-funding-round"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/"
+        }
+      ]
+    },
+    {
       "name": "Anthropic",
       "name_en": "Anthropic",
       "region": "美国",
@@ -1673,6 +1789,36 @@ window.FUNDING_DATA = {
         {
           "label": "Crunchbase News AI 板块",
           "url": "https://news.crunchbase.com/sections/ai/"
+        }
+      ]
+    },
+    {
+      "name": "Recursive Superintelligence",
+      "name_en": "Recursive Superintelligence",
+      "region": "欧洲",
+      "industry": "基础大模型",
+      "stage": "A轮",
+      "amount_usd_m": 650,
+      "amount_display": "6.5 亿美元（Series A）",
+      "valuation": "46.5 亿美元",
+      "date": "2026-05-13",
+      "location": "英国伦敦 / 美国旧金山",
+      "business": "自我改进 AI 研究实验室：让 AI 系统自动化模型架构设计、训练方法、评测与研究方向选择等科研环节，融资用于扩充算力与研究团队。",
+      "team": "由 Richard Socher、Tim Rocktäschel、Jeff Clune、Josh Tobin、Tim Shi 等前 OpenAI/DeepMind/Meta AI/Salesforce AI 负责人于 2025 年创立",
+      "investors": "GV 与 Greycroft 联合领投，NVIDIA、AMD Ventures 参投",
+      "advantage": "成立仅数月即以 46.5 亿美元估值完成 6.5 亿美元 A 轮；明星研究团队+「递归自我改进」叙事，是欧洲本周期最大 AI 早期融资之一。",
+      "sources": [
+        {
+          "label": "Tech.eu",
+          "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/"
+        },
+        {
+          "label": "Tech Funding News",
+          "url": "https://techfundingnews.com/uk-ai-startup-recursive-hits-4-65b-valuation-with-650m-raise-from-nvidia-and-gv/"
         }
       ]
     }
