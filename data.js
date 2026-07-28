@@ -1,9 +1,253 @@
 // AI 融资雷达数据文件（定时任务自动重写）
 // 每家企业含多个信息源（sources）便于交叉验证。请勿手动改动结构。
 window.FUNDING_DATA = {
-  "updated_at": "2026-07-20T12:10:20+08:00",
-  "window": "2026 年 4 月 – 7 月（近一季度）",
+  "updated_at": "2026-07-28T10:18:29+08:00",
+  "window": "2026 年 5 月 – 7 月（近一季度）",
   "companies": [
+    {
+      "name": "Atoms",
+      "name_en": "Atoms",
+      "region": "美国",
+      "industry": "机器人/具身智能",
+      "stage": "A轮",
+      "amount_usd_m": 1700,
+      "amount_display": "17 亿美元（轮次未官方披露，a16z 领投）",
+      "valuation": "未披露（媒体报道约 50 亿美元级，未官方确认）",
+      "date": "2026-07-22",
+      "location": "美国洛杉矶",
+      "business": "「物理 AI（Physical AI）」公司：用软件、传感器、机器人与 AI 数字化并自动化食品、矿业、运输等实体产业中物料的生产、仓储与流转，目标打造「物理世界的计算机」。",
+      "team": "由 Uber 联合创始人 Travis Kalanick 创办，Ben Horowitz 加入董事会",
+      "investors": "Andreessen Horowitz（a16z）领投，Bain Capital、Uber、Fifth Wall、Chemistry、A*、K5 Global、SV Angel 等参投",
+      "advantage": "本周期美国最大单笔融资之一；明星创始人叠加物理 AI 风口（2026 年全球机器人融资已创 558 亿美元纪录），Uber 以战略投资方身份回归 Kalanick 阵营，产业协同想象空间大。",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/"
+        },
+        {
+          "label": "Crunchbase News（周度 Top10）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/"
+        },
+        {
+          "label": "PYMNTS",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/uber-co-founder-kalanicks-atoms-secures-1-7-billion-to-build-physical-ai/"
+        }
+      ]
+    },
+    {
+      "name": "Meshy AI",
+      "name_en": "Meshy AI",
+      "region": "美国",
+      "industry": "AI内容生成",
+      "stage": "B轮",
+      "amount_usd_m": 400,
+      "amount_display": "近 4 亿美元（Series B）",
+      "valuation": "15 亿美元",
+      "date": "2026-07-21",
+      "location": "美国硅谷",
+      "business": "AI 3D 生成基础模型平台：文本/图片生成 3D 模型，服务游戏、影视、XR 与 3D 打印等场景，注册用户超 1200 万、累计生成模型超 1 亿个。",
+      "team": "创始人兼 CEO 为胡渊鸣（Yuanming Hu，Taichi 图形编程语言作者、MIT 博士）",
+      "investors": "IDG 资本、Matrix Partners China、Monolith Management 领投，Granite Asia、HongShan（红杉中国）、BAI 资本、源码资本等老股东超额跟投",
+      "advantage": "AI 3D 赛道迄今最大单笔融资；ARR 同比增长约 12 倍，商业化验证领先，融资将投向多模态基础模型研究与全球企业级市场拓展。",
+      "sources": [
+        {
+          "label": "PR Newswire（官方公告）",
+          "url": "https://www.prnewswire.com/news-releases/meshy-raises-nearly-400-million-at-a-1-5-billion-valuation-the-largest-round-to-date-in-ai-3d-302828384.html"
+        },
+        {
+          "label": "Crunchbase News（周度 Top10）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/"
+        },
+        {
+          "label": "VoxelMatters",
+          "url": "https://www.voxelmatters.com/meshy-raises-400-million-series-b-at-1-5-billion-valuation/"
+        }
+      ]
+    },
+    {
+      "name": "爱诗科技",
+      "name_en": "AIsphere (PixVerse)",
+      "region": "中国",
+      "industry": "AI内容生成",
+      "stage": "C轮",
+      "amount_usd_m": 418,
+      "amount_display": "29.8 亿元人民币（约 4.2 亿美元，C 轮整体；英文报道 4.39 亿美元，口径不一）",
+      "valuation": "未披露",
+      "date": "2026-07-14",
+      "location": "中国北京",
+      "business": "自研 AI 视频生成大模型：旗舰模型 PixVerse V6 面向全球，国内 C 端产品「拍我AI」，全球用户超 1.5 亿，主打实时交互视频生成。",
+      "team": "创始人王长虎（前字节跳动视觉技术负责人）",
+      "investors": "C+ 轮由阿里巴巴领投，Lollapalooza Capital（王慧文家办）、常春藤资本、惠远资本、钟鼎资本、韩国未来资产、Lion X 基金、蓝色光标、CloudAlpha、iGlobe Partners 等参投",
+      "advantage": "国内 AI 视频生成赛道最大 C 轮之一；ARR 2025 年 10 月已超 4000 万美元，阿里领投带来云与生态协同，实时交互视频是差异化方向。",
+      "sources": [
+        {
+          "label": "财新",
+          "url": "https://companies.caixin.com/2026-07-14/102464181.html"
+        },
+        {
+          "label": "投资界",
+          "url": "https://news.pedaily.cn/202607/566238.shtml"
+        },
+        {
+          "label": "量子位",
+          "url": "https://www.qbitai.com/2026/07/449836.html"
+        },
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2426300"
+        }
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "name_en": "MiniMax",
+      "region": "中国",
+      "industry": "基础大模型",
+      "stage": "战略投资",
+      "amount_usd_m": 2050,
+      "amount_display": "160 亿港元（约 20.5 亿美元，上市后「配售新股+零息可转债」）",
+      "valuation": "港股上市公司，市值随行情波动（配售价 268 港元/股）",
+      "date": "2026-07-10",
+      "location": "中国上海",
+      "business": "通用大模型公司（港股上市）：文本/语音/视频多模态模型与 C 端应用（海螺 AI、Talkie 等），本轮约 80% 资金投向 AI 基础设施与模型研发。",
+      "team": "创始人兼 CEO 闫俊杰（宣布在实现 AGI 前放弃个人薪酬）",
+      "investors": "配售+可转债获国际主权基金、长线基金、中资机构等百余家机构参与，约 7 倍认购",
+      "advantage": "国产大模型公司上市后最大规模再融资之一；7 倍超额认购显示国际长线资金对中国大模型商业化的认可，为与 DeepSeek、智谱等的竞争储备弹药。",
+      "sources": [
+        {
+          "label": "证券时报",
+          "url": "https://www.stcn.com/article/detail/4010339.html"
+        },
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/tech/shenji/2026-07-10/doc-inihhrae7167264.shtml"
+        },
+        {
+          "label": "财联社",
+          "url": "https://www.cls.cn/detail/2422383"
+        }
+      ]
+    },
+    {
+      "name": "求之科技",
+      "name_en": "DISCOVER Robotics",
+      "region": "中国",
+      "industry": "机器人/具身智能",
+      "stage": "种子/天使",
+      "amount_usd_m": 100,
+      "amount_display": "超 1 亿美元（天使轮/首轮）",
+      "valuation": "未披露",
+      "date": "2026-07-01",
+      "location": "中国北京",
+      "business": "消费级具身智能机器人：孵化自清华大学智能产业研究院（AIR），面向商业服务与家庭服务场景打造具身智能机器人系统，资金用于核心技术研发、样机量产与家庭场景落地。",
+      "team": "创立发起人及首席科学家周谷越（前大疆 DJI 资深科学家）",
+      "investors": "君联资本、京国瑞、联想创投、普华资本、沄柏资本、临港科创投、琥珀资本、庚辛资本联合领投，瑞辰资本跟投",
+      "advantage": "国内消费级具身智能赛道最大单笔天使轮；清华 AIR 学术底座+大疆产品化基因，八家头部机构联合领投显示早期共识度高。",
+      "sources": [
+        {
+          "label": "投资界",
+          "url": "https://news.pedaily.cn/202607/565737.shtml"
+        },
+        {
+          "label": "投中网",
+          "url": "https://m.chinaventure.com.cn/news/116-20260702-392114.html"
+        },
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-07-02/doc-inifkqha5929513.shtml"
+        }
+      ]
+    },
+    {
+      "name": "Odyssey",
+      "name_en": "Odyssey",
+      "region": "美国",
+      "industry": "基础大模型",
+      "stage": "B轮",
+      "amount_usd_m": 310,
+      "amount_display": "3.1 亿美元（Series B）",
+      "valuation": "14.5 亿美元",
+      "date": "2026-06-17",
+      "location": "美国旧金山",
+      "business": "AI 世界模型（world model）研究公司：构建以精确物理规律模拟真实环境的世界模型，与 AWS 达成首选云合作，应用于仿真、机器人与内容生成。",
+      "team": "由前自动驾驶创业者 Oliver Cameron（Voyage 创始人）与 Jeff Hawke 于 2023 年创立",
+      "investors": "Natural Capital 领投，Amazon、GV、AMD Ventures、IQT、EQT 等参投，早期个人股东含 Jeff Dean、Elad Gil、Garry Tan 等",
+      "advantage": "世界模型赛道代表性融资；获 Amazon/AMD 产业资本加持并绑定 AWS 算力，累计融资 3.37 亿美元后估值近 15 亿美元。",
+      "sources": [
+        {
+          "label": "Business Wire（官方公告）",
+          "url": "https://www.businesswire.com/news/home/20260617490386/en/Odyssey-Raises-$310-Million-to-Accelerate-World-Simulation"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
+        },
+        {
+          "label": "Crunchbase News（周度 Top10）",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+        }
+      ]
+    },
+    {
+      "name": "Hark",
+      "name_en": "Hark",
+      "region": "美国",
+      "industry": "基础大模型",
+      "stage": "A轮",
+      "amount_usd_m": 700,
+      "amount_display": "超 7 亿美元（Series A）",
+      "valuation": "60 亿美元（投后）",
+      "date": "2026-05-21",
+      "location": "美国",
+      "business": "「个人智能」AI+硬件平台：垂直整合自研基础模型（语音/视觉/记忆多模态）、软件系统与 AI 原生硬件，打造人机之间的通用交互界面，2026 年夏起开放模型早期使用。",
+      "team": "创始人 Brett Adcock（Figure 人形机器人创始人）",
+      "investors": "Parkway Venture Capital 领投，NVIDIA、AMD Ventures、ARK Invest、Brookfield、Greycroft、Intel Capital、Qualcomm Ventures、Salesforce Ventures 等参投",
+      "advantage": "尚未发布产品即获 60 亿美元投后估值的超大 A 轮；芯片与云产业资本云集，赌注在于 AI 原生个人硬件成为下一代计算入口。",
+      "sources": [
+        {
+          "label": "Business Wire（官方公告）",
+          "url": "https://www.businesswire.com/news/home/20260521171628/en/Hark-Raises-$700M-Series-A-at-a-$6B-Valuation"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-21/ai-hardware-startup-hark-valued-at-6-billion-in-new-funding-round"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/"
+        }
+      ]
+    },
+    {
+      "name": "Recursive Superintelligence",
+      "name_en": "Recursive Superintelligence",
+      "region": "欧洲",
+      "industry": "基础大模型",
+      "stage": "A轮",
+      "amount_usd_m": 650,
+      "amount_display": "6.5 亿美元（Series A）",
+      "valuation": "46.5 亿美元",
+      "date": "2026-05-13",
+      "location": "英国伦敦 / 美国旧金山",
+      "business": "自我改进 AI 研究实验室：让 AI 系统自动化模型架构设计、训练方法、评测与研究方向选择等科研环节，融资用于扩充算力与研究团队。",
+      "team": "由 Richard Socher、Tim Rocktäschel、Jeff Clune、Josh Tobin、Tim Shi 等前 OpenAI/DeepMind/Meta AI/Salesforce AI 负责人于 2025 年创立",
+      "investors": "GV 与 Greycroft 联合领投，NVIDIA、AMD Ventures 参投",
+      "advantage": "成立仅数月即以 46.5 亿美元估值完成 6.5 亿美元 A 轮；明星研究团队+「递归自我改进」叙事，是欧洲本周期最大 AI 早期融资之一。",
+      "sources": [
+        {
+          "label": "Tech.eu",
+          "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/"
+        },
+        {
+          "label": "Tech Funding News",
+          "url": "https://techfundingnews.com/uk-ai-startup-recursive-hits-4-65b-valuation-with-650m-raise-from-nvidia-and-gv/"
+        }
+      ]
+    },
     {
       "name": "Fireworks AI",
       "name_en": "Fireworks AI",
